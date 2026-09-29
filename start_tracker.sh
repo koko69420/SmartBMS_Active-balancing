@@ -1,31 +1,28 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# Start SmartBMS Git Save Tracker in Background
+# Start SmartBMS Git Save Tracker (via systemd user service with standalone fallback)
 # ==============================================================================
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PIDFILE="$DIR/tracker.pid"
 LOGFILE="$DIR/tracker.log"
 
-if [ -f "$PIDFILE" ]; then
-    PID=$(cat "$PIDFILE")
-    if ps -p "$PID" > /dev/null 2>&1; then
-        echo "Git Save Tracker is already running with PID $PID."
-        exit 0
-    else
-        rm -f "$PIDFILE"
-    fi
-fi
-
-echo "Launching SmartBMS Git Save Tracker..."
-nohup python3 "$DIR/git_tracker.py" > "$LOGFILE" 2>&1 &
-PID=$!
-echo "$PID" > "$PIDFILE"
-
-sleep 1
-if ps -p "$PID" > /dev/null 2>&1; then
-    echo "Git Save Tracker started successfully (PID: $PID)."
-    echo "Logs: tail -f $LOGFILE"
+if command -v systemctl >/dev/null 2>&1 && systemctl --user status >/dev/null 2>&1; then
+    echo "Starting smartbms-tracker via systemd user service..."
+    systemctl --user start smartbms-tracker.service
+    sleep 1
+    systemctl --user status smartbms-tracker.service --no-pager
 else
-    echo "Failed to start tracker. Check $LOGFILE for errors."
-    exit 1
+    PIDFILE="$DIR/tracker.pid"
+    if [ -f "$PIDFILE" ]; then
+        PID=$(cat "$PIDFILE")
+        if ps -p "$PID" > /dev/null 2>&1; then
+            echo "Git Save Tracker is already running with PID $PID."
+            exit 0
+        fi
+    fi
+    echo "Launching SmartBMS Git Save Tracker in standalone background mode..."
+    nohup python3 -u "$DIR/git_tracker.py" </dev/null >> "$LOGFILE" 2>&1 &
+    PID=$!
+    echo "$PID" > "$PIDFILE"
+    echo "Git Save Tracker started (PID: $PID)."
 fi
+echo "Live logs: tail -f $LOGFILE"

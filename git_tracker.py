@@ -5,16 +5,18 @@ KiCad-Aware Automated Git Save Tracker
 Monitors the repository for explicit user saves to schematic, PCB, and project files.
 Strictly ignores KiCad autosaves, lock files, and backup archives.
 Debounces multi-sheet saves and automatically commits and pushes to GitHub.
+Supports both local filesystems and network CIFS/SMB mounts via PollingObserver.
 """
 
 import os
 import sys
 import time
+import signal
 import datetime
 import subprocess
 import threading
 from pathlib import Path
-from watchdog.observers import Observer
+from watchdog.observers.polling import PollingObserver
 from watchdog.events import FileSystemEventHandler
 
 # Debounce delay in seconds (waits for all files in a multi-sheet save to finish writing)
@@ -38,6 +40,8 @@ IGNORE_PATTERNS = [
     "#auto_saved_files#",
     ".tmp",
 ]
+
+running = True
 
 def log(msg):
     ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -95,7 +99,6 @@ class GitCommitWorker:
             )
             changes = status_res.stdout.strip()
             if not changes:
-                # No actual git changes (e.g. file touched with same content)
                 return
 
             changed_lines = changes.splitlines()
@@ -141,7 +144,7 @@ class GitCommitWorker:
                 timeout=45,
             )
             if push_res.returncode == 0:
-                log("Pushed successfully to remote origin/main.")
+                log(f"Pushed successfully to remote origin/main.")
             else:
                 err = push_res.stderr.strip() or push_res.stdout.strip()
                 log(f"Warning: git push returned code {push_res.returncode}: {err}")
@@ -181,24 +184,32 @@ class KiCadChangeHandler(FileSystemEventHandler):
             self.worker.schedule_commit(event.dest_path)
 
 
+def sig_handler(signum, frame):
+    global running
+    log(f"Received termination signal ({signum}). Exiting tracker...")
+    running = False
+
+
 def main():
+    global running
+    signal.signal(signal.SIGINT, sig_handler)
+    signal.signal(signal.SIGTERM, sig_handler)
+
     repo_path = Path(__file__).resolve().parent
     log(f"Starting SmartBMS Git Save Tracker in: {repo_path}")
     log("Ignoring autosaves, lock files, and backups.")
-    log("Watching for manual saves...")
+    log("Watching for manual saves via PollingObserver...")
 
     worker = GitCommitWorker(repo_path)
     handler = KiCadChangeHandler(worker)
-    observer = Observer()
+    observer = PollingObserver(timeout=1.0)
     observer.schedule(handler, str(repo_path), recursive=True)
     observer.start()
 
-    try:
-        while True:
-            time.sleep(1)
-    except KeyboardInterrupt:
-        log("Stopping Git Save Tracker...")
-        observer.stop()
+    while running:
+        time.sleep(0.5)
+
+    observer.stop()
     observer.join()
     log("Tracker stopped.")
 
