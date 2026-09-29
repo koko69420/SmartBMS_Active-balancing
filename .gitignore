@@ -1,0 +1,43 @@
+# ==============================================================================
+# KiCad EDA Exclusions
+# ==============================================================================
+# Exclude KiCad autosaves and temporary recovery files
+_autosave-*
+*.autosave
+#auto_saved_files#
+*.tmp
+
+# Exclude KiCad file locking mechanisms
+*.lck
+~*.lck
+*~*.lck
+
+# Exclude KiCad backup files and backup directories
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+
+# Exclude local user and viewport preferences (project settings remain tracked)
+*.kicad_prl
+
+# Exclude footprint and library caches
+fp-info-cache
+
+# ==============================================================================
+# Editor, OS & Temporary Files
+# ==============================================================================
+.~lock.*#
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==============================================================================
+# Tracker Runtime Logs & PIDs
+# ==============================================================================
+tracker.log
+tracker.pid
+__pycache__/
+*.py[cod]
