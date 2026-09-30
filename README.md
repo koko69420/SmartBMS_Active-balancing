@@ -278,30 +278,6 @@ Verified pricing based on standard retail distributors in India (*ElectronicsCom
   • Connect pre-charge resistor and verify closed-loop voltage drop logic.
   • Thermal soak test at 100A, 150A, and 200A continuous on a resistive load bank.
 ```
-
----
-
-## Automated Git Save Tracker for KiCad
-
-To streamline hardware development in **KiCad EDA**, this repository includes a dedicated background save tracker (`git_tracker.py`):
-
-### How It Works
-* **Ignores Autosaves & Locks**: KiCad generates frequent recovery files (`_autosave-*`), lock files (`*.lck`, `~*.lck`), backup zips (`*-backups/`), and local user viewports (`*.kicad_prl`). These are strictly filtered out by `.gitignore` and tracker logic.
-* **Tracks Real File Saves**: Only explicit user saves (`Ctrl+S`) to primary hardware and source files (`*.kicad_sch`, `*.kicad_pcb`, `*.kicad_pro`, documentation, scripts) trigger tracking.
-* **Debounced Auto-Commit & Push**: When a save occurs, the tracker waits a 2.5-second debounce window (allowing multi-sheet saves to settle), automatically stages modified files, generates an informative timestamped commit message, and pushes directly to `origin/main`.
-
-### Usage
-```bash
-# Start the background tracker
-./start_tracker.sh
-
-# View live tracker logs
-tail -f tracker.log
-
-# Stop the tracker
-./stop_tracker.sh
-```
-
 ---
 
 ## Authorship & License
