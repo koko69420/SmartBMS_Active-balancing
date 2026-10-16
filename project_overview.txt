@@ -1,3 +1,10 @@
+# Architectural Evolution Note:
+# This dossier documents the Rev 1.0 discrete flying-capacitor prototype specifications.
+# In Rev 2.0 (current KiCad 9.0 schematic implementation in 16s_BMS/), the AFE has transitioned
+# to the Texas Instruments BQ76952PFBR integrated battery monitor & protector IC, paired with
+# dual TI UCC27517DBVR 4A gate drivers for 16x IRFB4110 MOSFETs and dual CD74HC4067 32-channel NTC matrix.
+# See README.md for the authoritative specifications of the current hardware design.
+# -----------------------------------------------------------------------------------------------
 This engineering dossier consolidates the architectural specifications, circuit topologies, safety systems, pin allocations, and component Bill of Materials for the **16S 100Ah (200A continuous) LiFePO4 Smart BMS Satellite Board**.
 
 ---

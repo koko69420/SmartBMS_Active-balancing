@@ -21,8 +21,9 @@ _autosave-*
 # Exclude local user and viewport preferences (project settings remain tracked)
 *.kicad_prl
 
-# Exclude footprint and library caches
+# Exclude footprint, library caches and local history
 fp-info-cache
+.history/
 
 # ==============================================================================
 # Editor, OS & Temporary Files
