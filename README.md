@@ -18,7 +18,7 @@ Designed in KiCad 9.0 with a fully hierarchical architecture, this revision tran
 | Parameter | Operational Specification | Engineering Implementation Details |
 | :--- | :--- | :--- |
 | **Pack Chemistry & Configuration** | **16S LiFePO4** | 51.2 V nominal (40.0 V cutoff, 58.4 V absorption charging maximum) |
-| **Continuous Current Rating** | **200 A Continuous** | Low-side bidirectional switching with 16x IRFB4110 N-FETs in parallel |
+| **Continuous Current Rating** | **100 A Continuous** | Low-side bidirectional switching with 16x IRFB4110 N-FETs in parallel |
 | **Analog Front-End (AFE)** | **TI BQ76952PFBR** | 48-pin TQFP autonomous battery monitor with hardware protections |
 | **Voltage Acquisition** | **16 Differential Channels** | Individual RC filter networks ($20\ \Omega$ + $220\text{ nF}$) on taps 0–16 |
 | **High-Power Switching** | **Back-to-Back Common-Source** | 8x parallel Charge FETs + 8x parallel Discharge FETs |
@@ -120,13 +120,13 @@ The core monitoring and autonomous hardware protection engine is built around th
 
 ### 2. High-Power Solid-State Switch Stage (`04_Current_Switching.kicad_sch`)
 
-The switching subsystem provides full solid-state charge and discharge cutoff for **200 A continuous** throughput:
+The switching subsystem provides full solid-state charge and discharge cutoff for **100 A continuous** throughput:
 
 * **16-MOSFET Back-to-Back Common-Source Topology**:
   * **Charge Bank (8x IRFB4110PBF)**: Transistors `Q1`, `Q2`, `Q3`, `Q4`, `Q5`, `Q6`, `Q7`, `Q8` (TO-220, 100V, 180A, $R_{\text{DS(on)}} \le 4.5\ \text{m}\Omega$). Drains are tied to `SHUNT_FET_SIDE`, sources are tied to internal node `FET_SOURCE_COMMON`. Combined bank resistance: $R_{\text{bank}} \approx 0.56\ \text{m}\Omega$.
   * **Discharge Bank (8x IRFB4110PBF)**: Transistors `Q9`, `Q10`, `Q11`, `Q12`, `Q13`, `Q14`, `Q15`, `Q16`. Sources are tied to `FET_SOURCE_COMMON`, drains are tied to `PACK_MINUS`. Combined bank resistance: $R_{\text{bank}} \approx 0.56\ \text{m}\Omega$.
   * **Total Conduction Resistance**: Both banks in series yield $R_{\text{total}} \approx 1.12\ \text{m}\Omega$.
-  * **Static Thermal Dissipation at 200 A**:
+  * **Static Thermal Dissipation at 100 A**:
     $$P = I^2 \cdot R_{\text{total}} = 200^2 \times 0.00112 = 44.8\text{ W total}$$
     Distributed evenly across 16 TO-220 packages, dissipation is only **$2.8\text{ W}$ per transistor**, easily manageable with extruded aluminum cooling.
 * **High-Speed Gate Drivers (TI UCC27517DBVR)**:
