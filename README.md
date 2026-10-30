@@ -1,13 +1,13 @@
-# SmartBMS: 16S 100Ah 200A LiFePO4 Smart Battery Management System
+# SmartBMS: 16S 100Ah 100A LiFePO4 Smart Battery Management System
 
 [![Battery: 16S LiFePO4](https://img.shields.io/badge/Battery-16S%20LiFePO4%20(51.2V)-blue.svg?style=flat-square)](#system-specifications)
-[![Current: 200A Continuous](https://img.shields.io/badge/Current-200A%20Continuous%20(16x%20IRFB4110)-red.svg?style=flat-square)](#high-power-solid-state-switch-stage)
+[![Current: 100A Continuous](https://img.shields.io/badge/Current-100A%20Continuous%20(16x%20IRFB4110)-red.svg?style=flat-square)](#high-power-solid-state-switch-stage)
 [![AFE: TI BQ76952](https://img.shields.io/badge/AFE-TI%20BQ76952%20(16S%20Hardware%20Monitor)-darkgreen.svg?style=flat-square)](#analog-front-end-afe--battery-monitor)
 [![Gate Drivers: Dual UCC27517](https://img.shields.io/badge/Gate%20Drivers-Dual%20TI%20UCC27517%20(4A%20Peak)-purple.svg?style=flat-square)](#high-power-solid-state-switch-stage)
 [![Thermal: 32-Channel NTC](https://img.shields.io/badge/Thermal-32--Channel%20Dual%20CD74HC4067%20Multiplexed-orange.svg?style=flat-square)](#32-channel-temperature-sensing-matrix)
 [![EDA: KiCad 9.0](https://img.shields.io/badge/EDA-KiCad%209.0-blueviolet.svg?style=flat-square)](#project-structure)
 
-A high-current, modular, industrial-grade **16S 100Ah (200A continuous) LiFePO4 Smart Battery Management System (BMS)** engineered for stationary Home Energy Storage Systems (HESS), off-grid solar arrays, and high-capacity inverter battery banks.
+A high-current, modular, industrial-grade **16S 100Ah (100A continuous) LiFePO4 Smart Battery Management System (BMS)** engineered for stationary Home Energy Storage Systems (HESS), off-grid solar arrays, and high-capacity inverter battery banks.
 
 Designed in KiCad 9.0 with a fully hierarchical architecture, this revision transitions the analog front-end to Texas Instruments' **BQ76952** 3S–16S autonomous battery monitor and protector IC, featuring a **16-MOSFET back-to-back common-source solid-state power stage** driven by **dual UCC27517 4A gate drivers** with optoisolated dual-control logic, and an expansive **32-channel multiplexed NTC thermal matrix** powered by dual **CD74HC4067** analog multiplexers.
 
@@ -57,7 +57,7 @@ flowchart TD
         SHUNT --> SHUNT_FILT -->|SRP / SRN| AFE_IC
     end
 
-    subgraph Sheet04 ["Sheet 04: Current Switching & Gate Drive (200A Cont)"]
+    subgraph Sheet04 ["Sheet 04: Current Switching & Gate Drive (100A Cont)"]
         CHG_BANK["8x Parallel Charge N-FETs\nIRFB4110 (100V, 180A, Rds ≤ 4.5mΩ)\nR_bank ≈ 0.56 mΩ"]
         DSG_BANK["8x Parallel Discharge N-FETs\nIRFB4110 (100V, 180A, Rds ≤ 4.5mΩ)\nR_bank ≈ 0.56 mΩ"]
         DRV_CHG["UCC27517DBVR Gate Driver (4A)\n8x 27Ω Gate + 10kΩ Bleed Resistors"]
@@ -221,7 +221,7 @@ BMS/
                                        ▼
   [ PHASE 1: CORE SCHEMATIC DESIGN ] ──────── (CURRENT STATUS)
   • [COMPLETED] Sheet 01: BQ76952 AFE, 17-cell RC tap filters, shunt sense, and BCX56 regulator.
-  • [COMPLETED] Sheet 04: 200A cutoff switch bank (16x IRFB4110), dual UCC27517 drivers & EL817 optos.
+  • [COMPLETED] Sheet 04: 100A cutoff switch bank (16x IRFB4110), dual UCC27517 drivers & EL817 optos.
   • [COMPLETED] Sheet 05: 32-channel multiplexed NTC thermal network (dual CD74HC4067 + 32 dividers).
   • [IN PROGRESS] Sheet 02: Power supply subsystem (HV step-down buck & intermediate rails).
   • [IN PROGRESS] Sheet 03: MCU control, CAN 2.0B galvanic transceiver, and telemetry interfaces.
@@ -236,7 +236,7 @@ BMS/
                                        ▼
   [ PHASE 3: PCB LAYOUT & POWER ROUTING ]
   • Define 4-layer / 6-layer high-copper board stackup.
-  • Route high-current copper busbars for 200A continuous path (B- -> Shunt -> FETs -> P-).
+  • Route high-current copper busbars for 100A continuous path (B- -> Shunt -> FETs -> P-).
   • Kelvin-route current sense differential pair (SRP/SRN) directly from shunt pads.
   • Isolate high-voltage battery tap traces and thermal sensor routing from power switching loops.
                                        │
@@ -245,7 +245,7 @@ BMS/
   • Assemble bench test rig with 16-cell resistive simulator.
   • Validate BQ76952 I2C communication and autonomous hardware trip thresholds.
   • Measure gate driver switching waveforms (rise/fall times) under load.
-  • Thermal soak test at 100A, 150A, and 200A continuous on a load bank.
+  • Thermal soak test at 100A, 150A, and 100A continuous on a load bank.
 ```
 
 ---
