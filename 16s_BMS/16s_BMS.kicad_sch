@@ -715,9 +715,9 @@
 				(justify left)
 			)
 		)
-		(pin "3V3" input
-			(at 44.45 16.51 90)
-			(uuid "a64ca6b9-5ff8-44cb-86bf-7ddf635bd385")
+		(pin "AFE_REG1" output
+			(at 62.738 44.196 0)
+			(uuid "b7f2d289-1390-45ff-b0e8-1cd8b12e9ab7")
 			(effects
 				(font
 					(size 1.27 1.27)
