@@ -966,7 +966,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "f355ced9-0000-0000-0000-000000000000")
+		(uuid "e4221a45-0000-0000-0000-000000000000")
 	)
 	(rectangle
 		(start 144.78 20.32)
@@ -978,7 +978,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "3dd3209c-0000-0000-0000-000000000000")
+		(uuid "81a76dc9-0000-0000-0000-000000000000")
 	)
 	(text "1. CELL TEMPERATURE SENSING (MUX 1 - CD74HC4067SM)"
 		(at 12.70 25.40 0)
@@ -989,7 +989,7 @@
 			)
 			(justify left)
 		)
-		(uuid "6c5efee9-0000-0000-0000-000000000000")
+		(uuid "219a2d6a-0000-0000-0000-000000000000")
 	)
 	(text "16 NTC Thermistor dividers for 16S battery cells."
 		(at 12.70 30.48 0)
@@ -999,7 +999,7 @@
 			)
 			(justify left)
 		)
-		(uuid "84d77a46-0000-0000-0000-000000000000")
+		(uuid "83ce75c4-0000-0000-0000-000000000000")
 	)
 	(text "2. SYSTEM & FET TEMPERATURE SENSING (MUX 2 - CD74HC4067SM)"
 		(at 147.32 25.40 0)
@@ -1010,7 +1010,7 @@
 			)
 			(justify left)
 		)
-		(uuid "77933948-0000-0000-0000-000000000000")
+		(uuid "0d7b9a0b-0000-0000-0000-000000000000")
 	)
 	(text "16 NTC Thermistor dividers for shunt, FETs, inductors, and PCB."
 		(at 147.32 30.48 0)
@@ -1020,31 +1020,31 @@
 			)
 			(justify left)
 		)
-		(uuid "718c4d69-0000-0000-0000-000000000000")
+		(uuid "3eb075d9-0000-0000-0000-000000000000")
 	)
 	(junction
-		(at 91.44 54.61)
+		(at 91.44 50.80)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "31babe7b-0000-0000-0000-000000000000")
+		(uuid "4b672d7d-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 91.44 115.57)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "94a4f4a9-0000-0000-0000-000000000000")
+		(uuid "9271e441-0000-0000-0000-000000000000")
 	)
 	(junction
-		(at 228.60 54.61)
+		(at 228.60 50.80)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "f60fd782-0000-0000-0000-000000000000")
+		(uuid "9e04e56b-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 228.60 115.57)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "00048107-0000-0000-0000-000000000000")
+		(uuid "63646391-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1054,27 +1054,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7af74195-0000-0000-0000-000000000000")
+		(uuid "7d930be6-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 91.44 54.61) (xy 101.60 54.61)
+			(xy 91.44 50.80) (xy 101.60 50.80)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4760c0a8-0000-0000-0000-000000000000")
+		(uuid "fc6dbd3f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 106.68 54.61) (xy 106.68 60.96)
+			(xy 101.60 55.88) (xy 101.60 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b8d2c09-0000-0000-0000-000000000000")
+		(uuid "ad2c92cb-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1084,7 +1084,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2bb07314-0000-0000-0000-000000000000")
+		(uuid "7c58fd4a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1094,7 +1094,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d7190aa0-0000-0000-0000-000000000000")
+		(uuid "8e1ded1d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1104,7 +1104,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f1bbe1a0-0000-0000-0000-000000000000")
+		(uuid "3889a765-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1114,7 +1114,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bc115832-0000-0000-0000-000000000000")
+		(uuid "7ad8d41e-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1124,7 +1124,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "eed64cd6-0000-0000-0000-000000000000")
+		(uuid "04dca727-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1134,7 +1134,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bef818f6-0000-0000-0000-000000000000")
+		(uuid "c226e070-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1144,7 +1144,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "becf48ba-0000-0000-0000-000000000000")
+		(uuid "55660827-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1154,7 +1154,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "dc4ee0fe-0000-0000-0000-000000000000")
+		(uuid "41c5c096-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1164,7 +1164,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "13d21048-0000-0000-0000-000000000000")
+		(uuid "279f1676-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1174,7 +1174,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5b3660fd-0000-0000-0000-000000000000")
+		(uuid "17150d33-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1184,7 +1184,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "94770cf5-0000-0000-0000-000000000000")
+		(uuid "d36bac36-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1194,7 +1194,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "436a3f86-0000-0000-0000-000000000000")
+		(uuid "9a3954c6-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1204,7 +1204,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "53cc8c9e-0000-0000-0000-000000000000")
+		(uuid "511de7a9-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1214,7 +1214,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7f42d4f4-0000-0000-0000-000000000000")
+		(uuid "65002d3b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1224,7 +1224,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5ab717a8-0000-0000-0000-000000000000")
+		(uuid "ad04084d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1234,7 +1234,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fa6a7833-0000-0000-0000-000000000000")
+		(uuid "3fbda3dc-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1244,7 +1244,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b8b60027-0000-0000-0000-000000000000")
+		(uuid "0666f32a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1254,7 +1254,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9248a71d-0000-0000-0000-000000000000")
+		(uuid "86405bae-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1264,7 +1264,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b8a71162-0000-0000-0000-000000000000")
+		(uuid "9bf80be7-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1274,7 +1274,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "71a5654b-0000-0000-0000-000000000000")
+		(uuid "fadb952a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1284,7 +1284,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d890c099-0000-0000-0000-000000000000")
+		(uuid "9f7ba01a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1294,7 +1294,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c274f868-0000-0000-0000-000000000000")
+		(uuid "1b586004-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1304,7 +1304,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4cb91159-0000-0000-0000-000000000000")
+		(uuid "d4686813-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1314,7 +1314,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "96435a5e-0000-0000-0000-000000000000")
+		(uuid "9116f042-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1324,7 +1324,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "91369ff4-0000-0000-0000-000000000000")
+		(uuid "a3ba587f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1334,7 +1334,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0ae95a86-0000-0000-0000-000000000000")
+		(uuid "81c5f488-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1344,7 +1344,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a8b264c9-0000-0000-0000-000000000000")
+		(uuid "473d17f1-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1354,7 +1354,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "35019aca-0000-0000-0000-000000000000")
+		(uuid "a7020bba-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1364,7 +1364,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f35dda53-0000-0000-0000-000000000000")
+		(uuid "a245492b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1374,7 +1374,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cee7fcde-0000-0000-0000-000000000000")
+		(uuid "f76e60d4-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1384,7 +1384,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e05855e5-0000-0000-0000-000000000000")
+		(uuid "7ddb75a5-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1394,7 +1394,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "231757ab-0000-0000-0000-000000000000")
+		(uuid "68ceb450-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1404,7 +1404,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "210ec4c3-0000-0000-0000-000000000000")
+		(uuid "cf7d5d3a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1414,7 +1414,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ee5b5943-0000-0000-0000-000000000000")
+		(uuid "8ef3cd30-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1424,7 +1424,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3e5df114-0000-0000-0000-000000000000")
+		(uuid "f77c5196-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1434,7 +1434,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "41f17d4b-0000-0000-0000-000000000000")
+		(uuid "e64a6b66-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1444,7 +1444,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f259a6f3-0000-0000-0000-000000000000")
+		(uuid "5037075f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1454,7 +1454,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3c30e87f-0000-0000-0000-000000000000")
+		(uuid "53ccffaf-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1464,7 +1464,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "87d8c269-0000-0000-0000-000000000000")
+		(uuid "a46b1314-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1474,7 +1474,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cd58dca2-0000-0000-0000-000000000000")
+		(uuid "c909e31b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1484,7 +1484,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1887e848-0000-0000-0000-000000000000")
+		(uuid "defb5ac7-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1494,7 +1494,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "085dc667-0000-0000-0000-000000000000")
+		(uuid "f4b48a37-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1504,7 +1504,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "31424dba-0000-0000-0000-000000000000")
+		(uuid "48f27625-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1514,7 +1514,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b0f0e232-0000-0000-0000-000000000000")
+		(uuid "16dc6469-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1524,7 +1524,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9d4fa0ba-0000-0000-0000-000000000000")
+		(uuid "86b72e7d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1534,7 +1534,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b9798206-0000-0000-0000-000000000000")
+		(uuid "2e736caa-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1544,7 +1544,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "267a0c34-0000-0000-0000-000000000000")
+		(uuid "fd17d3a5-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1554,7 +1554,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ca3c980a-0000-0000-0000-000000000000")
+		(uuid "c2877fd0-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1564,7 +1564,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ff90ebd3-0000-0000-0000-000000000000")
+		(uuid "5da7f88c-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1574,7 +1574,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ef47c8e3-0000-0000-0000-000000000000")
+		(uuid "66ee04f7-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1584,7 +1584,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e358dc71-0000-0000-0000-000000000000")
+		(uuid "590d6e1a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1594,7 +1594,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9a239aac-0000-0000-0000-000000000000")
+		(uuid "6455d316-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1604,7 +1604,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "386c24c7-0000-0000-0000-000000000000")
+		(uuid "122fcc0f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1614,7 +1614,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "01825bc9-0000-0000-0000-000000000000")
+		(uuid "669cf77d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1624,7 +1624,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b63e8ea0-0000-0000-0000-000000000000")
+		(uuid "dbb32e5d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1634,7 +1634,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "19e0541b-0000-0000-0000-000000000000")
+		(uuid "41a31985-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1644,7 +1644,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b99feefd-0000-0000-0000-000000000000")
+		(uuid "92ea09b0-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1654,7 +1654,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e4fec6a6-0000-0000-0000-000000000000")
+		(uuid "d488c1d4-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1664,7 +1664,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c9b57ed6-0000-0000-0000-000000000000")
+		(uuid "85dfe653-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1674,7 +1674,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "71a66859-0000-0000-0000-000000000000")
+		(uuid "6d5d543f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1684,7 +1684,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9da5e0a6-0000-0000-0000-000000000000")
+		(uuid "8de6387a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1694,7 +1694,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6715e0b5-0000-0000-0000-000000000000")
+		(uuid "41c5ac38-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1704,7 +1704,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "aba596cf-0000-0000-0000-000000000000")
+		(uuid "1025ae8d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1714,7 +1714,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0b79b01f-0000-0000-0000-000000000000")
+		(uuid "829c6b06-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1724,7 +1724,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e4e05fd8-0000-0000-0000-000000000000")
+		(uuid "2c5e7411-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1734,7 +1734,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2df5c0c8-0000-0000-0000-000000000000")
+		(uuid "bc880746-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1744,7 +1744,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6173addd-0000-0000-0000-000000000000")
+		(uuid "fc79adb8-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1754,7 +1754,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "aea332ce-0000-0000-0000-000000000000")
+		(uuid "af397ecc-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1764,7 +1764,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4d1b5ab6-0000-0000-0000-000000000000")
+		(uuid "c224f8e9-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1774,7 +1774,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ed038b87-0000-0000-0000-000000000000")
+		(uuid "7fda98c2-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1784,7 +1784,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a7911c73-0000-0000-0000-000000000000")
+		(uuid "8714decb-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1794,27 +1794,27 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ca73bc12-0000-0000-0000-000000000000")
+		(uuid "1705ee7e-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 228.60 54.61) (xy 238.76 54.61)
+			(xy 228.60 50.80) (xy 238.76 50.80)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96613c2c-0000-0000-0000-000000000000")
+		(uuid "451425ee-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 243.84 54.61) (xy 243.84 60.96)
+			(xy 238.76 55.88) (xy 238.76 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a213935-0000-0000-0000-000000000000")
+		(uuid "10ae9517-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1824,7 +1824,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0f21cd12-0000-0000-0000-000000000000")
+		(uuid "4189a8c1-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1834,7 +1834,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "29d41400-0000-0000-0000-000000000000")
+		(uuid "09b0cc21-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1844,7 +1844,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "78760d60-0000-0000-0000-000000000000")
+		(uuid "79c51e9e-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1854,7 +1854,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fa63e95b-0000-0000-0000-000000000000")
+		(uuid "0c26bffb-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1864,7 +1864,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a4732189-0000-0000-0000-000000000000")
+		(uuid "64cd9a9e-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1874,7 +1874,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6c366521-0000-0000-0000-000000000000")
+		(uuid "90502280-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1884,7 +1884,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a1aebfc7-0000-0000-0000-000000000000")
+		(uuid "9c1e9371-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1894,7 +1894,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "17ab4a02-0000-0000-0000-000000000000")
+		(uuid "b9f65063-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1904,7 +1904,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "07d5475b-0000-0000-0000-000000000000")
+		(uuid "cef86a9f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1914,7 +1914,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "13dcebd4-0000-0000-0000-000000000000")
+		(uuid "8cb0f9b0-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1924,7 +1924,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2a3bcca7-0000-0000-0000-000000000000")
+		(uuid "2ac94986-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1934,7 +1934,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cf7e0407-0000-0000-0000-000000000000")
+		(uuid "379167b3-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1944,7 +1944,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "618c843f-0000-0000-0000-000000000000")
+		(uuid "8dc09ecf-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1954,7 +1954,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "24abece7-0000-0000-0000-000000000000")
+		(uuid "5deb4163-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1964,7 +1964,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a4eb5ba1-0000-0000-0000-000000000000")
+		(uuid "fa5f637c-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1974,7 +1974,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e56bf12a-0000-0000-0000-000000000000")
+		(uuid "18ad8ee1-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1984,7 +1984,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ed694e90-0000-0000-0000-000000000000")
+		(uuid "1b7d7d61-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1994,7 +1994,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "13c09815-0000-0000-0000-000000000000")
+		(uuid "8d398d73-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2004,7 +2004,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3b9fc138-0000-0000-0000-000000000000")
+		(uuid "066678d9-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2014,7 +2014,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c6b6cf56-0000-0000-0000-000000000000")
+		(uuid "5702468a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2024,7 +2024,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "de63952c-0000-0000-0000-000000000000")
+		(uuid "f5aa086a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2034,7 +2034,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9ae39ffa-0000-0000-0000-000000000000")
+		(uuid "c956d50f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2044,7 +2044,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5f7b112e-0000-0000-0000-000000000000")
+		(uuid "269471e4-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2054,7 +2054,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a6d8dd22-0000-0000-0000-000000000000")
+		(uuid "366bd23f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2064,7 +2064,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4aca60e3-0000-0000-0000-000000000000")
+		(uuid "0fe0e7cd-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2074,7 +2074,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4b581c78-0000-0000-0000-000000000000")
+		(uuid "d8c6cba0-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2084,7 +2084,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "be4b54ac-0000-0000-0000-000000000000")
+		(uuid "0c322d6e-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2094,7 +2094,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "99769622-0000-0000-0000-000000000000")
+		(uuid "db96d714-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2104,7 +2104,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3aaec0f5-0000-0000-0000-000000000000")
+		(uuid "82672a41-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2114,7 +2114,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8da6e898-0000-0000-0000-000000000000")
+		(uuid "4eb19af4-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2124,7 +2124,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "05580bc7-0000-0000-0000-000000000000")
+		(uuid "1cc63185-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2134,7 +2134,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "854d81d0-0000-0000-0000-000000000000")
+		(uuid "37ef7736-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2144,7 +2144,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8cf28091-0000-0000-0000-000000000000")
+		(uuid "dd686ea2-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2154,7 +2154,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b6b39eb2-0000-0000-0000-000000000000")
+		(uuid "97b97883-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2164,7 +2164,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "08b68b8d-0000-0000-0000-000000000000")
+		(uuid "5c626091-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2174,7 +2174,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "86a52b0b-0000-0000-0000-000000000000")
+		(uuid "6e3e2893-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2184,7 +2184,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6b976486-0000-0000-0000-000000000000")
+		(uuid "bcfce848-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2194,7 +2194,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6a9d9c14-0000-0000-0000-000000000000")
+		(uuid "86d4e5fc-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2204,7 +2204,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b5ed5a52-0000-0000-0000-000000000000")
+		(uuid "b6da015a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2214,7 +2214,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1ffd25de-0000-0000-0000-000000000000")
+		(uuid "9ee46abe-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2224,7 +2224,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "64481425-0000-0000-0000-000000000000")
+		(uuid "530ef6a9-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2234,7 +2234,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4c98bd90-0000-0000-0000-000000000000")
+		(uuid "a99cbd4b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2244,7 +2244,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b0f52827-0000-0000-0000-000000000000")
+		(uuid "a3681e3c-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2254,7 +2254,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "03350912-0000-0000-0000-000000000000")
+		(uuid "f91acc26-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2264,7 +2264,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e09d512e-0000-0000-0000-000000000000")
+		(uuid "c54ffd33-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2274,7 +2274,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ddfcb013-0000-0000-0000-000000000000")
+		(uuid "3a9ef4ee-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2284,7 +2284,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c17a6fda-0000-0000-0000-000000000000")
+		(uuid "4d9fc439-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2294,7 +2294,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c8f1b4f9-0000-0000-0000-000000000000")
+		(uuid "a6a040c8-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2304,7 +2304,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "27d4d75f-0000-0000-0000-000000000000")
+		(uuid "dfefb9b4-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2314,7 +2314,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "81453ba8-0000-0000-0000-000000000000")
+		(uuid "bbb27d87-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2324,7 +2324,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "55902b1c-0000-0000-0000-000000000000")
+		(uuid "86746628-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2334,7 +2334,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3efd5387-0000-0000-0000-000000000000")
+		(uuid "217542b9-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2344,7 +2344,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2e38e238-0000-0000-0000-000000000000")
+		(uuid "e9ddea60-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2354,7 +2354,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c0fc8853-0000-0000-0000-000000000000")
+		(uuid "36248cd1-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2364,7 +2364,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cea9f873-0000-0000-0000-000000000000")
+		(uuid "f15ba292-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2374,7 +2374,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ffa3e668-0000-0000-0000-000000000000")
+		(uuid "571e6937-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2384,7 +2384,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1b6aae23-0000-0000-0000-000000000000")
+		(uuid "56b6caa0-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2394,7 +2394,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "43c995e1-0000-0000-0000-000000000000")
+		(uuid "a8da151a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2404,7 +2404,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9167487f-0000-0000-0000-000000000000")
+		(uuid "120b2b2f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2414,7 +2414,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d86295e5-0000-0000-0000-000000000000")
+		(uuid "314a0b01-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2424,7 +2424,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "08fe89cc-0000-0000-0000-000000000000")
+		(uuid "0c585fbd-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2434,7 +2434,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "00505a27-0000-0000-0000-000000000000")
+		(uuid "2f5debdf-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2444,7 +2444,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "de4d85d6-0000-0000-0000-000000000000")
+		(uuid "4368aab6-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2454,7 +2454,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b03ba18d-0000-0000-0000-000000000000")
+		(uuid "15dc5d8c-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2464,7 +2464,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f29dcadf-0000-0000-0000-000000000000")
+		(uuid "c2c209a2-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2474,7 +2474,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "378159af-0000-0000-0000-000000000000")
+		(uuid "adb34dd3-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2484,7 +2484,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "75ec82ce-0000-0000-0000-000000000000")
+		(uuid "e0b75fec-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2494,7 +2494,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3049ac7c-0000-0000-0000-000000000000")
+		(uuid "05ab66bb-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2504,7 +2504,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f337f564-0000-0000-0000-000000000000")
+		(uuid "07acb95e-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2514,7 +2514,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e68ab689-0000-0000-0000-000000000000")
+		(uuid "66eede87-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2524,7 +2524,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cadaab84-0000-0000-0000-000000000000")
+		(uuid "279ded36-0000-0000-0000-000000000000")
 	)
 
 	(hierarchical_label "TEMP_MUX1_COM"
@@ -2536,7 +2536,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c3d3a60a-0000-0000-0000-000000000000")
+		(uuid "90d33fb2-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TEMP_MUX_S0"
 		(shape input)
@@ -2547,7 +2547,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d967d95b-0000-0000-0000-000000000000")
+		(uuid "8793bee8-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TEMP_MUX_S1"
 		(shape input)
@@ -2558,7 +2558,7 @@
 			)
 			(justify left)
 		)
-		(uuid "f709dc6f-0000-0000-0000-000000000000")
+		(uuid "9e4f17a6-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TEMP_MUX_S2"
 		(shape input)
@@ -2569,7 +2569,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4b2404fe-0000-0000-0000-000000000000")
+		(uuid "b1d398f3-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TEMP_MUX_S3"
 		(shape input)
@@ -2580,7 +2580,7 @@
 			)
 			(justify left)
 		)
-		(uuid "e957493a-0000-0000-0000-000000000000")
+		(uuid "9159a61a-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_01"
 		(shape input)
@@ -2591,7 +2591,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c885a5f0-0000-0000-0000-000000000000")
+		(uuid "9c235348-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_02"
 		(shape input)
@@ -2602,7 +2602,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2263f52a-0000-0000-0000-000000000000")
+		(uuid "3a58a0c1-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_03"
 		(shape input)
@@ -2613,7 +2613,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f188f65e-0000-0000-0000-000000000000")
+		(uuid "ec1db0c5-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_04"
 		(shape input)
@@ -2624,7 +2624,7 @@
 			)
 			(justify right)
 		)
-		(uuid "20e43cf9-0000-0000-0000-000000000000")
+		(uuid "501b78c7-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_05"
 		(shape input)
@@ -2635,7 +2635,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2929e5fd-0000-0000-0000-000000000000")
+		(uuid "cc4d5c55-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_06"
 		(shape input)
@@ -2646,7 +2646,7 @@
 			)
 			(justify right)
 		)
-		(uuid "cf596c3b-0000-0000-0000-000000000000")
+		(uuid "6bea5e11-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_07"
 		(shape input)
@@ -2657,7 +2657,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7a7b199c-0000-0000-0000-000000000000")
+		(uuid "173f8589-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_08"
 		(shape input)
@@ -2668,7 +2668,7 @@
 			)
 			(justify right)
 		)
-		(uuid "13a79f80-0000-0000-0000-000000000000")
+		(uuid "ea623895-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_09"
 		(shape input)
@@ -2679,7 +2679,7 @@
 			)
 			(justify right)
 		)
-		(uuid "bb582a02-0000-0000-0000-000000000000")
+		(uuid "18598e2f-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_10"
 		(shape input)
@@ -2690,7 +2690,7 @@
 			)
 			(justify right)
 		)
-		(uuid "52365969-0000-0000-0000-000000000000")
+		(uuid "e0f65c86-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_11"
 		(shape input)
@@ -2701,7 +2701,7 @@
 			)
 			(justify right)
 		)
-		(uuid "dc9f4be0-0000-0000-0000-000000000000")
+		(uuid "c94cc2b9-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_12"
 		(shape input)
@@ -2712,7 +2712,7 @@
 			)
 			(justify right)
 		)
-		(uuid "0d15459f-0000-0000-0000-000000000000")
+		(uuid "10e0b0dd-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_13"
 		(shape input)
@@ -2723,7 +2723,7 @@
 			)
 			(justify right)
 		)
-		(uuid "9bdf6bab-0000-0000-0000-000000000000")
+		(uuid "11d6a366-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_14"
 		(shape input)
@@ -2734,7 +2734,7 @@
 			)
 			(justify right)
 		)
-		(uuid "40e0161a-0000-0000-0000-000000000000")
+		(uuid "c0c2a0ef-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_15"
 		(shape input)
@@ -2745,7 +2745,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f1c3b76f-0000-0000-0000-000000000000")
+		(uuid "79ca3472-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_16"
 		(shape input)
@@ -2756,7 +2756,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c6dbea2d-0000-0000-0000-000000000000")
+		(uuid "8a20b1ff-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TEMP_MUX2_COM"
 		(shape output)
@@ -2767,7 +2767,7 @@
 			)
 			(justify left)
 		)
-		(uuid "70104a23-0000-0000-0000-000000000000")
+		(uuid "65377f9f-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TEMP_MUX_S0"
 		(shape input)
@@ -2778,7 +2778,7 @@
 			)
 			(justify left)
 		)
-		(uuid "62249343-0000-0000-0000-000000000000")
+		(uuid "e732b0e9-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TEMP_MUX_S1"
 		(shape input)
@@ -2789,7 +2789,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2bec0570-0000-0000-0000-000000000000")
+		(uuid "cdb7e815-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TEMP_MUX_S2"
 		(shape input)
@@ -2800,7 +2800,7 @@
 			)
 			(justify left)
 		)
-		(uuid "914aab35-0000-0000-0000-000000000000")
+		(uuid "31cf62d1-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TEMP_MUX_S3"
 		(shape input)
@@ -2811,7 +2811,7 @@
 			)
 			(justify left)
 		)
-		(uuid "ed21ff7b-0000-0000-0000-000000000000")
+		(uuid "13c893c9-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "SHUNT_TEMP"
 		(shape input)
@@ -2822,7 +2822,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c183450d-0000-0000-0000-000000000000")
+		(uuid "00d3e13a-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "INTAKE_TEMP"
 		(shape input)
@@ -2833,7 +2833,7 @@
 			)
 			(justify right)
 		)
-		(uuid "b56bc344-0000-0000-0000-000000000000")
+		(uuid "4a0dc1f8-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "ENCLOSURE_TEMP"
 		(shape input)
@@ -2844,7 +2844,7 @@
 			)
 			(justify right)
 		)
-		(uuid "bf1e390e-0000-0000-0000-000000000000")
+		(uuid "0c8ab384-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CHG_FET_TEMP"
 		(shape input)
@@ -2855,7 +2855,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c1db3e2f-0000-0000-0000-000000000000")
+		(uuid "d2e57fef-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "DSG_FET_TEMP"
 		(shape input)
@@ -2866,7 +2866,7 @@
 			)
 			(justify right)
 		)
-		(uuid "94a976e5-0000-0000-0000-000000000000")
+		(uuid "9e499c2b-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TERMINAL_1_TEMP"
 		(shape input)
@@ -2877,7 +2877,7 @@
 			)
 			(justify right)
 		)
-		(uuid "59c7f942-0000-0000-0000-000000000000")
+		(uuid "39f92c11-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TERMINAL_2_TEMP"
 		(shape input)
@@ -2888,7 +2888,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f5127975-0000-0000-0000-000000000000")
+		(uuid "47bb8064-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "PCB_TEMP_01"
 		(shape input)
@@ -2899,7 +2899,7 @@
 			)
 			(justify right)
 		)
-		(uuid "015bac93-0000-0000-0000-000000000000")
+		(uuid "95620c27-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "PCB_TEMP_02"
 		(shape input)
@@ -2910,7 +2910,7 @@
 			)
 			(justify right)
 		)
-		(uuid "824d7a12-0000-0000-0000-000000000000")
+		(uuid "e26ac5b0-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "PCB_TEMP_03"
 		(shape input)
@@ -2921,7 +2921,7 @@
 			)
 			(justify right)
 		)
-		(uuid "67dd390f-0000-0000-0000-000000000000")
+		(uuid "f94a40ed-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "COMMON_SOURCE_BUS_TEMP"
 		(shape input)
@@ -2932,7 +2932,7 @@
 			)
 			(justify right)
 		)
-		(uuid "03495358-0000-0000-0000-000000000000")
+		(uuid "d2d9ec1c-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "BALANCER_INDUCTOR_TEMP"
 		(shape input)
@@ -2943,7 +2943,7 @@
 			)
 			(justify right)
 		)
-		(uuid "8f58a803-0000-0000-0000-000000000000")
+		(uuid "72008b2d-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "BALANCER_SWITCH_TEMP"
 		(shape input)
@@ -2954,7 +2954,7 @@
 			)
 			(justify right)
 		)
-		(uuid "db712602-0000-0000-0000-000000000000")
+		(uuid "9f82e437-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "RESERVED_TEMP_14"
 		(shape input)
@@ -2965,7 +2965,7 @@
 			)
 			(justify right)
 		)
-		(uuid "6859175e-0000-0000-0000-000000000000")
+		(uuid "1efa74ab-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "RESERVED_TEMP_15"
 		(shape input)
@@ -2976,7 +2976,7 @@
 			)
 			(justify right)
 		)
-		(uuid "56bfa339-0000-0000-0000-000000000000")
+		(uuid "97ee7b3f-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "RESERVED_TEMP_16"
 		(shape input)
@@ -2987,7 +2987,7 @@
 			)
 			(justify right)
 		)
-		(uuid "fd59a9ee-0000-0000-0000-000000000000")
+		(uuid "e2780a58-0000-0000-0000-000000000000")
 	)
 (symbol
 		(lib_id "74xx:CD74HC4067SM")
@@ -3219,7 +3219,7 @@
 	)
 (symbol
 		(lib_id "Device:C_Small")
-		(at 104.14 54.61 90)
+		(at 101.60 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3234,16 +3234,18 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
+				(justify left)
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "100 nF"
-			(at 104.14 50.04 0)
+			(at 104.14 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
+				(justify left)
 				(font
 					(size 1.27 1.27)
 				)
@@ -3321,7 +3323,7 @@
 	)
 (symbol
 		(lib_id "power:GND")
-		(at 106.68 60.96 0)
+		(at 101.60 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3332,7 +3334,7 @@
 		(fields_autoplaced yes)
 		(uuid "47440f9b-d198-4c28-84e5-7f9c3498a6f0")
 		(property "Reference" "#PWR018"
-			(at 106.68 64.77 0)
+			(at 101.60 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3343,7 +3345,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 64.77 0)
+			(at 101.60 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3705,7 +3707,7 @@
 	)
 (symbol
 		(lib_id "Device:C_Small")
-		(at 241.30 54.61 90)
+		(at 238.76 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3720,16 +3722,18 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
+				(justify left)
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "100 nF"
-			(at 241.30 50.04 0)
+			(at 241.30 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
+				(justify left)
 				(font
 					(size 1.27 1.27)
 				)
@@ -3807,7 +3811,7 @@
 	)
 (symbol
 		(lib_id "power:GND")
-		(at 243.84 60.96 0)
+		(at 238.76 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3818,7 +3822,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9ca747c-8c14-4abf-9de9-270daa463f68")
 		(property "Reference" "#PWR016"
-			(at 243.84 64.77 0)
+			(at 238.76 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3829,7 +3833,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 64.77 0)
+			(at 238.76 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
