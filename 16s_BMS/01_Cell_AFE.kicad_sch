@@ -5363,7 +5363,7 @@
 		(uuid "1b562473-1159-46a5-8d0a-2b4b4a099c27")
 	)
 	(hierarchical_label "AFE_REG1"
-		(shape input)
+		(shape output)
 		(at 199.39 59.69 0)
 		(effects
 			(font
