@@ -767,7 +767,7 @@
         "uuid": "86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f"
       }
     ],
-    "used_designators": "#PWR2,#PWR5-51,C18-26,D1-3,J1-2,Q1-2,Q17-22,R18-24,R57-100,U4-10",
+    "used_designators": "#PWR2,#PWR5-53,C18-28,D1-4,F1-2,J1-2,L1-2,Q1-2,Q17-22,R18-24,R57-102,R_ON1,R_UV3,U4-11",
     "variants": []
   },
   "sheets": [
@@ -922,6 +922,10 @@
     [
       "b171963a-31c5-4805-bbae-18dfcbc60d72",
       "NTC_DIVIDER31"
+    ],
+    [
+      "46f328cf-1e48-48db-af08-385b9f3c568e",
+      "07_Comms"
     ]
   ],
   "text_variables": {},

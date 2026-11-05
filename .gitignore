@@ -6,6 +6,13 @@ _autosave-*
 *.autosave
 #auto_saved_files#
 *.tmp
+*-save.kicad_sch
+*-save.kicad_pcb
+
+# Exclude KiCad report files (ERC / DRC reports)
+*.rpt
+*-erc.rpt
+*-drc.rpt
 
 # Exclude KiCad file locking mechanisms
 *.lck

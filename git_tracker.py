@@ -39,6 +39,12 @@ IGNORE_PATTERNS = [
     ".~lock.",
     "#auto_saved_files#",
     ".tmp",
+    ".rpt",
+    "-erc.rpt",
+    "-drc.rpt",
+    "-save.kicad_sch",
+    "-save.kicad_pcb",
+    ".bck",
 ]
 
 running = True
@@ -135,7 +141,7 @@ class GitCommitWorker:
                     return
                 log(f"Commit note: {commit_res.stdout.strip() or commit_res.stderr.strip()}")
 
-            # 4. Push to remote
+            # 4. Push to remote with automatic rebase retry
             push_res = subprocess.run(
                 ["git", "push", "origin", "main"],
                 cwd=self.repo_dir,
@@ -148,6 +154,30 @@ class GitCommitWorker:
             else:
                 err = push_res.stderr.strip() or push_res.stdout.strip()
                 log(f"Warning: git push returned code {push_res.returncode}: {err}")
+                log("Attempting git pull --rebase origin main before retrying push...")
+                pull_res = subprocess.run(
+                    ["git", "pull", "--rebase", "origin", "main"],
+                    cwd=self.repo_dir,
+                    capture_output=True,
+                    text=True,
+                    timeout=45,
+                )
+                if pull_res.returncode == 0:
+                    retry_push = subprocess.run(
+                        ["git", "push", "origin", "main"],
+                        cwd=self.repo_dir,
+                        capture_output=True,
+                        text=True,
+                        timeout=45,
+                    )
+                    if retry_push.returncode == 0:
+                        log("Rebase succeeded and pushed successfully to remote origin/main.")
+                    else:
+                        retry_err = retry_push.stderr.strip() or retry_push.stdout.strip()
+                        log(f"Error: Retry push failed: {retry_err}")
+                else:
+                    pull_err = pull_res.stderr.strip() or pull_res.stdout.strip()
+                    log(f"Error: Rebase pull failed: {pull_err}")
 
         except Exception as e:
             log(f"Error during git sync: {e}")
