@@ -1573,7 +1573,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "78f3e098-0000-0000-0000-000000000000")
+		(uuid "af0e1bc3-0000-0000-0000-000000000000")
 	)
 	(text "1. ISOLATED BUS POWER SUPPLY (+12V -> ISO_9V -> ISO_5V)"
 		(at 22.86 25.40 0)
@@ -1584,7 +1584,7 @@
 			)
 			(justify left)
 		)
-		(uuid "8add40bf-0000-0000-0000-000000000000")
+		(uuid "bb20fae5-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "power:+12V")
@@ -1594,7 +1594,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3c14228d-d091-4e20-978a-035f9ac47900")
+		(uuid "ccc2591d-7a33-4570-9c20-0ba80fbf1ab1")
 		(property "Reference" "#PWR01"
 			(at 30.48 45.72 0)
 			(effects
@@ -1648,7 +1648,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ccc2591d-7a33-4570-9c20-0ba80fbf1ab1")
+		(uuid "f13efd14-0000-0000-0000-000000000000")
 		(property "Reference" "#FLG01"
 			(at 30.48 40.64 0)
 			(effects
@@ -1702,13 +1702,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f13efd14-0000-0000-0000-000000000000")
+		(uuid "ec34da6c-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 30.48 45.72)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "f3f9dbac-0000-0000-0000-000000000000")
+		(uuid "4e763110-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1718,13 +1718,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "73d1b991-0000-0000-0000-000000000000")
+		(uuid "cc2d09b8-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 45.72 45.72)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "209e163c-0000-0000-0000-000000000000")
+		(uuid "fde95ef4-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1734,13 +1734,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "763d4c24-0000-0000-0000-000000000000")
+		(uuid "6f329da9-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 60.96 45.72)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "36dccf2e-0000-0000-0000-000000000000")
+		(uuid "90d64170-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1750,7 +1750,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2cc46e20-0000-0000-0000-000000000000")
+		(uuid "a6874b75-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -1760,7 +1760,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "34347cf0-879a-4b8e-990b-bf4709fc0ec1")
+		(uuid "85da0545-0000-0000-0000-000000000000")
 		(property "Reference" "C42"
 			(at 48.26 57.15 0)
 			(effects
@@ -1815,7 +1815,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "85da0545-0000-0000-0000-000000000000")
+		(uuid "e7e46644-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1825,7 +1825,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "79420152-0000-0000-0000-000000000000")
+		(uuid "d2e88a4b-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -1835,7 +1835,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "184950ad-1029-4f92-9123-2c7372099e66")
+		(uuid "91a64271-0000-0000-0000-000000000000")
 		(property "Reference" "C43"
 			(at 63.50 57.15 0)
 			(effects
@@ -1890,7 +1890,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "91a64271-0000-0000-0000-000000000000")
+		(uuid "ae1a1212-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1900,7 +1900,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d02f91db-0000-0000-0000-000000000000")
+		(uuid "953a3dbc-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1910,19 +1910,19 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "97ecbec7-0000-0000-0000-000000000000")
+		(uuid "0b12683b-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 45.72 71.12)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "097a839e-0000-0000-0000-000000000000")
+		(uuid "d1012cdc-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 60.96 71.12)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "44bbc75b-0000-0000-0000-000000000000")
+		(uuid "f4d07300-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -1932,7 +1932,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b72b8732-0000-0000-0000-000000000000")
+		(uuid "28129be3-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1942,7 +1942,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2365242f-35c6-4191-86f7-a80813437373")
+		(uuid "14adccc7-12b1-410e-914f-3feee4c8d822")
 		(property "Reference" "#PWR02"
 			(at 60.96 71.12 0)
 			(effects
@@ -1996,7 +1996,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "14adccc7-12b1-410e-914f-3feee4c8d822")
+		(uuid "ca7a9b4c-0000-0000-0000-000000000000")
 		(property "Reference" "U14"
 			(at 88.90 40.64 0)
 			(effects
@@ -2051,13 +2051,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ca7a9b4c-0000-0000-0000-000000000000")
+		(uuid "8c9378db-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 78.74 71.12)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "95e9a745-0000-0000-0000-000000000000")
+		(uuid "63769b01-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2067,13 +2067,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "92a1659c-0000-0000-0000-000000000000")
+		(uuid "6287921f-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 106.68 45.72)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "f92e1736-0000-0000-0000-000000000000")
+		(uuid "1293c2a7-0000-0000-0000-000000000000")
 	)
 	(label "ISO_9V"
 		(at 106.68 43.18 0)
@@ -2083,7 +2083,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7d93d949-0000-0000-0000-000000000000")
+		(uuid "9fd6f631-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -2093,7 +2093,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "20513fa9-6ed8-4780-8ea9-312b9f863e9e")
+		(uuid "ef6c01c9-0000-0000-0000-000000000000")
 		(property "Reference" "#FLG02"
 			(at 106.68 38.10 0)
 			(effects
@@ -2147,7 +2147,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ef6c01c9-0000-0000-0000-000000000000")
+		(uuid "c8f78e16-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2157,13 +2157,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "896cf132-0000-0000-0000-000000000000")
+		(uuid "3e6708c1-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 119.38 45.72)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "6ed69f2d-0000-0000-0000-000000000000")
+		(uuid "344ee976-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2173,13 +2173,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f252b8e0-0000-0000-0000-000000000000")
+		(uuid "31eda3b6-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 134.62 45.72)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "d360df2a-0000-0000-0000-000000000000")
+		(uuid "426fbb87-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2189,7 +2189,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5ab54171-0000-0000-0000-000000000000")
+		(uuid "05b201e3-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2199,7 +2199,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "523db255-0f39-46d7-a198-943f6849a2c6")
+		(uuid "62f8737a-0000-0000-0000-000000000000")
 		(property "Reference" "C44"
 			(at 121.92 57.15 0)
 			(effects
@@ -2254,7 +2254,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "62f8737a-0000-0000-0000-000000000000")
+		(uuid "2746c38d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2264,7 +2264,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "371ebfcb-0000-0000-0000-000000000000")
+		(uuid "6dd6cb39-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2274,7 +2274,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fcc2e16c-4012-4b74-b77f-cc638217a95a")
+		(uuid "272e4d2d-0000-0000-0000-000000000000")
 		(property "Reference" "C45"
 			(at 137.16 57.15 0)
 			(effects
@@ -2329,7 +2329,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "272e4d2d-0000-0000-0000-000000000000")
+		(uuid "01e37631-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2339,7 +2339,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7d99ff89-0000-0000-0000-000000000000")
+		(uuid "949c26b0-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2349,7 +2349,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d7a1e3dd-0000-0000-0000-000000000000")
+		(uuid "7c65d223-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2359,13 +2359,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5571a571-0000-0000-0000-000000000000")
+		(uuid "766e4766-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 106.68 71.12)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "963c2229-0000-0000-0000-000000000000")
+		(uuid "e8c16480-0000-0000-0000-000000000000")
 	)
 	(label "ISO_GND"
 		(at 106.68 73.66 0)
@@ -2375,7 +2375,7 @@
 			)
 			(justify left)
 		)
-		(uuid "65fef7f9-0000-0000-0000-000000000000")
+		(uuid "1c51ca17-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -2385,7 +2385,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6ea417b-e809-421e-834a-e9d58e236765")
+		(uuid "d0d3460a-0000-0000-0000-000000000000")
 		(property "Reference" "#FLG03"
 			(at 106.68 78.74 0)
 			(effects
@@ -2439,7 +2439,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d0d3460a-0000-0000-0000-000000000000")
+		(uuid "5d023506-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2449,13 +2449,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fe2e38a1-0000-0000-0000-000000000000")
+		(uuid "1de960dd-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 119.38 71.12)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "8348a352-0000-0000-0000-000000000000")
+		(uuid "0404a1ab-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2465,13 +2465,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "445ee7a8-0000-0000-0000-000000000000")
+		(uuid "40641613-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 134.62 71.12)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "442c1f93-0000-0000-0000-000000000000")
+		(uuid "da12b1e7-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2481,7 +2481,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ed1f6c76-0000-0000-0000-000000000000")
+		(uuid "2d1740d6-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AMS1117-5.0")
@@ -2491,7 +2491,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d4fe6231-64ad-470d-a0f9-5bde690f3f7e")
+		(uuid "cad1ba50-0000-0000-0000-000000000000")
 		(property "Reference" "U15"
 			(at 157.48 36.83 0)
 			(effects
@@ -2546,13 +2546,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cad1ba50-0000-0000-0000-000000000000")
+		(uuid "1cd679d8-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 157.48 71.12)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "988f8da1-0000-0000-0000-000000000000")
+		(uuid "8add6c81-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2562,13 +2562,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7f8c01ec-0000-0000-0000-000000000000")
+		(uuid "62a36d20-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 180.34 45.72)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "3de62030-0000-0000-0000-000000000000")
+		(uuid "154b008e-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2578,13 +2578,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8a7264c3-0000-0000-0000-000000000000")
+		(uuid "a3000421-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 195.58 45.72)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "f12f980d-0000-0000-0000-000000000000")
+		(uuid "347fd9e3-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2594,13 +2594,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b25211a5-0000-0000-0000-000000000000")
+		(uuid "2b835e85-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 210.82 45.72)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "3086b36e-0000-0000-0000-000000000000")
+		(uuid "4c6941a2-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2610,13 +2610,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "08c34c13-0000-0000-0000-000000000000")
+		(uuid "a654d412-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 231.14 45.72)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "8b9d81d3-0000-0000-0000-000000000000")
+		(uuid "7bf4def2-0000-0000-0000-000000000000")
 	)
 	(label "ISO_5V"
 		(at 231.14 43.18 0)
@@ -2626,7 +2626,7 @@
 			)
 			(justify left)
 		)
-		(uuid "42f495da-0000-0000-0000-000000000000")
+		(uuid "742a365b-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -2636,7 +2636,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1c2108ca-3122-4245-a9c0-001b449620af")
+		(uuid "54c13be8-0000-0000-0000-000000000000")
 		(property "Reference" "#FLG04"
 			(at 231.14 38.10 0)
 			(effects
@@ -2690,7 +2690,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "54c13be8-0000-0000-0000-000000000000")
+		(uuid "486cef10-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2700,7 +2700,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "49dee09a-3585-4ebd-89e8-6899e6962aeb")
+		(uuid "287a43f9-0000-0000-0000-000000000000")
 		(property "Reference" "C46"
 			(at 182.88 57.15 0)
 			(effects
@@ -2755,7 +2755,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "287a43f9-0000-0000-0000-000000000000")
+		(uuid "7903c22f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2765,7 +2765,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "64229aeb-0000-0000-0000-000000000000")
+		(uuid "ff920e8b-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2775,7 +2775,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "be247d42-8a7a-474c-8d68-70944e9b3f62")
+		(uuid "6cabc3c2-0000-0000-0000-000000000000")
 		(property "Reference" "C47"
 			(at 198.12 57.15 0)
 			(effects
@@ -2830,7 +2830,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6cabc3c2-0000-0000-0000-000000000000")
+		(uuid "c94a24d0-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2840,7 +2840,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4e987d69-0000-0000-0000-000000000000")
+		(uuid "ec1432e0-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -2850,7 +2850,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3ded39bd-df3b-40b2-814d-14a0288c814a")
+		(uuid "01f7b6d1-0000-0000-0000-000000000000")
 		(property "Reference" "R108"
 			(at 213.36 57.15 0)
 			(effects
@@ -2905,7 +2905,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "01f7b6d1-0000-0000-0000-000000000000")
+		(uuid "ea79a9b1-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2915,7 +2915,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "296cd534-0000-0000-0000-000000000000")
+		(uuid "216c4e14-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2925,13 +2925,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "45f363c7-0000-0000-0000-000000000000")
+		(uuid "f058074c-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 180.34 71.12)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "c21ebafb-0000-0000-0000-000000000000")
+		(uuid "5a49cd05-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2941,13 +2941,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "12f651b0-0000-0000-0000-000000000000")
+		(uuid "c2a69337-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 195.58 71.12)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "ab981d58-0000-0000-0000-000000000000")
+		(uuid "80c15010-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -2957,13 +2957,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7a315720-0000-0000-0000-000000000000")
+		(uuid "3ec9bdd9-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 210.82 71.12)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "176993af-0000-0000-0000-000000000000")
+		(uuid "e8989acd-0000-0000-0000-000000000000")
 	)
 	(rectangle
 		(start 20.32 96.52)
@@ -2975,7 +2975,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "5ed58495-0000-0000-0000-000000000000")
+		(uuid "826e70c9-0000-0000-0000-000000000000")
 	)
 	(text "2. ISOLATED CAN TRANSCEIVER (ISO1050DUBR)"
 		(at 22.86 101.60 0)
@@ -2986,7 +2986,7 @@
 			)
 			(justify left)
 		)
-		(uuid "a15d38cd-0000-0000-0000-000000000000")
+		(uuid "35bcbea4-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CAN_RX"
 		(shape output)
@@ -2997,7 +2997,7 @@
 			)
 			(justify left)
 		)
-		(uuid "984de312-0000-0000-0000-000000000000")
+		(uuid "2e41a191-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
@@ -3008,7 +3008,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2e7efaa0-0000-0000-0000-000000000000")
+		(uuid "4b02b33a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -3018,7 +3018,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "26a01b25-0000-0000-0000-000000000000")
+		(uuid "8e3a6610-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -3028,13 +3028,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f2abd545-0000-0000-0000-000000000000")
+		(uuid "a00f8cf1-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 50.80 134.62)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "cd7b52dc-0000-0000-0000-000000000000")
+		(uuid "de86834b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -3044,19 +3044,19 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "284f180e-0000-0000-0000-000000000000")
+		(uuid "da3a6f8d-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 50.80 124.46 0)
+		(at 50.80 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "77120247-bf09-490d-841a-ca8b2baa02cc")
+		(uuid "db99d2ad-0000-0000-0000-000000000000")
 		(property "Reference" "R107"
-			(at 53.34 123.19 0)
+			(at 53.34 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3065,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 53.34 125.73 0)
+			(at 53.34 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3074,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 50.80 124.46 0)
+			(at 50.80 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.80 124.46 0)
+			(at 50.80 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.80 124.46 0)
+			(at 50.80 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,35 +3103,35 @@
 	)
 	(wire
 		(pts
-			(xy 50.80 127.00) (xy 50.80 134.62)
+			(xy 50.80 134.62) (xy 50.80 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db99d2ad-0000-0000-0000-000000000000")
+		(uuid "ab1a7381-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 50.80 121.92) (xy 50.80 114.30)
+			(xy 50.80 147.32) (xy 50.80 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb29f5d0-0000-0000-0000-000000000000")
+		(uuid "855d27c1-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 50.80 114.30 0)
+		(at 50.80 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3af80a52-a9b0-4cb3-a0e4-d2c896751667")
+		(uuid "2c473320-d053-4d04-ab94-55a0b8475183")
 		(property "Reference" "#PWR05"
-			(at 50.80 114.30 0)
+			(at 50.80 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +3140,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 50.80 110.49 0)
+			(at 50.80 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3148,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.80 114.30 0)
+			(at 50.80 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,7 +3157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.80 114.30 0)
+			(at 50.80 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +3166,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.80 114.30 0)
+			(at 50.80 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,15 +3177,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 68.58 124.46 0)
+		(at 76.20 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2c473320-d053-4d04-ab94-55a0b8475183")
+		(uuid "b6575183-0000-0000-0000-000000000000")
 		(property "Reference" "C40"
-			(at 71.12 123.19 0)
+			(at 78.74 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3194,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 71.12 125.73 0)
+			(at 78.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3203,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 68.58 124.46 0)
+			(at 76.20 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +3212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 124.46 0)
+			(at 76.20 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3221,7 +3221,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 124.46 0)
+			(at 76.20 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,39 +3232,39 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 119.38) (xy 68.58 119.38)
+			(xy 86.36 119.38) (xy 86.36 114.30)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6575183-0000-0000-0000-000000000000")
+		(uuid "7cf406a2-0000-0000-0000-000000000000")
+	)
+	(wire
+		(pts
+			(xy 86.36 114.30) (xy 76.20 114.30)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a269ba6-0000-0000-0000-000000000000")
 	)
 	(junction
-		(at 68.58 119.38)
+		(at 76.20 114.30)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "e15d77ba-0000-0000-0000-000000000000")
+		(uuid "f21f234f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 68.58 119.38) (xy 68.58 121.92)
+			(xy 76.20 114.30) (xy 68.58 114.30)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79ed5f45-0000-0000-0000-000000000000")
-	)
-	(wire
-		(pts
-			(xy 68.58 119.38) (xy 68.58 114.30)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddb9edaa-0000-0000-0000-000000000000")
+		(uuid "0404fd19-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -3274,7 +3274,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3a9c057f-84be-433f-a5c6-36d55ca2792e")
+		(uuid "d5472b1c-0000-0000-0000-000000000000")
 		(property "Reference" "#PWR03"
 			(at 68.58 114.30 0)
 			(effects
@@ -3322,31 +3322,25 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 127.00) (xy 68.58 142.24)
+			(xy 76.20 109.22) (xy 76.20 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5472b1c-0000-0000-0000-000000000000")
-	)
-	(junction
-		(at 68.58 142.24)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "35ce66e3-0000-0000-0000-000000000000")
+		(uuid "108dbadc-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 142.24 0)
+		(at 76.20 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "213e235d-a2b4-4db8-83c1-bed482eb6ce0")
+		(uuid "170b19a4-0000-0000-0000-000000000000")
 		(property "Reference" "#PWR04"
-			(at 68.58 142.24 0)
+			(at 76.20 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +3349,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 138.43 0)
+			(at 76.20 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 142.24 0)
+			(at 76.20 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +3366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 142.24 0)
+			(at 76.20 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3375,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 142.24 0)
+			(at 76.20 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,13 +3386,67 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 142.24) (xy 68.58 142.24)
+			(xy 86.36 142.24) (xy 86.36 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "170b19a4-0000-0000-0000-000000000000")
+		(uuid "6fa05f5d-0000-0000-0000-000000000000")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(property "Reference" "#PWR02B"
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Interface_CAN_LIN:ISO1050DUB")
@@ -3408,7 +3456,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4b3f0ec0-5712-497f-bf74-634a3cbb6836")
+		(uuid "40e469a8-aa98-4aa2-9d1f-b7d277862363")
 		(property "Reference" "U13"
 			(at 96.52 111.76 0)
 			(effects
@@ -3457,15 +3505,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 121.92 124.46 0)
+		(at 116.84 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "40e469a8-aa98-4aa2-9d1f-b7d277862363")
+		(uuid "b8fca357-0000-0000-0000-000000000000")
 		(property "Reference" "C41"
-			(at 124.46 123.19 0)
+			(at 119.38 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +3522,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 124.46 125.73 0)
+			(at 119.38 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,7 +3531,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 121.92 124.46 0)
+			(at 116.84 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 124.46 0)
+			(at 116.84 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +3549,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 124.46 0)
+			(at 116.84 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,95 +3560,89 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 119.38) (xy 121.92 119.38)
+			(xy 106.68 119.38) (xy 106.68 114.30)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8fca357-0000-0000-0000-000000000000")
+		(uuid "5292e9e2-0000-0000-0000-000000000000")
+	)
+	(wire
+		(pts
+			(xy 106.68 114.30) (xy 116.84 114.30)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a62096-0000-0000-0000-000000000000")
 	)
 	(junction
-		(at 121.92 119.38)
+		(at 116.84 114.30)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "49549891-0000-0000-0000-000000000000")
+		(uuid "8483c802-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 121.92 119.38) (xy 121.92 121.92)
+			(xy 116.84 114.30) (xy 127.00 114.30)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "145d8cc0-0000-0000-0000-000000000000")
-	)
-	(wire
-		(pts
-			(xy 121.92 119.38) (xy 137.16 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b541656b-0000-0000-0000-000000000000")
+		(uuid "032d9112-0000-0000-0000-000000000000")
 	)
 	(label "ISO_5V"
-		(at 137.16 119.38 0)
+		(at 127.00 114.30 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1ad348b3-0000-0000-0000-000000000000")
+		(uuid "be77236b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 121.92 127.00) (xy 121.92 142.24)
+			(xy 116.84 109.22) (xy 116.84 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "303a5480-0000-0000-0000-000000000000")
-	)
-	(wire
-		(pts
-			(xy 106.68 142.24) (xy 121.92 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a28e08c5-0000-0000-0000-000000000000")
-	)
-	(junction
-		(at 121.92 142.24)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "5a4cbb18-0000-0000-0000-000000000000")
-	)
-	(wire
-		(pts
-			(xy 121.92 142.24) (xy 137.16 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b94396f0-0000-0000-0000-000000000000")
+		(uuid "74694494-0000-0000-0000-000000000000")
 	)
 	(label "ISO_GND"
-		(at 137.16 142.24 0)
+		(at 116.84 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5fd667e0-0000-0000-0000-000000000000")
+		(uuid "b80ef252-0000-0000-0000-000000000000")
+	)
+	(wire
+		(pts
+			(xy 106.68 142.24) (xy 106.68 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bfd5a74-0000-0000-0000-000000000000")
+	)
+	(label "ISO_GND"
+		(at 106.68 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "563a9d42-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -3610,7 +3652,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ac12ebf2-0000-0000-0000-000000000000")
+		(uuid "cc9589ad-0000-0000-0000-000000000000")
 	)
 	(label "CAN_H"
 		(at 137.16 127.00 0)
@@ -3620,7 +3662,7 @@
 			)
 			(justify left)
 		)
-		(uuid "7eb134c0-0000-0000-0000-000000000000")
+		(uuid "1eb440ce-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -3630,7 +3672,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7fdf3287-0000-0000-0000-000000000000")
+		(uuid "8a5c7bd6-0000-0000-0000-000000000000")
 	)
 	(label "CAN_L"
 		(at 137.16 134.62 0)
@@ -3640,7 +3682,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2b8cef45-0000-0000-0000-000000000000")
+		(uuid "2009d7bc-0000-0000-0000-000000000000")
 	)
 	(rectangle
 		(start 154.94 96.52)
@@ -3652,7 +3694,7 @@
 		(fill
 			(type none)
 		)
-		(uuid "c047c0d8-0000-0000-0000-000000000000")
+		(uuid "a0603620-0000-0000-0000-000000000000")
 	)
 	(text "3. TERMINATION, ESD CLAMP & BUS CONNECTOR"
 		(at 157.48 101.60 0)
@@ -3663,7 +3705,7 @@
 			)
 			(justify left)
 		)
-		(uuid "d6c3ff1d-0000-0000-0000-000000000000")
+		(uuid "c85cd35e-0000-0000-0000-000000000000")
 	)
 	(label "CAN_H"
 		(at 160.02 116.84 0)
@@ -3673,7 +3715,7 @@
 			)
 			(justify left)
 		)
-		(uuid "3945d5d3-0000-0000-0000-000000000000")
+		(uuid "4918221a-0000-0000-0000-000000000000")
 	)
 	(label "CAN_L"
 		(at 160.02 132.08 0)
@@ -3683,7 +3725,7 @@
 			)
 			(justify left)
 		)
-		(uuid "23d035eb-0000-0000-0000-000000000000")
+		(uuid "8c114444-0000-0000-0000-000000000000")
 	)
 	(label "ISO_GND"
 		(at 160.02 147.32 0)
@@ -3693,7 +3735,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2fb21f19-0000-0000-0000-000000000000")
+		(uuid "3b71df45-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -3703,13 +3745,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e5824243-0000-0000-0000-000000000000")
+		(uuid "06be302f-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 177.80 116.84)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "a9d44b5b-0000-0000-0000-000000000000")
+		(uuid "de1b4f9d-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -3719,7 +3761,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "93c96d1c-9e24-484d-b9be-14bf7b906183")
+		(uuid "f900fa20-0000-0000-0000-000000000000")
 		(property "Reference" "R109"
 			(at 180.34 120.65 0)
 			(effects
@@ -3774,7 +3816,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f900fa20-0000-0000-0000-000000000000")
+		(uuid "fefe3372-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
@@ -3784,7 +3826,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "095ba66b-6777-49ed-92f5-006713158a20")
+		(uuid "a24a81e6-0000-0000-0000-000000000000")
 		(property "Reference" "JP1"
 			(at 187.96 121.92 0)
 			(effects
@@ -3839,7 +3881,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a24a81e6-0000-0000-0000-000000000000")
+		(uuid "c623b73b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -3849,7 +3891,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "916f9491-0000-0000-0000-000000000000")
+		(uuid "9bac5065-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -3859,13 +3901,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2b8ddfc9-0000-0000-0000-000000000000")
+		(uuid "ed1b2a65-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 193.04 132.08)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "c1710a56-0000-0000-0000-000000000000")
+		(uuid "9c7dc037-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -3875,7 +3917,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2eeb26a7-0000-0000-0000-000000000000")
+		(uuid "2bbf56ac-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -3885,13 +3927,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e44ee46d-0000-0000-0000-000000000000")
+		(uuid "39ff440f-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 222.25 132.08)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "d969b2a3-0000-0000-0000-000000000000")
+		(uuid "9ac57187-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
@@ -3901,7 +3943,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bb31c767-eabb-470c-8b1c-417998d5228e")
+		(uuid "18b7d09d-0000-0000-0000-000000000000")
 		(property "Reference" "D5"
 			(at 213.36 133.35 0)
 			(effects
@@ -3956,13 +3998,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "18b7d09d-0000-0000-0000-000000000000")
+		(uuid "3e55e79c-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 204.47 116.84)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "679e1e65-0000-0000-0000-000000000000")
+		(uuid "5b11bc04-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -3972,7 +4014,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "10553d63-0000-0000-0000-000000000000")
+		(uuid "2f0a1aa5-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -3982,7 +4024,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a9e4810a-0000-0000-0000-000000000000")
+		(uuid "9efd4371-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -3992,13 +4034,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4b1d1c18-0000-0000-0000-000000000000")
+		(uuid "943999df-0000-0000-0000-000000000000")
 	)
 	(junction
 		(at 213.36 147.32)
 		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "9b9b8596-0000-0000-0000-000000000000")
+		(uuid "295bd72b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -4008,7 +4050,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9b1ff9c3-0000-0000-0000-000000000000")
+		(uuid "82bb0e60-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -4018,7 +4060,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "98f591db-0000-0000-0000-000000000000")
+		(uuid "dd8cdf34-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -4028,7 +4070,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ebe36fbd-0000-0000-0000-000000000000")
+		(uuid "21e60202-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -4038,7 +4080,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3280c10e-0000-0000-0000-000000000000")
+		(uuid "b8b1d888-0000-0000-0000-000000000000")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
@@ -4048,7 +4090,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bf2c4627-4367-4ef3-9a31-ad4c02add53a")
+		(uuid "8d295435-0000-0000-0000-000000000000")
 		(property "Reference" "J4"
 			(at 241.30 121.92 0)
 			(effects
@@ -4103,7 +4145,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8d295435-0000-0000-0000-000000000000")
+		(uuid "00648438-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -4113,7 +4155,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bcbd6c9b-0000-0000-0000-000000000000")
+		(uuid "978529cd-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -4123,7 +4165,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3273ac39-0000-0000-0000-000000000000")
+		(uuid "8542d104-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
@@ -4133,6 +4175,6 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8c635718-0000-0000-0000-000000000000")
+		(uuid "0fdc5175-0000-0000-0000-000000000000")
 	)
 )
