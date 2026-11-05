@@ -949,2219 +949,2043 @@
 			(embedded_fonts no)
 		)
 	)
+
+	(rectangle
+		(start 12.70 20.32)
+		(end 142.24 154.94)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d186cefd-0000-0000-0000-000000000000")
+	)
+	(rectangle
+		(start 147.32 20.32)
+		(end 276.86 154.94)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "98de543f-0000-0000-0000-000000000000")
+	)
+	(text "1. CELL TEMPERATURE SENSING (MUX 1 - CD74HC4067SM)"
+		(at 15.24 25.40 0)
+		(effects
+			(font
+				(size 1.52 1.52)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3aeb5506-0000-0000-0000-000000000000")
+	)
+	(text "16 NTC Thermistor dividers for 16S battery cells."
+		(at 15.24 30.48 0)
+		(effects
+			(font
+				(size 1.02 1.02)
+			)
+			(justify left)
+		)
+		(uuid "7cdc010e-0000-0000-0000-000000000000")
+	)
+	(text "2. SYSTEM & FET TEMPERATURE SENSING (MUX 2 - CD74HC4067SM)"
+		(at 149.86 25.40 0)
+		(effects
+			(font
+				(size 1.52 1.52)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "0b6ff37c-0000-0000-0000-000000000000")
+	)
+	(text "16 NTC Thermistor dividers for shunt, FETs, inductors, and PCB."
+		(at 149.86 30.48 0)
+		(effects
+			(font
+				(size 1.02 1.02)
+			)
+			(justify left)
+		)
+		(uuid "00ebf530-0000-0000-0000-000000000000")
+	)
 	(junction
-		(at 120.65 27.94)
-		(diameter 0)
+		(at 83.82 53.34)
+		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "2effeba7-d83c-434c-89dc-598552d1e4ff")
+		(uuid "188d1e72-0000-0000-0000-000000000000")
 	)
 	(junction
-		(at 120.65 114.3)
-		(diameter 0)
+		(at 83.82 116.84)
+		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "4bbe3629-2e40-4f58-a603-c432a4327766")
+		(uuid "19098ffc-0000-0000-0000-000000000000")
 	)
 	(junction
-		(at 120.65 85.09)
-		(diameter 0)
+		(at 218.44 53.34)
+		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "b701187a-7b93-4185-b0a5-7814439871cb")
+		(uuid "d0f622db-0000-0000-0000-000000000000")
 	)
 	(junction
-		(at 120.65 171.45)
-		(diameter 0)
+		(at 218.44 116.84)
+		(diameter 1.016)
 		(color 0 0 0 0)
-		(uuid "d329b5b8-29bf-46b2-accb-f3028f9c69ad")
+		(uuid "9ae82d8a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 120.65 85.09) (xy 134.62 85.09)
+			(xy 83.82 58.42) (xy 83.82 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00e84cf3-a559-439a-a723-880e9f9f02c3")
+		(uuid "311bfc3a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 49.53) (xy 73.66 49.53)
+			(xy 83.82 53.34) (xy 88.90 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "016ca68a-7cdb-4d96-b1bb-374a9d9d1bd2")
+		(uuid "cf4f2a2a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 166.37) (xy 101.6 166.37)
+			(xy 83.82 48.26) (xy 83.82 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0268a3ca-ac59-41da-9c35-8319e00675b1")
+		(uuid "d749a868-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 133.35 144.78) (xy 137.16 144.78)
+			(xy 83.82 111.76) (xy 83.82 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "055e9fcf-2840-4677-9ce9-c94207129bd6")
+		(uuid "922449df-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 45.72) (xy 99.06 45.72)
+			(xy 96.52 99.06) (xy 99.06 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09b32f40-cea9-4063-9fd5-bcff509e6209")
+		(uuid "30a56ffc-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 142.24) (xy 95.25 142.24)
+			(xy 99.06 99.06) (xy 99.06 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b2cb596-433a-4036-8331-38549d7fbe52")
+		(uuid "d57322b2-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 101.6 43.18) (xy 107.95 43.18)
+			(xy 99.06 116.84) (xy 83.82 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b5e50ef-3c3a-411a-bfe0-bc3ab523ac87")
+		(uuid "06a9df7b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 160.02) (xy 99.06 160.02)
+			(xy 96.52 71.12) (xy 111.76 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b965650-6c0d-4f8b-a774-ba172df9ae49")
+		(uuid "92bbc391-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 81.28) (xy 73.66 81.28)
+			(xy 96.52 81.28) (xy 99.06 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0da8b32e-a148-4bc3-adb6-39bd97f98546")
+		(uuid "04826577-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 120.65 111.76) (xy 120.65 114.3)
+			(xy 96.52 83.82) (xy 99.06 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e412056-a1c1-4fa4-ab7b-ddf1bcdbd4a0")
+		(uuid "122385d4-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 101.6 76.2)
+			(xy 96.52 86.36) (xy 99.06 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ee35f51-d8da-45fe-8319-154cd1f589c6")
+		(uuid "3573d798-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 120.65 170.18) (xy 120.65 171.45)
+			(xy 96.52 88.90) (xy 99.06 88.90)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10816e63-8686-41f9-afce-f8bdae458ecf")
+		(uuid "79af5559-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 128.27) (xy 100.33 128.27)
+			(xy 15.24 45.72) (xy 33.02 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1459256f-99bb-44bc-8485-919e317d8220")
+		(uuid "88237232-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 120.65 171.45) (xy 120.65 172.72)
+			(xy 52.07 45.72) (xy 54.61 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1568998e-43c8-4eb2-a0ff-3c0a012a33c7")
+		(uuid "2c657fd5-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 71.12) (xy 97.79 71.12)
+			(xy 54.61 45.72) (xy 54.61 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18825df3-2a6f-42ea-bf66-d32db2233b76")
+		(uuid "80494b12-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 162.56) (xy 101.6 162.56)
+			(xy 54.61 66.04) (xy 71.12 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18fbff35-245d-4892-a8e2-0399c4583298")
+		(uuid "0fca51dc-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 148.59) (xy 73.66 148.59)
+			(xy 15.24 50.80) (xy 33.02 50.80)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "191e77db-9fd5-456f-884d-efb33d86b6e9")
+		(uuid "5cd60ced-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 33.02) (xy 104.14 33.02)
+			(xy 52.07 50.80) (xy 55.88 50.80)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d1bdf29-8811-4402-a4d6-776298bd7af2")
+		(uuid "2fc387f9-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 163.83) (xy 100.33 163.83)
+			(xy 55.88 50.80) (xy 55.88 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f74e370-a58f-4e86-a865-851db3412973")
+		(uuid "ce08fa34-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 101.6 125.73) (xy 101.6 129.54)
+			(xy 55.88 68.58) (xy 71.12 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f7c4a78-3dc7-4fdf-8fca-7b4e60b4ef48")
+		(uuid "2435ba8d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 68.58) (xy 73.66 68.58)
+			(xy 15.24 55.88) (xy 33.02 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fb3af41-9cb5-4311-aebc-ce6bc33b6259")
+		(uuid "afc8d809-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 133.35 55.88) (xy 137.16 55.88)
+			(xy 52.07 55.88) (xy 57.15 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21c895ca-f589-47f1-bb5d-d002660c5edc")
+		(uuid "057ae9f7-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 157.48) (xy 99.06 157.48)
+			(xy 57.15 55.88) (xy 57.15 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2239cd4c-4458-4fdd-8214-c2237ed5a5d2")
+		(uuid "b4b842e4-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 39.37) (xy 53.34 39.37)
+			(xy 57.15 71.12) (xy 71.12 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "229579cd-a870-4a97-8748-41f4e4c8057e")
+		(uuid "074fa201-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 100.33 45.72) (xy 107.95 45.72)
+			(xy 15.24 60.96) (xy 33.02 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27cc2f0d-3001-424a-9f76-ff99aa5e2478")
+		(uuid "f8c2185c-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 102.87 127) (xy 107.95 127)
+			(xy 52.07 60.96) (xy 58.42 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2905810e-4f39-4a9d-a7f3-94cdbc4c514d")
+		(uuid "ad06c2f7-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 157.48) (xy 97.79 157.48)
+			(xy 58.42 60.96) (xy 58.42 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e0f342b-f135-4d7f-8cee-ff9225215c7f")
+		(uuid "ced3e035-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 100.33 73.66) (xy 100.33 77.47)
+			(xy 58.42 73.66) (xy 71.12 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30989114-0f8f-45f7-b87d-11efaa25248b")
+		(uuid "ad6b4fc5-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 134.62 27.94) (xy 134.62 30.48)
+			(xy 15.24 66.04) (xy 33.02 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30aaf262-2e36-4f58-aca8-6ba564dd6193")
+		(uuid "4756f6d1-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 120.65 114.3) (xy 120.65 116.84)
+			(xy 52.07 66.04) (xy 59.69 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "342ea1ee-b381-4bb1-837e-21797768a8f9")
+		(uuid "18f66c03-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 149.86) (xy 95.25 149.86)
+			(xy 59.69 66.04) (xy 59.69 76.20)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3481b3c8-c387-4ada-acee-5c7313cd5582")
+		(uuid "4ec2a9fe-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 100.33 128.27) (xy 100.33 132.08)
+			(xy 59.69 76.20) (xy 71.12 76.20)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38807434-7e34-4f50-9bf3-c887d5debb5b")
+		(uuid "6ea9137c-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 52.07) (xy 53.34 52.07)
+			(xy 15.24 71.12) (xy 33.02 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3946acc4-3110-4f24-ae2b-40b1efdeba30")
+		(uuid "17e1a914-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 102.87 40.64) (xy 107.95 40.64)
+			(xy 52.07 71.12) (xy 60.96 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a0fde85-6907-41d6-87d7-67f263c2cee8")
+		(uuid "e45ef48d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 135.89) (xy 73.66 135.89)
+			(xy 60.96 71.12) (xy 60.96 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b24c4a8-106b-4c06-8cd6-9d029037f9e5")
+		(uuid "751dd46e-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 67.31) (xy 96.52 67.31)
+			(xy 60.96 78.74) (xy 71.12 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bdeb283-be84-432c-850a-c7e784253fdf")
+		(uuid "11e3c5ec-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 96.52 66.04) (xy 96.52 67.31)
+			(xy 15.24 76.20) (xy 33.02 76.20)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bdf1550-9df8-42a0-ab8b-a19c2e081dc9")
+		(uuid "d14ec5e9-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 120.65 171.45) (xy 134.62 171.45)
+			(xy 52.07 76.20) (xy 62.23 76.20)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43225683-6ebb-49f5-83ba-b4e25e4b423f")
+		(uuid "0a9868c4-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 120.65 27.94) (xy 120.65 30.48)
+			(xy 62.23 76.20) (xy 62.23 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44182ac2-ed3f-4677-8978-50335e24d7b7")
+		(uuid "65c6ce17-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 133.35 58.42) (xy 137.16 58.42)
+			(xy 62.23 81.28) (xy 71.12 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "449c5b89-3a96-481b-9189-1ae45486249c")
+		(uuid "02a2a8ac-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 163.83) (xy 53.34 163.83)
+			(xy 15.24 81.28) (xy 33.02 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "480fdc46-5bab-4bbb-894c-1e2432e62a41")
+		(uuid "cfc09566-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 96.52 52.07) (xy 96.52 53.34)
+			(xy 52.07 81.28) (xy 63.50 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48308f7b-a5b6-4d77-adf9-e0161fa485c5")
+		(uuid "c6dc314c-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 161.29) (xy 73.66 161.29)
+			(xy 63.50 81.28) (xy 63.50 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "494186e2-342e-40f7-88ae-9949e20fb14e")
+		(uuid "e218f1a6-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 125.73) (xy 53.34 125.73)
+			(xy 63.50 83.82) (xy 71.12 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a91b824-5549-4415-95b5-34e4cd38b15b")
+		(uuid "2a50d507-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 39.37) (xy 101.6 39.37)
+			(xy 15.24 86.36) (xy 33.02 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c134a50-58cd-478b-82d3-90fd0a2fca02")
+		(uuid "52e436aa-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 151.13) (xy 95.25 151.13)
+			(xy 52.07 86.36) (xy 71.12 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c2b0b61-9a3f-47e9-8e94-fd3763359898")
+		(uuid "44f5f874-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 147.32) (xy 107.95 147.32)
+			(xy 15.24 91.44) (xy 33.02 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d7dc155-ba4f-4e02-b338-1cfd05afb504")
+		(uuid "cee31b8c-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 157.48) (xy 53.34 157.48)
+			(xy 52.07 91.44) (xy 62.23 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4da709fc-35f9-4872-8506-93f1e2fc591d")
+		(uuid "5d15d5f7-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 99.06 45.72) (xy 99.06 48.26)
+			(xy 62.23 91.44) (xy 62.23 88.90)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e6584bf-4872-41ad-86e0-ac4733140457")
+		(uuid "7664c929-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 96.52 152.4) (xy 96.52 153.67)
+			(xy 62.23 88.90) (xy 71.12 88.90)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4eaa5ce9-5bac-4451-afc3-9fcb8a70625b")
+		(uuid "7dfced0e-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 104.14 124.46) (xy 107.95 124.46)
+			(xy 15.24 96.52) (xy 33.02 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f917cf3-0004-487c-b528-67c6a669f34e")
+		(uuid "dfd77c82-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 99.06 134.62) (xy 107.95 134.62)
+			(xy 52.07 96.52) (xy 60.96 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "536439f9-db35-4d3c-86c0-370500c4131c")
+		(uuid "e72d0241-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 101.6 80.01)
+			(xy 60.96 96.52) (xy 60.96 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a1c8292-9f57-461d-b21b-dc29f5835776")
+		(uuid "972d5501-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 35.56) (xy 102.87 35.56)
+			(xy 60.96 91.44) (xy 71.12 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a60dd96-a4ce-47e3-bbc4-6acbe6a39257")
+		(uuid "c8c7746c-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 95.25 63.5) (xy 95.25 64.77)
+			(xy 15.24 101.60) (xy 33.02 101.60)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c2ac82a-5127-4b35-a782-2bc1d0db6efe")
+		(uuid "f476ef42-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 95.25 55.88) (xy 95.25 54.61)
+			(xy 52.07 101.60) (xy 59.69 101.60)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cdba649-3c16-40ff-96f5-5bb18786adf3")
+		(uuid "8f9dee81-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 133.35 147.32) (xy 137.16 147.32)
+			(xy 59.69 101.60) (xy 59.69 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ebe7e84-d534-49b1-9046-9812f3857b99")
+		(uuid "ef9022ac-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 133.35 43.18) (xy 137.16 43.18)
+			(xy 59.69 93.98) (xy 71.12 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63f03e75-03f7-4b40-bc35-12d3e702e33c")
+		(uuid "5c8efe3b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 45.72) (xy 53.34 45.72)
+			(xy 15.24 106.68) (xy 33.02 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64622389-00c9-4a56-bf5b-ce8689317b0d")
+		(uuid "c2c2268d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 125.73) (xy 101.6 125.73)
+			(xy 52.07 106.68) (xy 58.42 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66d17b19-747d-486b-90ed-b1390cfadd6d")
+		(uuid "7b575776-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 97.79 68.58) (xy 97.79 71.12)
+			(xy 58.42 106.68) (xy 58.42 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66f4bb2e-0d9f-40d4-9e02-ac80c2f97082")
+		(uuid "bc1ce92f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 48.26) (xy 97.79 48.26)
+			(xy 58.42 96.52) (xy 71.12 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "673f221c-8818-45e1-8f5a-4a4d5ceef92b")
+		(uuid "1fc33de8-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 64.77) (xy 95.25 64.77)
+			(xy 15.24 111.76) (xy 33.02 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c9ac643-050d-4f6c-ad87-c416cec28a62")
+		(uuid "76dd101a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 97.79 154.94) (xy 97.79 157.48)
+			(xy 52.07 111.76) (xy 57.15 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d78fc8e-d9ae-4024-a52d-b5e4163ea0b7")
+		(uuid "18000e2b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 152.4) (xy 96.52 152.4)
+			(xy 57.15 111.76) (xy 57.15 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6def1ba6-9a02-4acc-a222-c189d14a1322")
+		(uuid "e3e9f4eb-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 121.92) (xy 102.87 121.92)
+			(xy 57.15 99.06) (xy 71.12 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71949fac-3484-439c-a245-21346cec07f2")
+		(uuid "4c28f565-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 36.83) (xy 73.66 36.83)
+			(xy 15.24 116.84) (xy 33.02 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "720afc5a-3b6f-4d29-9e3c-7adfd5b186cc")
+		(uuid "ae899e51-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 104.14 119.38) (xy 104.14 124.46)
+			(xy 52.07 116.84) (xy 55.88 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "768c832f-83b1-42fa-9462-d735bb889a69")
+		(uuid "427236e6-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 120.65 25.4) (xy 120.65 27.94)
+			(xy 55.88 116.84) (xy 55.88 101.60)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78268cea-4ac9-4417-a69e-b5f54b0a96d1")
+		(uuid "fcca79d2-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 153.67) (xy 96.52 153.67)
+			(xy 55.88 101.60) (xy 71.12 101.60)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79f1eac8-9257-48eb-ada8-af1079884cff")
+		(uuid "04fabda5-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 62.23) (xy 73.66 62.23)
+			(xy 15.24 121.92) (xy 33.02 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d69b26c-6232-457e-ae6f-4c952b69d054")
+		(uuid "b1de658a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 160.02) (xy 100.33 160.02)
+			(xy 52.07 121.92) (xy 54.61 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e73b3f9-ffb6-45a7-9d03-2e545f88eef0")
+		(uuid "26d65933-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 41.91) (xy 100.33 41.91)
+			(xy 54.61 121.92) (xy 54.61 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ed6f8aa-baf2-476c-81ec-3b1626baca4f")
+		(uuid "5d0174da-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 99.06 132.08) (xy 99.06 134.62)
+			(xy 54.61 104.14) (xy 71.12 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f317f15-1649-400a-bb09-b8081961e8de")
+		(uuid "87682dd7-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 58.42) (xy 107.95 58.42)
+			(xy 218.44 58.42) (xy 218.44 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81bee9a1-046d-4c4a-9f63-63918a6f320f")
+		(uuid "a6f3ab9d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 71.12) (xy 99.06 71.12)
+			(xy 218.44 53.34) (xy 223.52 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8416dfc5-a6cd-42bf-9848-66ed6ffe5a8b")
+		(uuid "caa3fc06-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 134.62 71.12) (xy 133.35 71.12)
+			(xy 218.44 48.26) (xy 218.44 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8542aaa0-0672-4d00-a196-c73ba0ce42e2")
+		(uuid "cc927c01-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 133.35 60.96) (xy 137.16 60.96)
+			(xy 218.44 111.76) (xy 218.44 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c005442-c5e7-436d-be06-c3a61a755b04")
+		(uuid "767aee75-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 134.62 85.09) (xy 134.62 71.12)
+			(xy 231.14 99.06) (xy 233.68 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ecb9951-f825-4b92-865a-4161c7c5606c")
+		(uuid "93241062-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 120.65 83.82) (xy 120.65 85.09)
+			(xy 233.68 99.06) (xy 233.68 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ffaa98d-ee6d-4eb6-a376-716b8b737d99")
+		(uuid "b84901a1-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 120.65 27.94) (xy 127 27.94)
+			(xy 233.68 116.84) (xy 218.44 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "901b3693-56fa-4ecb-9dc4-46697a761897")
+		(uuid "a4e1bc4f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 96.52 138.43) (xy 96.52 139.7)
+			(xy 231.14 71.12) (xy 246.38 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "906beac1-4d58-4348-b523-23efc8c5c2cc")
+		(uuid "df3218d8-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 132.08 114.3) (xy 134.62 114.3)
+			(xy 231.14 81.28) (xy 233.68 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91e41101-bf21-4f4a-9ae9-c72c3425820c")
+		(uuid "90502ba1-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 74.93) (xy 73.66 74.93)
+			(xy 231.14 83.82) (xy 233.68 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94668b4c-f167-4e4f-a75d-d0d513d44eeb")
+		(uuid "c94344d7-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 123.19) (xy 73.66 123.19)
+			(xy 231.14 86.36) (xy 233.68 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95fd69e3-129f-4f45-81e9-d0df1dcdb38e")
+		(uuid "fcae14ac-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 132.08) (xy 99.06 132.08)
+			(xy 231.14 88.90) (xy 233.68 88.90)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "976c1b54-8896-4f31-a516-8ea8c46f79eb")
+		(uuid "eab7be0c-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 133.35 53.34) (xy 137.16 53.34)
+			(xy 149.86 45.72) (xy 167.64 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97c99a73-6461-44de-991b-b044f439ac67")
+		(uuid "2c5a5b9e-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 144.78) (xy 107.95 144.78)
+			(xy 186.69 45.72) (xy 189.23 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98b6fbc8-ab20-477a-b136-d7a124eb5bbe")
+		(uuid "db703c4d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 80.01) (xy 101.6 80.01)
+			(xy 189.23 45.72) (xy 189.23 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99c55754-f716-482b-8268-762bd1d98461")
+		(uuid "aad0140f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 101.6 129.54) (xy 107.95 129.54)
+			(xy 189.23 66.04) (xy 205.74 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99e65df5-87bd-47e7-9a08-5e0ea33a9dcf")
+		(uuid "dfeb646f-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 132.08) (xy 53.34 132.08)
+			(xy 149.86 50.80) (xy 167.64 50.80)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a354826-771c-46be-9462-9d9a253510a9")
+		(uuid "a35872f7-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 33.02) (xy 53.34 33.02)
+			(xy 186.69 50.80) (xy 190.50 50.80)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d4fb280-f97d-4bd0-a676-6accb3ead058")
+		(uuid "6a56b72d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 100.33 132.08) (xy 107.95 132.08)
+			(xy 190.50 50.80) (xy 190.50 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9eb5c809-b29c-4f4f-acea-5860055e1c5a")
+		(uuid "27af2886-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 134.62 171.45) (xy 134.62 157.48)
+			(xy 190.50 68.58) (xy 205.74 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f5c471d-0815-4be2-bc58-0587f3529b1f")
+		(uuid "cf29b838-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 97.79 134.62) (xy 97.79 137.16)
+			(xy 149.86 55.88) (xy 167.64 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a067ec2f-374c-4490-8cd0-bb5f4e9a2b25")
+		(uuid "5b544d46-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 60.96) (xy 107.95 60.96)
+			(xy 186.69 55.88) (xy 191.77 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1a3764c-fb81-4b2a-a8c0-ea3886f24d4c")
+		(uuid "3fc1954d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 77.47) (xy 53.34 77.47)
+			(xy 191.77 55.88) (xy 191.77 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a427d04a-3043-4fb5-9fcd-77f513ff30ce")
+		(uuid "a37aad13-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 134.62 114.3) (xy 134.62 116.84)
+			(xy 191.77 71.12) (xy 205.74 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a565d531-e468-4ad0-8230-6558b1f1c504")
+		(uuid "833129ba-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 55.88) (xy 95.25 55.88)
+			(xy 149.86 60.96) (xy 167.64 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a99fcdfb-8a9f-4d76-919e-850dff39aba1")
+		(uuid "e166db8a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 71.12) (xy 53.34 71.12)
+			(xy 186.69 60.96) (xy 193.04 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9dcaf8b-7ca2-48dc-96c3-e4185afd1e8b")
+		(uuid "5ab8052a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 99.06 48.26) (xy 107.95 48.26)
+			(xy 193.04 60.96) (xy 193.04 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa151d42-dbd5-4e9d-a865-79f41488d0d6")
+		(uuid "dd244452-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 154.94) (xy 73.66 154.94)
+			(xy 193.04 73.66) (xy 205.74 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac3cb627-a39f-4c8c-9881-916240e4ecc0")
+		(uuid "1af4f75d-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 73.66) (xy 100.33 73.66)
+			(xy 149.86 66.04) (xy 167.64 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac77e538-6f7b-4656-8158-e1c65856308d")
+		(uuid "40a84614-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 95.25 142.24) (xy 95.25 140.97)
+			(xy 186.69 66.04) (xy 194.31 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae698644-785f-4a8e-999c-33cebb93afdf")
+		(uuid "6923a399-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 133.35 139.7) (xy 137.16 139.7)
+			(xy 194.31 66.04) (xy 194.31 76.20)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2785fbf-6fdc-45c9-b6bd-832fde02a372")
+		(uuid "c6d9e5cc-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 77.47) (xy 100.33 77.47)
+			(xy 194.31 76.20) (xy 205.74 76.20)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b339520d-af2a-4721-8729-e74727951333")
+		(uuid "a34b759b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 133.35 129.54) (xy 137.16 129.54)
+			(xy 149.86 71.12) (xy 167.64 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b48551bb-e84f-4248-aa2b-67a6c7d9fe06")
+		(uuid "4331da01-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 144.78) (xy 53.34 144.78)
+			(xy 186.69 71.12) (xy 195.58 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b54d49c4-8600-49fe-a095-b2b2c224a860")
+		(uuid "d9d2a7dc-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 101.6 162.56) (xy 101.6 166.37)
+			(xy 195.58 71.12) (xy 195.58 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd7f6035-ca93-4ec8-a862-710ab3401f61")
+		(uuid "fbdf7c62-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 99.06 157.48) (xy 99.06 160.02)
+			(xy 195.58 78.74) (xy 205.74 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "beee6c5d-08e4-4ed9-996e-4ecf3fac9613")
+		(uuid "b1503c98-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 97.79 48.26) (xy 97.79 50.8)
+			(xy 149.86 76.20) (xy 167.64 76.20)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf810f6b-148c-47e4-8171-3a671f8f752f")
+		(uuid "30288772-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 100.33 160.02) (xy 100.33 163.83)
+			(xy 186.69 76.20) (xy 196.85 76.20)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfa08940-13ed-4144-9d11-e17a65a48358")
+		(uuid "f1d3a773-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 52.07) (xy 96.52 52.07)
+			(xy 196.85 76.20) (xy 196.85 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c25c4539-e4a5-4699-b281-76fd4200661f")
+		(uuid "907fa1d4-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 104.14 38.1) (xy 107.95 38.1)
+			(xy 196.85 81.28) (xy 205.74 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c424632c-8e94-4448-ae19-3cefafadf294")
+		(uuid "49d54ee4-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 151.13) (xy 53.34 151.13)
+			(xy 149.86 81.28) (xy 167.64 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c48f7329-0423-42fd-9173-0a3a05400b8b")
+		(uuid "982861cb-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 120.65 85.09) (xy 120.65 86.36)
+			(xy 186.69 81.28) (xy 198.12 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c561204f-2102-47fa-98b6-dd7cff0825c9")
+		(uuid "49950852-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 95.25 54.61) (xy 92.71 54.61)
+			(xy 198.12 81.28) (xy 198.12 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6e64331-bdd1-40c0-90ec-ec0223f65a31")
+		(uuid "81cd21df-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 73.66) (xy 99.06 73.66)
+			(xy 198.12 83.82) (xy 205.74 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c839591b-8b1a-4cae-9e55-f24834ca6d9d")
+		(uuid "ed15fc0c-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 132.08 27.94) (xy 134.62 27.94)
+			(xy 149.86 86.36) (xy 167.64 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8f871dc-3d35-422d-8c9e-b6ba6298b0f1")
+		(uuid "f89121d0-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 102.87 121.92) (xy 102.87 127)
+			(xy 186.69 86.36) (xy 205.74 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9e121f9-a7ec-48a3-8ec2-84af43a1a067")
+		(uuid "740db300-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 102.87 35.56) (xy 102.87 40.64)
+			(xy 149.86 91.44) (xy 167.64 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9ef536f-3fdf-4a42-ba2d-56bf25285b2a")
+		(uuid "646dd267-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 96.52 53.34) (xy 107.95 53.34)
+			(xy 186.69 91.44) (xy 196.85 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca38bdae-eacf-4eb9-a3da-09a8efcb5996")
+		(uuid "a443fa15-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 120.65 114.3) (xy 127 114.3)
+			(xy 196.85 91.44) (xy 196.85 88.90)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cbbfdf38-62c1-48ec-a50f-64df785eabe4")
+		(uuid "d1b888be-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 104.14 33.02) (xy 104.14 38.1)
+			(xy 196.85 88.90) (xy 205.74 88.90)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc232fc3-b22a-4d45-b0af-ce811c4ecdb6")
+		(uuid "aa4b9fc3-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 129.54) (xy 73.66 129.54)
+			(xy 149.86 96.52) (xy 167.64 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d097a95a-7db6-4050-a7fd-e8c57dfa244f")
+		(uuid "4ce5a111-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 119.38) (xy 53.34 119.38)
+			(xy 186.69 96.52) (xy 195.58 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0d76bf3-424d-45b2-82f2-8ebc74dc8af9")
+		(uuid "fb9ef58b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 100.33 41.91) (xy 100.33 45.72)
+			(xy 195.58 96.52) (xy 195.58 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d136fffd-123d-40bd-baf3-295dac64c5b6")
+		(uuid "ce5b8824-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 154.94) (xy 97.79 154.94)
+			(xy 195.58 91.44) (xy 205.74 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d173f466-097b-4017-a8a2-68bd2e153fb9")
+		(uuid "07392ea3-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 101.6 39.37) (xy 101.6 43.18)
+			(xy 149.86 101.60) (xy 167.64 101.60)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1b25625-896e-49d4-bdf7-b647b4d6c8b1")
+		(uuid "798a6383-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 66.04) (xy 96.52 66.04)
+			(xy 186.69 101.60) (xy 194.31 101.60)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7b6867e-7115-4184-8299-5b1275e1321e")
+		(uuid "8402158a-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 68.58) (xy 97.79 68.58)
+			(xy 194.31 101.60) (xy 194.31 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9bc1c40-e4a2-4fcd-8564-fc3c26882780")
+		(uuid "2c52e90b-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 92.71 134.62) (xy 97.79 134.62)
+			(xy 194.31 93.98) (xy 205.74 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df832144-3f8c-446f-9bef-642101b88580")
+		(uuid "60f1b7f2-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 97.79 50.8) (xy 107.95 50.8)
+			(xy 149.86 106.68) (xy 167.64 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df923ac4-4fd9-4fd3-ba09-9842559f3a24")
+		(uuid "98e74200-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 138.43) (xy 53.34 138.43)
+			(xy 186.69 106.68) (xy 193.04 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2db9247-164d-45b6-9cae-5189fba9d802")
+		(uuid "abdffa42-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 43.18) (xy 73.66 43.18)
+			(xy 193.04 106.68) (xy 193.04 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e55dea54-62a6-486b-902a-fec8ccf106f7")
+		(uuid "7f504f81-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 55.88) (xy 73.66 55.88)
+			(xy 193.04 96.52) (xy 205.74 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8ec3e49-4bb7-4d67-a20e-014f233eac72")
+		(uuid "6102a636-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 134.62 157.48) (xy 133.35 157.48)
+			(xy 149.86 111.76) (xy 167.64 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec0a7d1d-4dbf-43d7-ad02-81a220cd80b8")
+		(uuid "efc1b690-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 107.95 63.5) (xy 95.25 63.5)
+			(xy 186.69 111.76) (xy 191.77 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec2082ac-2114-4308-8480-67e815d6bca5")
+		(uuid "00b19432-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 58.42) (xy 53.34 58.42)
+			(xy 191.77 111.76) (xy 191.77 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efd8097a-ac5f-4a8c-87f4-26337a98d676")
+		(uuid "cd801bc6-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 96.52 139.7) (xy 107.95 139.7)
+			(xy 191.77 99.06) (xy 205.74 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3f9d527-835f-46e4-8b9a-aa284203fa23")
+		(uuid "162672df-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 167.64) (xy 73.66 167.64)
+			(xy 149.86 116.84) (xy 167.64 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f536755d-cb48-4645-95e0-0404cfa585c7")
+		(uuid "56dcde46-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 142.24) (xy 73.66 142.24)
+			(xy 186.69 116.84) (xy 190.50 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f690d3a7-d3b1-415c-89a9-75d3cbf6ac3f")
+		(uuid "6581ad3c-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 95.25 140.97) (xy 92.71 140.97)
+			(xy 190.50 116.84) (xy 190.50 101.60)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6d0fcd5-f56a-4502-b23d-6945ca576ba0")
+		(uuid "a43f8779-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 95.25 149.86) (xy 95.25 151.13)
+			(xy 190.50 101.60) (xy 205.74 101.60)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f89e086f-b1cb-45d5-acfb-18cee2327617")
+		(uuid "c234a799-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 138.43) (xy 96.52 138.43)
+			(xy 149.86 121.92) (xy 167.64 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f93f291b-e5de-42dd-b944-151da4e55ea6")
+		(uuid "71fdb16e-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 133.35 142.24) (xy 137.16 142.24)
+			(xy 186.69 121.92) (xy 189.23 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb4d1788-990e-4573-bc50-b4fc47d8ef28")
+		(uuid "7e809421-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 72.39 119.38) (xy 104.14 119.38)
+			(xy 189.23 121.92) (xy 189.23 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fba80d41-1661-44f8-bf49-13162e4f881d")
+		(uuid "b9316e5e-0000-0000-0000-000000000000")
 	)
 	(wire
 		(pts
-			(xy 49.53 64.77) (xy 53.34 64.77)
+			(xy 189.23 104.14) (xy 205.74 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc467181-6ccc-48e7-8093-acd89c268adb")
+		(uuid "9f93be5b-0000-0000-0000-000000000000")
 	)
-	(wire
-		(pts
-			(xy 99.06 71.12) (xy 99.06 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcfed36f-302e-4e20-8e12-7c11ce8eaf01")
-	)
-	(wire
-		(pts
-			(xy 97.79 137.16) (xy 107.95 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff907118-9f1b-42f0-8333-fb284f3bbcaa")
-	)
-	(label "TEMP_MUX_S0"
-		(at 137.16 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e2b27e3-fd96-416a-80ee-0fefd4b3c32b")
-	)
-	(label "TEMP_MUX_S1"
-		(at 137.16 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d237c723-878e-4cef-ae53-1a71502a445a")
-	)
-	(label "TEMP_MUX_S3"
-		(at 137.16 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dccfd078-2587-40e6-90a0-6c894ed0a008")
-	)
-	(label "TEMP_MUX_S2"
-		(at 137.16 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7e76c72-8a97-4157-b445-dc039878a5b9")
-	)
-	(hierarchical_label "CELL_TEMP_16"
-		(shape input)
-		(at 49.53 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "107cfc3f-f4ed-4028-b57e-3cfc75cebf69")
-	)
-	(hierarchical_label "CELL_TEMP_05"
-		(shape input)
-		(at 49.53 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22bfe55e-8206-4799-ad7f-be236b768649")
-	)
-	(hierarchical_label "CELL_TEMP_08"
-		(shape input)
-		(at 49.53 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "27afb458-9674-4cbd-8585-441b429d1350")
-	)
-	(hierarchical_label "TEMP_MUX2_COM"
-		(shape input)
-		(at 137.16 129.54 0)
+
+	(hierarchical_label "TEMP_MUX1_COM"
+		(shape output)
+		(at 111.76 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "2d1a1693-b657-43b2-9b75-d26b94460593")
-	)
-	(hierarchical_label "TEMP_MUX_S3"
-		(shape input)
-		(at 137.16 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2d2a03dd-0ac7-454a-9a8a-0888d714ad20")
-	)
-	(hierarchical_label "RESERVED_TEMP_16"
-		(shape input)
-		(at 49.53 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "313922b2-c012-4f5c-a687-65cb67f51489")
-	)
-	(hierarchical_label "CELL_TEMP_01"
-		(shape input)
-		(at 49.53 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "31f3d278-f24e-48e2-84c3-cd81d015142c")
+		(uuid "21a0015b-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TEMP_MUX_S0"
 		(shape input)
-		(at 137.16 53.34 0)
+		(at 99.06 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "33b093d4-88c0-43d4-9fc7-3300ba813bcf")
-	)
-	(hierarchical_label "CELL_TEMP_04"
-		(shape input)
-		(at 49.53 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "33e23106-ed28-45ed-b6c6-c2d417df3a26")
-	)
-	(hierarchical_label "BALANCER_INDUCTOR_TEMP"
-		(shape input)
-		(at 49.53 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "39fbbf15-accc-4288-9504-36437d80022e")
-	)
-	(hierarchical_label "INTAKE_TEMP"
-		(shape input)
-		(at 49.53 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a784398-fdf1-42c1-bfef-eae8e9871296")
-	)
-	(hierarchical_label "CELL_TEMP_09"
-		(shape input)
-		(at 49.53 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "44a78b93-3ab3-481f-ae6a-592741afe9ba")
-	)
-	(hierarchical_label "CELL_TEMP_03"
-		(shape input)
-		(at 49.53 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e04c7f1-7f2f-4fce-b4da-83a88b25080c")
-	)
-	(hierarchical_label "CELL_TEMP_07"
-		(shape input)
-		(at 49.53 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "509b1b07-d91c-4fe4-9acc-f563d0628d13")
-	)
-	(hierarchical_label "SHUNT_TEMP"
-		(shape input)
-		(at 49.53 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "560c04cc-d2eb-4945-ad6d-3b7af4214fc2")
-	)
-	(hierarchical_label "BALANCER_SWITCH_TEMP"
-		(shape input)
-		(at 49.53 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "61752d9d-a128-42bf-813c-06ec77194e2c")
-	)
-	(hierarchical_label "CELL_TEMP_14"
-		(shape input)
-		(at 49.53 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6e99e0a0-bfa7-41d8-b683-0b31d71f63ef")
-	)
-	(hierarchical_label "CELL_TEMP_10"
-		(shape input)
-		(at 49.53 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a2fc219-104d-4cc9-a336-f02e872a06bd")
-	)
-	(hierarchical_label "CELL_TEMP_12"
-		(shape input)
-		(at 49.53 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a4e80f2-f889-4337-997c-509797181ba4")
-	)
-	(hierarchical_label "CELL_TEMP_06"
-		(shape input)
-		(at 49.53 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7f981129-c02f-42b8-92c1-92ccb9f074ff")
-	)
-	(hierarchical_label "CHG_FET_TEMP"
-		(shape input)
-		(at 49.53 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "928a235c-cb6e-490e-a564-fd00899442d3")
-	)
-	(hierarchical_label "COMMON_SOURCE_BUS_TEMP"
-		(shape input)
-		(at 49.53 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "97bd0049-3b70-471e-b792-e34bcd7d50b5")
-	)
-	(hierarchical_label "ENCLOSURE_TEMP"
-		(shape input)
-		(at 49.53 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a893cff5-384a-4bff-8c2f-b8c098083cfc")
-	)
-	(hierarchical_label "PCB_TEMP_01"
-		(shape input)
-		(at 49.53 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b1813f1e-ddaa-4985-981f-bda6fe5a0e51")
-	)
-	(hierarchical_label "DSG_FET_TEMP"
-		(shape input)
-		(at 49.53 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c23953f4-4c6c-4d2f-818b-ece4d7a45fbe")
-	)
-	(hierarchical_label "RESERVED_TEMP_15"
-		(shape input)
-		(at 49.53 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c283b376-4feb-4a9a-8781-ea61bf98322c")
+		(uuid "dc952fef-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TEMP_MUX_S1"
 		(shape input)
-		(at 137.16 55.88 0)
+		(at 99.06 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c52cc59a-3c7a-42aa-9552-662891d4b691")
-	)
-	(hierarchical_label "CELL_TEMP_15"
-		(shape input)
-		(at 49.53 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c8141ce8-c873-4253-9620-4ab19f8f4062")
-	)
-	(hierarchical_label "TEMP_MUX1_COM"
-		(shape input)
-		(at 137.16 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cc067a07-c6fa-4356-aca5-a36d6d87c50b")
-	)
-	(hierarchical_label "TERMINAL_2_TEMP"
-		(shape input)
-		(at 49.53 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d0fa591a-b6cd-4744-a16c-e6d2d6de8a52")
-	)
-	(hierarchical_label "CELL_TEMP_02"
-		(shape input)
-		(at 49.53 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1a41cf4-4ce7-4f2f-a817-7dee95ecf7d3")
-	)
-	(hierarchical_label "TERMINAL_1_TEMP"
-		(shape input)
-		(at 49.53 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d4013c54-a4a0-4e3a-acab-e2e8c549a1a2")
-	)
-	(hierarchical_label "PCB_TEMP_02"
-		(shape input)
-		(at 49.53 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dc23e409-74fd-419e-8ca0-44500c54bcaf")
+		(uuid "2e68d5dc-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "TEMP_MUX_S2"
 		(shape input)
-		(at 137.16 58.42 0)
+		(at 99.06 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e1102c80-b74a-4417-9f3b-8aa59ae491b8")
+		(uuid "becaa968-0000-0000-0000-000000000000")
 	)
-	(hierarchical_label "PCB_TEMP_03"
+	(hierarchical_label "TEMP_MUX_S3"
 		(shape input)
-		(at 49.53 148.59 180)
+		(at 99.06 88.90 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "e7d86742-1870-450f-9172-582e676c8f7b")
+		(uuid "8ca8bdb4-0000-0000-0000-000000000000")
 	)
-	(hierarchical_label "CELL_TEMP_13"
+	(hierarchical_label "CELL_TEMP_01"
 		(shape input)
-		(at 49.53 71.12 180)
+		(at 15.24 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "f1768b45-09f3-4b07-acd3-a954634dad3f")
+		(uuid "968e8d25-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_02"
+		(shape input)
+		(at 15.24 50.80 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f0e03ee-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_03"
+		(shape input)
+		(at 15.24 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17d857c2-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_04"
+		(shape input)
+		(at 15.24 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6e8981d-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_05"
+		(shape input)
+		(at 15.24 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4187125b-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_06"
+		(shape input)
+		(at 15.24 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab4b1f3b-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_07"
+		(shape input)
+		(at 15.24 76.20 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3162a18a-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_08"
+		(shape input)
+		(at 15.24 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6387dcd2-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_09"
+		(shape input)
+		(at 15.24 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0cc3bf5-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_10"
+		(shape input)
+		(at 15.24 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3e5f0a7-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "CELL_TEMP_11"
 		(shape input)
-		(at 49.53 64.77 180)
+		(at 15.24 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "fe2d9faa-f707-4850-ab4f-3af17ec04803")
+		(uuid "9da90ea0-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_12"
+		(shape input)
+		(at 15.24 101.60 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "769d3b4e-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_13"
+		(shape input)
+		(at 15.24 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1acc3d24-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_14"
+		(shape input)
+		(at 15.24 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a3e7bf3-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_15"
+		(shape input)
+		(at 15.24 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c385230c-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CELL_TEMP_16"
+		(shape input)
+		(at 15.24 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f7e3046-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "TEMP_MUX2_COM"
+		(shape output)
+		(at 246.38 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8beb5718-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "TEMP_MUX_S0"
+		(shape input)
+		(at 233.68 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eed795cc-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "TEMP_MUX_S1"
+		(shape input)
+		(at 233.68 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9308feab-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "TEMP_MUX_S2"
+		(shape input)
+		(at 233.68 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "956ef049-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "TEMP_MUX_S3"
+		(shape input)
+		(at 233.68 88.90 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9d30da1-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "SHUNT_TEMP"
+		(shape input)
+		(at 149.86 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de2f9ae4-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "INTAKE_TEMP"
+		(shape input)
+		(at 149.86 50.80 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3da6f28c-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "ENCLOSURE_TEMP"
+		(shape input)
+		(at 149.86 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4aca299e-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "CHG_FET_TEMP"
+		(shape input)
+		(at 149.86 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5bcd4b7-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "DSG_FET_TEMP"
+		(shape input)
+		(at 149.86 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "374c37d1-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "TERMINAL_1_TEMP"
+		(shape input)
+		(at 149.86 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "046a372e-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "TERMINAL_2_TEMP"
+		(shape input)
+		(at 149.86 76.20 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c924ef47-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "PCB_TEMP_01"
+		(shape input)
+		(at 149.86 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "987ebb58-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "PCB_TEMP_02"
+		(shape input)
+		(at 149.86 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcaac2ea-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "PCB_TEMP_03"
+		(shape input)
+		(at 149.86 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a032e32a-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "COMMON_SOURCE_BUS_TEMP"
+		(shape input)
+		(at 149.86 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "381b4492-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "BALANCER_INDUCTOR_TEMP"
+		(shape input)
+		(at 149.86 101.60 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e4bb3ea-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "BALANCER_SWITCH_TEMP"
+		(shape input)
+		(at 149.86 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a4d1e0e-0000-0000-0000-000000000000")
 	)
 	(hierarchical_label "RESERVED_TEMP_14"
 		(shape input)
-		(at 49.53 161.29 180)
+		(at 149.86 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "ff0756aa-16ba-4731-af43-9b60a4b7e7ad")
+		(uuid "cc687f85-0000-0000-0000-000000000000")
 	)
-	(symbol
+	(hierarchical_label "RESERVED_TEMP_15"
+		(shape input)
+		(at 149.86 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "14d77850-0000-0000-0000-000000000000")
+	)
+	(hierarchical_label "RESERVED_TEMP_16"
+		(shape input)
+		(at 149.86 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6989a2d7-0000-0000-0000-000000000000")
+	)
+(symbol
 		(lib_id "74xx:CD74HC4067SM")
-		(at 120.65 142.24 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00eebe54-1913-491d-8e91-290a3bffadd9")
-		(property "Reference" "U9"
-			(at 118.5067 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CD74HC4067SM"
-			(at 118.5067 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
-			(at 93.98 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
-			(at 129.54 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SSOP-24"
-			(at 120.65 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "21"
-			(uuid "ae8a3ab7-d114-4a28-88f8-972082f9a307")
-		)
-		(pin "14"
-			(uuid "0fc704b1-4a35-48e8-b3de-559fe06068cd")
-		)
-		(pin "6"
-			(uuid "22407662-4ef3-4a56-86d4-efab71959629")
-		)
-		(pin "11"
-			(uuid "9a136c61-439d-4404-b95b-af47eca832d6")
-		)
-		(pin "5"
-			(uuid "235f6854-17c2-4525-825d-385612e04425")
-		)
-		(pin "9"
-			(uuid "a9ea7394-3e6a-42ce-a0e9-f14591f559c5")
-		)
-		(pin "2"
-			(uuid "896fc8dd-ecee-47b4-b59a-ba208e669fce")
-		)
-		(pin "22"
-			(uuid "428aecae-3896-4d88-a68f-b23795526c7b")
-		)
-		(pin "19"
-			(uuid "da3c9d87-dec4-49b5-a73f-bd0bf6f396df")
-		)
-		(pin "4"
-			(uuid "6aec1d5d-63a5-4bd7-ab23-5e974b317379")
-		)
-		(pin "24"
-			(uuid "067f8588-77b1-4545-9623-6eab70707536")
-		)
-		(pin "18"
-			(uuid "e0a83390-d571-4fbe-81eb-6ac716529346")
-		)
-		(pin "13"
-			(uuid "08ccc744-eea9-4f9c-8cb6-734a53b0c551")
-		)
-		(pin "10"
-			(uuid "9148d72f-fe4b-49c3-baee-25b26dabf6f6")
-		)
-		(pin "20"
-			(uuid "aa5119ed-efae-4990-ae93-ad7612b45a4e")
-		)
-		(pin "3"
-			(uuid "5706d85d-91f5-4606-9624-272433c89800")
-		)
-		(pin "15"
-			(uuid "cae7a64c-93aa-43dd-a7b1-75dea9f0459f")
-		)
-		(pin "12"
-			(uuid "5dc48510-e654-44e0-9c02-cb517e1f6139")
-		)
-		(pin "7"
-			(uuid "2fb00ac3-b571-471b-aa8e-b24a0e2e7980")
-		)
-		(pin "8"
-			(uuid "e5ae1ee1-2db9-4398-ab03-ada9ec1e40cf")
-		)
-		(pin "23"
-			(uuid "a293f5ae-ec03-4f16-801e-0f635721ad02")
-		)
-		(pin "17"
-			(uuid "f67472ea-9376-466c-9089-86583c0bd9bc")
-		)
-		(pin "1"
-			(uuid "17269850-a116-4a6e-a6f9-3845a09545f3")
-		)
-		(pin "16"
-			(uuid "dd451398-2e6c-4741-a96c-4d2c8103dda2")
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 120.65 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0551b416-3df4-4ca7-ae4d-b80068dbaf95")
-		(property "Reference" "#PWR014"
-			(at 120.65 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 120.65 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 120.65 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2483bdb5-b65d-466d-bedc-8f46ef84db2b")
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:CD74HC4067SM")
-		(at 120.65 55.88 0)
+		(at 83.82 83.82 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3173,26 +2997,24 @@
 		(fields_autoplaced yes)
 		(uuid "205ae188-71fc-464d-a483-2f52470b3521")
 		(property "Reference" "U8"
-			(at 118.5067 29.21 0)
+			(at 83.82 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
+				)
 		)
 		(property "Value" "CD74HC4067SM"
-			(at 118.5067 31.75 0)
+			(at 83.82 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
+				)
 		)
 		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
 			(at 93.98 81.28 0)
@@ -3309,501 +3131,9 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47440f9b-d198-4c28-84e5-7f9c3498a6f0")
-		(property "Reference" "#PWR018"
-			(at 134.62 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de8ebb83-890c-4a1d-8ca5-f3d6cd15b5d2")
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "626466c9-43b1-4cbf-9cf4-325f53672db6")
-		(property "Reference" "#PWR019"
-			(at 134.62 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dac7a273-85d1-4e50-ab63-888a8ee9eba3")
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 120.65 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "866fd0f6-d85c-48a8-bd33-adcef5028c83")
-		(property "Reference" "#PWR015"
-			(at 120.65 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 120.65 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 120.65 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2483bdb5-b65d-466d-bedc-8f46ef84db2c")
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 120.65 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93f64121-4d52-4c99-85a7-07a801146cc4")
-		(property "Reference" "#PWR017"
-			(at 120.65 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f89c1c5c-a6db-41c5-8895-f41b39707e79")
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 120.65 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9ca747c-8c14-4abf-9de9-270daa463f68")
-		(property "Reference" "#PWR016"
-			(at 120.65 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f89c1c5c-a6db-41c5-8895-f41b39707e7a")
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
+(symbol
 		(lib_id "Device:C_Small")
-		(at 129.54 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9a3265a-adca-42a9-b7dd-ddc2d6bbe0b2")
-		(property "Reference" "C26"
-			(at 129.5463 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 129.5463 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 129.54 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 129.54 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "1.36"
-			(at 129.54 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" "https://www.etstore.in/collections/all/smd-capacitors?page=4"
-			(at 129.54 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1e1a45cf-dc37-42b8-a22d-cc0a4bef3f5b")
-		)
-		(pin "1"
-			(uuid "70ffd981-28ad-45f1-b352-aafc080803ed")
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 129.54 27.94 90)
+		(at 83.82 50.80 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3814,20 +3144,22 @@
 		(fields_autoplaced yes)
 		(uuid "de12e9d4-9bb2-4775-9f4a-5515dfeee9d9")
 		(property "Reference" "C25"
-			(at 129.5463 21.59 90)
+			(at 86.36 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
+				(justify left)
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "100 nF"
-			(at 129.5463 24.13 90)
+			(at 86.36 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
+				(justify left)
 				(font
 					(size 1.27 1.27)
 				)
@@ -3903,91 +3235,20 @@
 			)
 		)
 	)
-	(sheet
-		(at 73.66 127)
-		(size 19.05 3.81)
+(symbol
+		(lib_id "power:+3V3")
+		(at 88.90 53.34 0)
+		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "02f3812d-3541-4d7e-a9af-642094096de7")
-		(property "Sheetname" "NTC_DIVIDER19"
-			(at 73.66 126.2884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 131.3946 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NTC_IN" input
-			(at 73.66 129.54 180)
-			(uuid "8fc17941-4cdb-42c6-9fa0-571298733a50")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIV_OUT" output
-			(at 92.71 128.27 0)
-			(uuid "d8117fce-5541-4ed4-ac59-1253d420bfeb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "26")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 53.34 118.11)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "051237b3-78c5-4aa1-ac7d-46f3f82e6e8f")
-		(property "Sheetname" "NTC_DIVIDER16"
-			(at 53.34 117.3984 0)
+		(uuid "866fd0f6-d85c-48a8-bd33-adcef5028c83")
+		(property "Reference" "#PWR015"
+			(at 88.90 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3995,11 +3256,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 53.34 122.5046 0)
+		(property "Value" "+3V3"
+			(at 88.90 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4007,189 +3277,56 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(pin "NTC_IN" input
-			(at 53.34 119.38 180)
-			(uuid "2014ca26-16d8-470a-8e62-d98c5b355109")
+		(property "Datasheet" ""
+			(at 120.65 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(pin "DIV_OUT" output
-			(at 72.39 119.38 0)
-			(uuid "b6f7bda9-0164-4624-898d-a9008db27019")
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 120.65 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
+		)
+		(pin "1"
+			(uuid "2483bdb5-b65d-466d-bedc-8f46ef84db2c")
 		)
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "23")
+					(reference "#PWR015")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 73.66 158.75)
-		(size 19.05 3.81)
+(symbol
+		(lib_id "power:GND")
+		(at 83.82 45.72 0)
+		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "0575c0ab-ee99-498b-ab50-1a4daef01e28")
-		(property "Sheetname" "NTC_DIVIDER29"
-			(at 73.66 158.0384 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 163.1446 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NTC_IN" input
-			(at 73.66 161.29 180)
-			(uuid "2b52c9fa-5b76-4366-96e6-45579fdcd2c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIV_OUT" output
-			(at 92.71 160.02 0)
-			(uuid "57e5d1f4-df78-4022-8ec5-fbd48d8c7346")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "36")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 73.66 120.65)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "06606d0c-41b2-4fbd-a6eb-47881dff400f")
-		(property "Sheetname" "NTC_DIVIDER17"
-			(at 73.66 119.9384 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 125.0446 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NTC_IN" input
-			(at 73.66 123.19 180)
-			(uuid "b7260371-af41-48b7-89e6-ecc3436452db")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIV_OUT" output
-			(at 92.71 121.92 0)
-			(uuid "52949022-11b4-4b21-bcd8-883c93e635bd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "24")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 53.34 69.85)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "0f786bd8-0573-41be-949f-2318d83a12b7")
-		(property "Sheetname" "NTC_DIVIDER12"
-			(at 53.34 69.1384 0)
+		(uuid "47440f9b-d198-4c28-84e5-7f9c3498a6f0")
+		(property "Reference" "#PWR018"
+			(at 83.82 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4197,11 +3334,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 53.34 74.2446 0)
+		(property "Value" "GND"
+			(at 83.82 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4209,55 +3355,56 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(pin "NTC_IN" input
-			(at 53.34 71.12 180)
-			(uuid "9a87b7e6-5b6d-4193-b530-44e6ce124e27")
+		(property "Datasheet" ""
+			(at 134.62 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(pin "DIV_OUT" output
-			(at 72.39 71.12 0)
-			(uuid "87f54e89-bd6d-4204-9c61-d5e701a79d1d")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
+		)
+		(pin "1"
+			(uuid "de8ebb83-890c-4a1d-8ca5-f3d6cd15b5d2")
 		)
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "19")
+					(reference "#PWR018")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 53.34 130.81)
-		(size 19.05 3.81)
+(symbol
+		(lib_id "power:GND")
+		(at 83.82 119.38 0)
+		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "10c42098-5039-4417-b0fa-82490026c41a")
-		(property "Sheetname" "NTC_DIVIDER20"
-			(at 53.34 130.0984 0)
+		(uuid "626466c9-43b1-4cbf-9cf4-325f53672db6")
+		(property "Reference" "#PWR019"
+			(at 83.82 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4265,11 +3412,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 53.34 135.2046 0)
+		(property "Value" "GND"
+			(at 83.82 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4277,55 +3433,89 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(pin "NTC_IN" input
-			(at 53.34 132.08 180)
-			(uuid "2305337d-9c66-40d6-922f-e2194a650c20")
+		(property "Datasheet" ""
+			(at 134.62 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(pin "DIV_OUT" output
-			(at 72.39 132.08 0)
-			(uuid "e3c9e8c4-94fa-4e9f-b6be-5573abb3a458")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
+		)
+		(pin "1"
+			(uuid "dac7a273-85d1-4e50-ab63-888a8ee9eba3")
 		)
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "27")
+					(reference "#PWR019")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 53.34 162.56)
-		(size 19.05 3.81)
+(symbol
+		(lib_id "74xx:CD74HC4067SM")
+		(at 218.44 83.82 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
+		(uuid "00eebe54-1913-491d-8e91-290a3bffadd9")
+		(property "Reference" "U9"
+			(at 218.44 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				)
 		)
-		(fill
-			(color 0 0 0 0)
+		(property "Value" "CD74HC4067SM"
+			(at 218.44 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				)
 		)
-		(uuid "1abb8148-76e7-4b39-9583-a8386fd8bc6b")
-		(property "Sheetname" "NTC_DIVIDER30"
-			(at 53.34 161.8484 0)
+		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+			(at 93.98 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
+			(at 129.54 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4333,11 +3523,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 53.34 166.9546 0)
+		(property "Description" "High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, SSOP-24"
+			(at 120.65 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,190 +3534,207 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(pin "NTC_IN" input
-			(at 53.34 163.83 180)
-			(uuid "75aed619-2a40-46e3-8582-1c8f36f318b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+		(pin "21"
+			(uuid "ae8a3ab7-d114-4a28-88f8-972082f9a307")
 		)
-		(pin "DIV_OUT" output
-			(at 72.39 163.83 0)
-			(uuid "b5f0e3c3-16b0-4147-a4eb-589edb2f7fc2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
+		(pin "14"
+			(uuid "0fc704b1-4a35-48e8-b3de-559fe06068cd")
+		)
+		(pin "6"
+			(uuid "22407662-4ef3-4a56-86d4-efab71959629")
+		)
+		(pin "11"
+			(uuid "9a136c61-439d-4404-b95b-af47eca832d6")
+		)
+		(pin "5"
+			(uuid "235f6854-17c2-4525-825d-385612e04425")
+		)
+		(pin "9"
+			(uuid "a9ea7394-3e6a-42ce-a0e9-f14591f559c5")
+		)
+		(pin "2"
+			(uuid "896fc8dd-ecee-47b4-b59a-ba208e669fce")
+		)
+		(pin "22"
+			(uuid "428aecae-3896-4d88-a68f-b23795526c7b")
+		)
+		(pin "19"
+			(uuid "da3c9d87-dec4-49b5-a73f-bd0bf6f396df")
+		)
+		(pin "4"
+			(uuid "6aec1d5d-63a5-4bd7-ab23-5e974b317379")
+		)
+		(pin "24"
+			(uuid "067f8588-77b1-4545-9623-6eab70707536")
+		)
+		(pin "18"
+			(uuid "e0a83390-d571-4fbe-81eb-6ac716529346")
+		)
+		(pin "13"
+			(uuid "08ccc744-eea9-4f9c-8cb6-734a53b0c551")
+		)
+		(pin "10"
+			(uuid "9148d72f-fe4b-49c3-baee-25b26dabf6f6")
+		)
+		(pin "20"
+			(uuid "aa5119ed-efae-4990-ae93-ad7612b45a4e")
+		)
+		(pin "3"
+			(uuid "5706d85d-91f5-4606-9624-272433c89800")
+		)
+		(pin "15"
+			(uuid "cae7a64c-93aa-43dd-a7b1-75dea9f0459f")
+		)
+		(pin "12"
+			(uuid "5dc48510-e654-44e0-9c02-cb517e1f6139")
+		)
+		(pin "7"
+			(uuid "2fb00ac3-b571-471b-aa8e-b24a0e2e7980")
+		)
+		(pin "8"
+			(uuid "e5ae1ee1-2db9-4398-ab03-ada9ec1e40cf")
+		)
+		(pin "23"
+			(uuid "a293f5ae-ec03-4f16-801e-0f635721ad02")
+		)
+		(pin "17"
+			(uuid "f67472ea-9376-466c-9089-86583c0bd9bc")
+		)
+		(pin "1"
+			(uuid "17269850-a116-4a6e-a6f9-3845a09545f3")
+		)
+		(pin "16"
+			(uuid "dd451398-2e6c-4741-a96c-4d2c8103dda2")
 		)
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "37")
+					(reference "U9")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 53.34 156.21)
-		(size 19.05 3.81)
+(symbol
+		(lib_id "Device:C_Small")
+		(at 218.44 50.80 180)
+		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "1f6168ab-8198-4d5b-a53b-115f56999c07")
-		(property "Sheetname" "NTC_DIVIDER28"
-			(at 53.34 155.4984 0)
-			(hide yes)
+		(uuid "b9a3265a-adca-42a9-b7dd-ddc2d6bbe0b2")
+		(property "Reference" "C26"
+			(at 220.98 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 53.34 160.6046 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NTC_IN" input
-			(at 53.34 157.48 180)
-			(uuid "7575c830-39dc-4ca7-8c0c-5ec2c34ae43d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(justify left)
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
-		(pin "DIV_OUT" output
-			(at 72.39 157.48 0)
-			(uuid "cd00b66c-2bcc-406c-b4df-4148d0022e70")
+		(property "Value" "100 nF"
+			(at 220.98 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(justify left)
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 129.54 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "1.36"
+			(at 129.54 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" "https://www.etstore.in/collections/all/smd-capacitors?page=4"
+			(at 129.54 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1e1a45cf-dc37-42b8-a22d-cc0a4bef3f5b")
+		)
+		(pin "1"
+			(uuid "70ffd981-28ad-45f1-b352-aafc080803ed")
 		)
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "35")
+					(reference "C26")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 73.66 152.4)
-		(size 19.05 3.81)
+(symbol
+		(lib_id "power:+3V3")
+		(at 223.52 53.34 0)
+		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "2c730f05-88a2-4bbd-b341-f80df5c9e9ee")
-		(property "Sheetname" "NTC_DIVIDER27"
-			(at 73.66 151.6884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 156.7946 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NTC_IN" input
-			(at 73.66 154.94 180)
-			(uuid "00d3af37-01b5-4c43-982f-a56631592038")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIV_OUT" output
-			(at 92.71 153.67 0)
-			(uuid "e4a9c033-a0f4-4ab3-835c-d2dcfbf6153e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "34")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 53.34 57.15)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "340a704b-b98b-4c10-9a3d-e945aeb78149")
-		(property "Sheetname" "NTC_DIVIDER8"
-			(at 53.34 56.4384 0)
+		(uuid "0551b416-3df4-4ca7-ae4d-b80068dbaf95")
+		(property "Reference" "#PWR014"
+			(at 223.52 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4536,11 +3742,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 53.34 61.5446 0)
+		(property "Value" "+3V3"
+			(at 223.52 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4548,55 +3763,56 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(pin "NTC_IN" input
-			(at 53.34 58.42 180)
-			(uuid "5e4f35bf-9ab5-4ce7-8fbd-7d30656c2e82")
+		(property "Datasheet" ""
+			(at 120.65 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(pin "DIV_OUT" output
-			(at 72.39 58.42 0)
-			(uuid "69f4d760-9156-47c8-ad2e-af33f37404be")
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 120.65 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
+		)
+		(pin "1"
+			(uuid "2483bdb5-b65d-466d-bedc-8f46ef84db2b")
 		)
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "15")
+					(reference "#PWR014")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 53.34 137.16)
-		(size 19.05 3.81)
+(symbol
+		(lib_id "power:GND")
+		(at 218.44 45.72 0)
+		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "371a00d6-ee82-4b50-ba21-02b197a96d7a")
-		(property "Sheetname" "NTC_DIVIDER22"
-			(at 53.34 136.4484 0)
+		(uuid "a9ca747c-8c14-4abf-9de9-270daa463f68")
+		(property "Reference" "#PWR016"
+			(at 218.44 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4604,11 +3820,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 53.34 141.5546 0)
+		(property "Value" "GND"
+			(at 218.44 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4616,55 +3841,56 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(pin "NTC_IN" input
-			(at 53.34 138.43 180)
-			(uuid "0eb68f82-676d-4b5a-a4cc-78ab1ef9c705")
+		(property "Datasheet" ""
+			(at 120.65 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(pin "DIV_OUT" output
-			(at 72.39 138.43 0)
-			(uuid "87cc9c45-cbc8-49d0-a8c9-1f096a7cc116")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
+		)
+		(pin "1"
+			(uuid "f89c1c5c-a6db-41c5-8895-f41b39707e7a")
 		)
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "29")
+					(reference "#PWR016")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 53.34 44.45)
-		(size 19.05 3.81)
+(symbol
+		(lib_id "power:GND")
+		(at 218.44 119.38 0)
+		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "3a037c99-4972-462c-a94f-1ce260c6ad47")
-		(property "Sheetname" "NTC_DIVIDER4"
-			(at 53.34 43.7384 0)
+		(uuid "93f64121-4d52-4c99-85a7-07a801146cc4")
+		(property "Reference" "#PWR017"
+			(at 218.44 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4672,11 +3898,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 53.34 48.8446 0)
+		(property "Value" "GND"
+			(at 218.44 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4684,39 +3919,44 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(pin "NTC_IN" input
-			(at 53.34 45.72 180)
-			(uuid "424ca605-58ed-4584-8c5c-ccc680ce60db")
+		(property "Datasheet" ""
+			(at 120.65 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(pin "DIV_OUT" output
-			(at 72.39 45.72 0)
-			(uuid "d70a5221-e6aa-4399-a367-9fc0cea9e132")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
+		)
+		(pin "1"
+			(uuid "f89c1c5c-a6db-41c5-8895-f41b39707e79")
 		)
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "11")
+					(reference "#PWR017")
+					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 53.34 31.75)
+(sheet
+		(at 33.02 44.45)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4756,7 +3996,7 @@
 			)
 		)
 		(pin "NTC_IN" input
-			(at 53.34 33.02 180)
+			(at 33.02 45.72 180)
 			(uuid "37cab753-d513-4997-90df-689b155ca89a")
 			(effects
 				(font
@@ -4766,7 +4006,7 @@
 			)
 		)
 		(pin "DIV_OUT" output
-			(at 72.39 33.02 0)
+			(at 52.07 45.72 0)
 			(uuid "ea7c79b6-729e-48e1-bc25-8f484db181e6")
 			(effects
 				(font
@@ -4783,8 +4023,8 @@
 			)
 		)
 	)
-	(sheet
-		(at 73.66 34.29)
+(sheet
+		(at 33.02 49.53)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4823,7 +4063,7 @@
 			)
 		)
 		(pin "NTC_IN" input
-			(at 73.66 36.83 180)
+			(at 33.02 50.80 180)
 			(uuid "b176708d-1a94-414a-b2c8-1755641bfcf5")
 			(effects
 				(font
@@ -4833,7 +4073,7 @@
 			)
 		)
 		(pin "DIV_OUT" output
-			(at 92.71 35.56 0)
+			(at 52.07 50.80 0)
 			(uuid "a76147a4-df7f-4b6a-9a0d-17bd17a4b707")
 			(effects
 				(font
@@ -4850,345 +4090,8 @@
 			)
 		)
 	)
-	(sheet
-		(at 73.66 78.74)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "468652de-2886-4858-b9b8-63547db63488")
-		(property "Sheetname" "NTC_DIVIDER15"
-			(at 73.66 78.0284 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 83.1346 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NTC_IN" input
-			(at 73.66 81.28 180)
-			(uuid "abb348f3-19d7-4aee-9cdc-d10ebc00986d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIV_OUT" output
-			(at 92.71 80.01 0)
-			(uuid "d8151b99-5458-455d-a258-0ed04d27eb78")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "22")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 53.34 63.5)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "4adc89c6-5cf4-4bc7-ac68-bb4c8d93e64d")
-		(property "Sheetname" "NTC_DIVIDER10"
-			(at 53.34 62.7884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 53.34 67.8946 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NTC_IN" input
-			(at 53.34 64.77 180)
-			(uuid "4c311e8d-b9e2-4bf7-8691-4c2db275e06a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIV_OUT" output
-			(at 72.39 64.77 0)
-			(uuid "530b1a78-cda9-4c69-b793-275899d807c1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "17")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 53.34 50.8)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "4fc7913e-a38f-4db1-8685-883488d8efd8")
-		(property "Sheetname" "NTC_DIVIDER6"
-			(at 53.34 50.0884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 53.34 55.1946 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NTC_IN" input
-			(at 53.34 52.07 180)
-			(uuid "b9f4b2bd-2683-4b0b-8c6a-ca83f6a28cf8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIV_OUT" output
-			(at 72.39 52.07 0)
-			(uuid "cc40f8ac-b1fa-488d-b51c-06277d8d7fb5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 73.66 72.39)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "577b228c-d24c-4446-921c-8c118461e278")
-		(property "Sheetname" "NTC_DIVIDER13"
-			(at 73.66 71.6784 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 76.7846 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NTC_IN" input
-			(at 73.66 74.93 180)
-			(uuid "6c861ec0-e504-4000-afef-ad12a3a12ac7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIV_OUT" output
-			(at 92.71 73.66 0)
-			(uuid "f1f312c2-7d20-4139-b387-d1b95999a45e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "20")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 73.66 46.99)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "5c0d639f-a7d8-4376-b564-b3d9cb777cc4")
-		(property "Sheetname" "NTC_DIVIDER5"
-			(at 73.66 46.2784 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 51.3846 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NTC_IN" input
-			(at 73.66 49.53 180)
-			(uuid "f17ba204-6e6b-4a05-8c1f-f73882868da2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIV_OUT" output
-			(at 92.71 48.26 0)
-			(uuid "29d40290-7de7-43a6-a88d-c17cb55759ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 53.34 38.1)
+(sheet
+		(at 33.02 54.61)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5228,7 +4131,7 @@
 			)
 		)
 		(pin "NTC_IN" input
-			(at 53.34 39.37 180)
+			(at 33.02 55.88 180)
 			(uuid "fcd37d6c-dec1-4bf8-951d-f5513c881dc7")
 			(effects
 				(font
@@ -5238,7 +4141,7 @@
 			)
 		)
 		(pin "DIV_OUT" output
-			(at 72.39 39.37 0)
+			(at 52.07 55.88 0)
 			(uuid "c8119c06-99ed-4062-a37b-43c00468b460")
 			(effects
 				(font
@@ -5255,8 +4158,750 @@
 			)
 		)
 	)
-	(sheet
-		(at 53.34 76.2)
+(sheet
+		(at 33.02 59.69)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d9e4acca-173e-46d9-90a1-2e872dc7e1c1")
+		(property "Sheetname" "NTC_DIVIDER3"
+			(at 73.66 39.9284 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 73.66 45.0346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 33.02 60.96 180)
+			(uuid "061877cc-6b52-4e5c-9215-94f435f68676")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 52.07 60.96 0)
+			(uuid "84db2b9e-7f76-443e-a148-b085994456ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "10")
+				)
+			)
+		)
+	)
+(sheet
+		(at 33.02 64.77)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3a037c99-4972-462c-a94f-1ce260c6ad47")
+		(property "Sheetname" "NTC_DIVIDER4"
+			(at 53.34 43.7384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 53.34 48.8446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 33.02 66.04 180)
+			(uuid "424ca605-58ed-4584-8c5c-ccc680ce60db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 52.07 66.04 0)
+			(uuid "d70a5221-e6aa-4399-a367-9fc0cea9e132")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "11")
+				)
+			)
+		)
+	)
+(sheet
+		(at 33.02 69.85)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5c0d639f-a7d8-4376-b564-b3d9cb777cc4")
+		(property "Sheetname" "NTC_DIVIDER5"
+			(at 73.66 46.2784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 73.66 51.3846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 33.02 71.12 180)
+			(uuid "f17ba204-6e6b-4a05-8c1f-f73882868da2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 52.07 71.12 0)
+			(uuid "29d40290-7de7-43a6-a88d-c17cb55759ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "12")
+				)
+			)
+		)
+	)
+(sheet
+		(at 33.02 74.93)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4fc7913e-a38f-4db1-8685-883488d8efd8")
+		(property "Sheetname" "NTC_DIVIDER6"
+			(at 53.34 50.0884 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 53.34 55.1946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 33.02 76.20 180)
+			(uuid "b9f4b2bd-2683-4b0b-8c6a-ca83f6a28cf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 52.07 76.20 0)
+			(uuid "cc40f8ac-b1fa-488d-b51c-06277d8d7fb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "13")
+				)
+			)
+		)
+	)
+(sheet
+		(at 33.02 80.01)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b7bdfbff-0b5b-4db3-b4d5-fd287c8a5103")
+		(property "Sheetname" "NTC_DIVIDER7"
+			(at 73.66 52.6284 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 73.66 57.7346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 33.02 81.28 180)
+			(uuid "13d9c560-1b6d-42b9-9511-5b8bd467f0ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 52.07 81.28 0)
+			(uuid "4bde3b19-223e-4113-83bb-6fb4bb6eb8f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "14")
+				)
+			)
+		)
+	)
+(sheet
+		(at 33.02 85.09)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "340a704b-b98b-4c10-9a3d-e945aeb78149")
+		(property "Sheetname" "NTC_DIVIDER8"
+			(at 53.34 56.4384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 53.34 61.5446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 33.02 86.36 180)
+			(uuid "5e4f35bf-9ab5-4ce7-8fbd-7d30656c2e82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 52.07 86.36 0)
+			(uuid "69f4d760-9156-47c8-ad2e-af33f37404be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "15")
+				)
+			)
+		)
+	)
+(sheet
+		(at 33.02 90.17)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f1809e51-3c2c-4bf9-99c6-5160589b2934")
+		(property "Sheetname" "NTC_DIVIDER9"
+			(at 73.66 58.9784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 73.66 64.0846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 33.02 91.44 180)
+			(uuid "2df8c34d-955c-4b6b-8092-2eecd4035173")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 52.07 91.44 0)
+			(uuid "91ee2a4e-e6ed-4a89-9cb1-2e448308633a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "16")
+				)
+			)
+		)
+	)
+(sheet
+		(at 33.02 95.25)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4adc89c6-5cf4-4bc7-ac68-bb4c8d93e64d")
+		(property "Sheetname" "NTC_DIVIDER10"
+			(at 53.34 62.7884 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 53.34 67.8946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 33.02 96.52 180)
+			(uuid "4c311e8d-b9e2-4bf7-8691-4c2db275e06a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 52.07 96.52 0)
+			(uuid "530b1a78-cda9-4c69-b793-275899d807c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "17")
+				)
+			)
+		)
+	)
+(sheet
+		(at 33.02 100.33)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ee52b944-eed1-45a0-a0d0-dc86ccb51ff5")
+		(property "Sheetname" "NTC_DIVIDER11"
+			(at 73.66 65.3284 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 73.66 70.4346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 33.02 101.60 180)
+			(uuid "debe38d0-b45e-48ee-9fff-6966d511bc22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 52.07 101.60 0)
+			(uuid "49b8c48c-5d6c-4c89-b456-b2f80807d7fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "18")
+				)
+			)
+		)
+	)
+(sheet
+		(at 33.02 105.41)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0f786bd8-0573-41be-949f-2318d83a12b7")
+		(property "Sheetname" "NTC_DIVIDER12"
+			(at 53.34 69.1384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 53.34 74.2446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 33.02 106.68 180)
+			(uuid "9a87b7e6-5b6d-4193-b530-44e6ce124e27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 52.07 106.68 0)
+			(uuid "87f54e89-bd6d-4204-9c61-d5e701a79d1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "19")
+				)
+			)
+		)
+	)
+(sheet
+		(at 33.02 110.49)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "577b228c-d24c-4446-921c-8c118461e278")
+		(property "Sheetname" "NTC_DIVIDER13"
+			(at 73.66 71.6784 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 73.66 76.7846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 33.02 111.76 180)
+			(uuid "6c861ec0-e504-4000-afef-ad12a3a12ac7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 52.07 111.76 0)
+			(uuid "f1f312c2-7d20-4139-b387-d1b95999a45e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "20")
+				)
+			)
+		)
+	)
+(sheet
+		(at 33.02 115.57)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5296,7 +4941,7 @@
 			)
 		)
 		(pin "NTC_IN" input
-			(at 53.34 77.47 180)
+			(at 33.02 116.84 180)
 			(uuid "6b290a38-1df4-4691-8da1-4e85277426ed")
 			(effects
 				(font
@@ -5306,7 +4951,7 @@
 			)
 		)
 		(pin "DIV_OUT" output
-			(at 72.39 77.47 0)
+			(at 52.07 116.84 0)
 			(uuid "ebcdb40a-369d-49d5-8afd-110d113a2e91")
 			(effects
 				(font
@@ -5323,8 +4968,8 @@
 			)
 		)
 	)
-	(sheet
-		(at 73.66 133.35)
+(sheet
+		(at 33.02 120.65)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5337,9 +4982,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "8e88053c-4622-46ea-ac5b-473d794ba7e5")
-		(property "Sheetname" "NTC_DIVIDER21"
-			(at 73.66 132.6384 0)
+		(uuid "468652de-2886-4858-b9b8-63547db63488")
+		(property "Sheetname" "NTC_DIVIDER15"
+			(at 73.66 78.0284 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5351,7 +4996,7 @@
 			)
 		)
 		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 137.7446 0)
+			(at 73.66 83.1346 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5363,8 +5008,8 @@
 			)
 		)
 		(pin "NTC_IN" input
-			(at 73.66 135.89 180)
-			(uuid "386905f5-e0cd-4f30-8759-a2c088d5f3f8")
+			(at 33.02 121.92 180)
+			(uuid "abb348f3-19d7-4aee-9cdc-d10ebc00986d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,8 +5018,8 @@
 			)
 		)
 		(pin "DIV_OUT" output
-			(at 92.71 134.62 0)
-			(uuid "cdb9b6b0-c422-409b-a64a-d4cc3d6c8226")
+			(at 52.07 121.92 0)
+			(uuid "d8151b99-5458-455d-a258-0ed04d27eb78")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,13 +5030,81 @@
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "28")
+					(page "22")
 				)
 			)
 		)
 	)
-	(sheet
-		(at 73.66 139.7)
+(sheet
+		(at 167.64 44.45)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "051237b3-78c5-4aa1-ac7d-46f3f82e6e8f")
+		(property "Sheetname" "NTC_DIVIDER16"
+			(at 53.34 117.3984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 53.34 122.5046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 167.64 45.72 180)
+			(uuid "2014ca26-16d8-470a-8e62-d98c5b355109")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 186.69 45.72 0)
+			(uuid "b6f7bda9-0164-4624-898d-a9008db27019")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "23")
+				)
+			)
+		)
+	)
+(sheet
+		(at 167.64 49.53)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5404,9 +5117,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "9edc6509-485d-40a4-87a5-9d86563faf08")
-		(property "Sheetname" "NTC_DIVIDER23"
-			(at 73.66 138.9884 0)
+		(uuid "06606d0c-41b2-4fbd-a6eb-47881dff400f")
+		(property "Sheetname" "NTC_DIVIDER17"
+			(at 73.66 119.9384 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5418,7 +5131,7 @@
 			)
 		)
 		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 144.0946 0)
+			(at 73.66 125.0446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,8 +5143,8 @@
 			)
 		)
 		(pin "NTC_IN" input
-			(at 73.66 142.24 180)
-			(uuid "14d7badf-ce01-41a0-b218-f6e7ea0ce2e2")
+			(at 167.64 50.80 180)
+			(uuid "b7260371-af41-48b7-89e6-ecc3436452db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,8 +5153,8 @@
 			)
 		)
 		(pin "DIV_OUT" output
-			(at 92.71 140.97 0)
-			(uuid "e27fd71f-9f56-47ad-9ae9-48f9c3f11ca5")
+			(at 186.69 50.80 0)
+			(uuid "52949022-11b4-4b21-bcd8-883c93e635bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,147 +5165,13 @@
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "30")
+					(page "24")
 				)
 			)
 		)
 	)
-	(sheet
-		(at 73.66 165.1)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "b171963a-31c5-4805-bbae-18dfcbc60d72")
-		(property "Sheetname" "NTC_DIVIDER31"
-			(at 73.66 164.3884 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 169.4946 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NTC_IN" input
-			(at 73.66 167.64 180)
-			(uuid "17af2662-ae86-443c-874c-a6e03335a7f0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIV_OUT" output
-			(at 92.71 166.37 0)
-			(uuid "ca449268-91db-4bec-95e4-1084efce2560")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "38")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 73.66 53.34)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "b7bdfbff-0b5b-4db3-b4d5-fd287c8a5103")
-		(property "Sheetname" "NTC_DIVIDER7"
-			(at 73.66 52.6284 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 57.7346 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NTC_IN" input
-			(at 73.66 55.88 180)
-			(uuid "13d9c560-1b6d-42b9-9511-5b8bd467f0ab")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIV_OUT" output
-			(at 92.71 54.61 0)
-			(uuid "4bde3b19-223e-4113-83bb-6fb4bb6eb8f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 53.34 124.46)
+(sheet
+		(at 167.64 54.61)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5632,7 +5211,7 @@
 			)
 		)
 		(pin "NTC_IN" input
-			(at 53.34 125.73 180)
+			(at 167.64 55.88 180)
 			(uuid "67b0b5cb-5adf-42da-be8e-aa3e2994fc9f")
 			(effects
 				(font
@@ -5642,7 +5221,7 @@
 			)
 		)
 		(pin "DIV_OUT" output
-			(at 72.39 125.73 0)
+			(at 186.69 55.88 0)
 			(uuid "ad2becae-89cb-42b6-a42b-177db39ca66a")
 			(effects
 				(font
@@ -5659,8 +5238,8 @@
 			)
 		)
 	)
-	(sheet
-		(at 73.66 40.64)
+(sheet
+		(at 167.64 59.69)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5673,9 +5252,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "d9e4acca-173e-46d9-90a1-2e872dc7e1c1")
-		(property "Sheetname" "NTC_DIVIDER3"
-			(at 73.66 39.9284 0)
+		(uuid "02f3812d-3541-4d7e-a9af-642094096de7")
+		(property "Sheetname" "NTC_DIVIDER19"
+			(at 73.66 126.2884 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +5266,7 @@
 			)
 		)
 		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 45.0346 0)
+			(at 73.66 131.3946 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5699,8 +5278,8 @@
 			)
 		)
 		(pin "NTC_IN" input
-			(at 73.66 43.18 180)
-			(uuid "061877cc-6b52-4e5c-9215-94f435f68676")
+			(at 167.64 60.96 180)
+			(uuid "8fc17941-4cdb-42c6-9fa0-571298733a50")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,8 +5288,8 @@
 			)
 		)
 		(pin "DIV_OUT" output
-			(at 92.71 41.91 0)
-			(uuid "84db2b9e-7f76-443e-a148-b085994456ff")
+			(at 186.69 60.96 0)
+			(uuid "d8117fce-5541-4ed4-ac59-1253d420bfeb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,13 +5300,13 @@
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "10")
+					(page "26")
 				)
 			)
 		)
 	)
-	(sheet
-		(at 53.34 149.86)
+(sheet
+		(at 167.64 64.77)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5741,9 +5320,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "e29d1041-01b2-471f-a2e6-8ce6d7cb9948")
-		(property "Sheetname" "NTC_DIVIDER26"
-			(at 53.34 149.1484 0)
+		(uuid "10c42098-5039-4417-b0fa-82490026c41a")
+		(property "Sheetname" "NTC_DIVIDER20"
+			(at 53.34 130.0984 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5755,7 +5334,7 @@
 			)
 		)
 		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 53.34 154.2546 0)
+			(at 53.34 135.2046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5767,8 +5346,8 @@
 			)
 		)
 		(pin "NTC_IN" input
-			(at 53.34 151.13 180)
-			(uuid "41f061f4-d280-45a9-a45b-d40538a6354f")
+			(at 167.64 66.04 180)
+			(uuid "2305337d-9c66-40d6-922f-e2194a650c20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,8 +5356,8 @@
 			)
 		)
 		(pin "DIV_OUT" output
-			(at 72.39 151.13 0)
-			(uuid "d7cd7bc3-e101-4fd4-ba7e-b9f1ce908989")
+			(at 186.69 66.04 0)
+			(uuid "e3c9e8c4-94fa-4e9f-b6be-5573abb3a458")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,13 +5368,13 @@
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "33")
+					(page "27")
 				)
 			)
 		)
 	)
-	(sheet
-		(at 73.66 66.04)
+(sheet
+		(at 167.64 69.85)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5808,9 +5387,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "ee52b944-eed1-45a0-a0d0-dc86ccb51ff5")
-		(property "Sheetname" "NTC_DIVIDER11"
-			(at 73.66 65.3284 0)
+		(uuid "8e88053c-4622-46ea-ac5b-473d794ba7e5")
+		(property "Sheetname" "NTC_DIVIDER21"
+			(at 73.66 132.6384 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5822,7 +5401,7 @@
 			)
 		)
 		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 70.4346 0)
+			(at 73.66 137.7446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5834,8 +5413,8 @@
 			)
 		)
 		(pin "NTC_IN" input
-			(at 73.66 68.58 180)
-			(uuid "debe38d0-b45e-48ee-9fff-6966d511bc22")
+			(at 167.64 71.12 180)
+			(uuid "386905f5-e0cd-4f30-8759-a2c088d5f3f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5844,8 +5423,8 @@
 			)
 		)
 		(pin "DIV_OUT" output
-			(at 92.71 67.31 0)
-			(uuid "49b8c48c-5d6c-4c89-b456-b2f80807d7fb")
+			(at 186.69 71.12 0)
+			(uuid "cdb9b6b0-c422-409b-a64a-d4cc3d6c8226")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5856,13 +5435,81 @@
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "18")
+					(page "28")
 				)
 			)
 		)
 	)
-	(sheet
-		(at 73.66 146.05)
+(sheet
+		(at 167.64 74.93)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "371a00d6-ee82-4b50-ba21-02b197a96d7a")
+		(property "Sheetname" "NTC_DIVIDER22"
+			(at 53.34 136.4484 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 53.34 141.5546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 167.64 76.20 180)
+			(uuid "0eb68f82-676d-4b5a-a4cc-78ab1ef9c705")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 186.69 76.20 0)
+			(uuid "87cc9c45-cbc8-49d0-a8c9-1f096a7cc116")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "29")
+				)
+			)
+		)
+	)
+(sheet
+		(at 167.64 80.01)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5875,9 +5522,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "ef0d24b0-0197-40ef-8f72-d54066568717")
-		(property "Sheetname" "NTC_DIVIDER25"
-			(at 73.66 145.3384 0)
+		(uuid "9edc6509-485d-40a4-87a5-9d86563faf08")
+		(property "Sheetname" "NTC_DIVIDER23"
+			(at 73.66 138.9884 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5889,7 +5536,7 @@
 			)
 		)
 		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 150.4446 0)
+			(at 73.66 144.0946 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5901,8 +5548,8 @@
 			)
 		)
 		(pin "NTC_IN" input
-			(at 73.66 148.59 180)
-			(uuid "879ef3e2-6b24-4a76-b665-ce763f7849e8")
+			(at 167.64 81.28 180)
+			(uuid "14d7badf-ce01-41a0-b218-f6e7ea0ce2e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,8 +5558,8 @@
 			)
 		)
 		(pin "DIV_OUT" output
-			(at 92.71 147.32 0)
-			(uuid "a1071bb6-cb67-4d30-9fb3-adcb08e25a99")
+			(at 186.69 81.28 0)
+			(uuid "e27fd71f-9f56-47ad-9ae9-48f9c3f11ca5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,80 +5570,13 @@
 		(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "32")
+					(page "30")
 				)
 			)
 		)
 	)
-	(sheet
-		(at 73.66 59.69)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "f1809e51-3c2c-4bf9-99c6-5160589b2934")
-		(property "Sheetname" "NTC_DIVIDER9"
-			(at 73.66 58.9784 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
-			(at 73.66 64.0846 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "NTC_IN" input
-			(at 73.66 62.23 180)
-			(uuid "2df8c34d-955c-4b6b-8092-2eecd4035173")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DIV_OUT" output
-			(at 92.71 60.96 0)
-			(uuid "91ee2a4e-e6ed-4a89-9cb1-2e448308633a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
-					(page "16")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 53.34 143.51)
+(sheet
+		(at 167.64 85.09)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6036,7 +5616,7 @@
 			)
 		)
 		(pin "NTC_IN" input
-			(at 53.34 144.78 180)
+			(at 167.64 86.36 180)
 			(uuid "84db2657-2ef0-4d31-b1ed-8bda167d5954")
 			(effects
 				(font
@@ -6046,7 +5626,7 @@
 			)
 		)
 		(pin "DIV_OUT" output
-			(at 72.39 144.78 0)
+			(at 186.69 86.36 0)
 			(uuid "c910f32c-d616-4925-8b99-8b6638cd0fc9")
 			(effects
 				(font
@@ -6059,6 +5639,478 @@
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
 					(page "31")
+				)
+			)
+		)
+	)
+(sheet
+		(at 167.64 90.17)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ef0d24b0-0197-40ef-8f72-d54066568717")
+		(property "Sheetname" "NTC_DIVIDER25"
+			(at 73.66 145.3384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 73.66 150.4446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 167.64 91.44 180)
+			(uuid "879ef3e2-6b24-4a76-b665-ce763f7849e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 186.69 91.44 0)
+			(uuid "a1071bb6-cb67-4d30-9fb3-adcb08e25a99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "32")
+				)
+			)
+		)
+	)
+(sheet
+		(at 167.64 95.25)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e29d1041-01b2-471f-a2e6-8ce6d7cb9948")
+		(property "Sheetname" "NTC_DIVIDER26"
+			(at 53.34 149.1484 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 53.34 154.2546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 167.64 96.52 180)
+			(uuid "41f061f4-d280-45a9-a45b-d40538a6354f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 186.69 96.52 0)
+			(uuid "d7cd7bc3-e101-4fd4-ba7e-b9f1ce908989")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "33")
+				)
+			)
+		)
+	)
+(sheet
+		(at 167.64 100.33)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2c730f05-88a2-4bbd-b341-f80df5c9e9ee")
+		(property "Sheetname" "NTC_DIVIDER27"
+			(at 73.66 151.6884 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 73.66 156.7946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 167.64 101.60 180)
+			(uuid "00d3af37-01b5-4c43-982f-a56631592038")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 186.69 101.60 0)
+			(uuid "e4a9c033-a0f4-4ab3-835c-d2dcfbf6153e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "34")
+				)
+			)
+		)
+	)
+(sheet
+		(at 167.64 105.41)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1f6168ab-8198-4d5b-a53b-115f56999c07")
+		(property "Sheetname" "NTC_DIVIDER28"
+			(at 53.34 155.4984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 53.34 160.6046 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 167.64 106.68 180)
+			(uuid "7575c830-39dc-4ca7-8c0c-5ec2c34ae43d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 186.69 106.68 0)
+			(uuid "cd00b66c-2bcc-406c-b4df-4148d0022e70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "35")
+				)
+			)
+		)
+	)
+(sheet
+		(at 167.64 110.49)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0575c0ab-ee99-498b-ab50-1a4daef01e28")
+		(property "Sheetname" "NTC_DIVIDER29"
+			(at 73.66 158.0384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 73.66 163.1446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 167.64 111.76 180)
+			(uuid "2b52c9fa-5b76-4366-96e6-45579fdcd2c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 186.69 111.76 0)
+			(uuid "57e5d1f4-df78-4022-8ec5-fbd48d8c7346")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "36")
+				)
+			)
+		)
+	)
+(sheet
+		(at 167.64 115.57)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1abb8148-76e7-4b39-9583-a8386fd8bc6b")
+		(property "Sheetname" "NTC_DIVIDER30"
+			(at 53.34 161.8484 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 53.34 166.9546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 167.64 116.84 180)
+			(uuid "75aed619-2a40-46e3-8582-1c8f36f318b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 186.69 116.84 0)
+			(uuid "b5f0e3c3-16b0-4147-a4eb-589edb2f7fc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "37")
+				)
+			)
+		)
+	)
+(sheet
+		(at 167.64 120.65)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b171963a-31c5-4805-bbae-18dfcbc60d72")
+		(property "Sheetname" "NTC_DIVIDER31"
+			(at 73.66 164.3884 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_1_NTC_DIVIDER.kicad_sch"
+			(at 73.66 169.4946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_IN" input
+			(at 167.64 121.92 180)
+			(uuid "17af2662-ae86-443c-874c-a6e03335a7f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIV_OUT" output
+			(at 186.69 121.92 0)
+			(uuid "ca449268-91db-4bec-95e4-1084efce2560")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/7090fe59-967a-4394-a71a-4c6c250e412b"
+					(page "38")
 				)
 			)
 		)
