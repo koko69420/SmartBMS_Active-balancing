@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/mnt/AVK-Vault/kaust/Projects_while_engg/BMS/esp32_gateway/esp32_gateway.kicad_sch")
-		(date "2026-11-06T11:42:36")
+		(date "2026-11-06T16:50:33")
 		(tool "Eeschema 10.0.7")
 		(sheet
 			(number "1")
@@ -11,7 +11,7 @@
 			(title_block
 				(title "ESP32-C6 Gateway Board")
 				(company)
-				(rev "1.0")
+				(rev "1.1")
 				(date "2026-11-06")
 				(source "esp32_gateway.kicad_sch")
 				(comment
@@ -56,15 +56,15 @@
 	(components
 		(comp
 			(ref "C1")
-			(value "100uF")
+			(value "100 µF 10V")
 			(footprint "Capacitor_SMD:CP_Elec_6.3x5.4")
-			(datasheet "~")
 			(description "Polarized capacitor, 100uF 10V")
 			(fields
 				(field
 					(name "Footprint") "Capacitor_SMD:CP_Elec_6.3x5.4")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
 					(name "Description") "Polarized capacitor, 100uF 10V")
 			)
@@ -93,7 +93,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a853bfd3-0916-4b10-9716-e6db05e34fdf")
+			(tstamps "fa6171b9-5c5e-4154-a76b-9a17bde91e7a")
 			(units
 				(unit
 					(name "A")
@@ -110,15 +110,15 @@
 		)
 		(comp
 			(ref "C2")
-			(value "100nF")
+			(value "100 nF")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(datasheet "~")
 			(description "Ceramic capacitor, 100nF 50V")
 			(fields
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
 					(name "Description") "Ceramic capacitor, 100nF 50V")
 			)
@@ -147,7 +147,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "219eb906-234e-432d-a8dc-e4f55a725a11")
+			(tstamps "5e8e7fe1-ce45-4bc2-8352-46cf191bbfd9")
 			(units
 				(unit
 					(name "A")
@@ -164,17 +164,17 @@
 		)
 		(comp
 			(ref "C3")
-			(value "100nF")
+			(value "100 nF")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(datasheet "~")
-			(description "Ceramic capacitor, 100nF 50V")
+			(description "Decoupling capacitor, 100nF 50V")
 			(fields
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Ceramic capacitor, 100nF 50V")
+					(name "Description") "Decoupling capacitor, 100nF 50V")
 			)
 			(libsource
 				(lib "Device")
@@ -201,7 +201,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "266c4e6e-0853-4ea3-8740-dd728fffe247")
+			(tstamps "697337e8-fcc3-46a1-a62e-8ad11ce9bc5a")
 			(units
 				(unit
 					(name "A")
@@ -218,17 +218,17 @@
 		)
 		(comp
 			(ref "C4")
-			(value "100nF")
+			(value "100 nF")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(datasheet "~")
-			(description "Ceramic capacitor, 100nF 50V")
+			(description "Logic-side decoupling cap, 100nF")
 			(fields
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Ceramic capacitor, 100nF 50V")
+					(name "Description") "Logic-side decoupling cap, 100nF")
 			)
 			(libsource
 				(lib "Device")
@@ -255,7 +255,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "cf71acb3-03f3-46ca-9c73-60212758e510")
+			(tstamps "9eb3a22b-344f-4e68-82ae-d16f96e68de5")
 			(units
 				(unit
 					(name "A")
@@ -272,17 +272,17 @@
 		)
 		(comp
 			(ref "C5")
-			(value "100nF")
+			(value "100 nF")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(datasheet "~")
-			(description "Ceramic capacitor, 100nF 50V")
+			(description "Bus-side decoupling cap, 100nF")
 			(fields
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Ceramic capacitor, 100nF 50V")
+					(name "Description") "Bus-side decoupling cap, 100nF")
 			)
 			(libsource
 				(lib "Device")
@@ -309,7 +309,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "65d819ec-717b-48cf-8fc9-b4bcc219bc95")
+			(tstamps "9068263b-bcc9-420b-ba18-b45a67709c9f")
 			(units
 				(unit
 					(name "A")
@@ -326,17 +326,17 @@
 		)
 		(comp
 			(ref "C6")
-			(value "4.7uF")
+			(value "4.7 µF 25V")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(datasheet "~")
-			(description "Ceramic capacitor, 4.7uF 25V")
+			(description "Input ceramic cap, 4.7uF 25V")
 			(fields
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Ceramic capacitor, 4.7uF 25V")
+					(name "Description") "Input ceramic cap, 4.7uF 25V")
 			)
 			(libsource
 				(lib "Device")
@@ -363,7 +363,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "80fad9a1-d8bd-4abf-8959-ca16b8fed803")
+			(tstamps "de81a18d-026b-47e5-b50f-7b921adb31a6")
 			(units
 				(unit
 					(name "A")
@@ -380,17 +380,17 @@
 		)
 		(comp
 			(ref "C7")
-			(value "100nF")
+			(value "100 nF")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(datasheet "~")
-			(description "Ceramic capacitor, 100nF 50V")
+			(description "Input decoupling cap, 100nF")
 			(fields
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Ceramic capacitor, 100nF 50V")
+					(name "Description") "Input decoupling cap, 100nF")
 			)
 			(libsource
 				(lib "Device")
@@ -417,7 +417,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "1960c86c-4827-487c-9913-ae02e7c08335")
+			(tstamps "4ab1c6ea-d006-48b6-9326-64aa4552fc34")
 			(units
 				(unit
 					(name "A")
@@ -434,17 +434,17 @@
 		)
 		(comp
 			(ref "C8")
-			(value "10uF")
+			(value "10 µF 25V")
 			(footprint "Capacitor_SMD:C_1206_3216Metric")
-			(datasheet "~")
-			(description "Ceramic capacitor, 10uF 25V")
+			(description "Interstage ceramic cap, 10uF 25V")
 			(fields
 				(field
 					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Ceramic capacitor, 10uF 25V")
+					(name "Description") "Interstage ceramic cap, 10uF 25V")
 			)
 			(libsource
 				(lib "Device")
@@ -471,7 +471,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "d1fe479c-36d1-40cf-a452-6289c2481e87")
+			(tstamps "4af55b0d-954b-46c0-bcd7-e46c1b1830b9")
 			(units
 				(unit
 					(name "A")
@@ -488,17 +488,17 @@
 		)
 		(comp
 			(ref "C9")
-			(value "100nF")
+			(value "100 nF")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(datasheet "~")
-			(description "Ceramic capacitor, 100nF 50V")
+			(description "Interstage decoupling cap, 100nF")
 			(fields
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Ceramic capacitor, 100nF 50V")
+					(name "Description") "Interstage decoupling cap, 100nF")
 			)
 			(libsource
 				(lib "Device")
@@ -525,7 +525,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "3dc6d875-185c-43d5-a22d-a672a3ee3ab4")
+			(tstamps "c2215ea6-72da-40c0-9fef-67b0568bee1d")
 			(units
 				(unit
 					(name "A")
@@ -542,17 +542,17 @@
 		)
 		(comp
 			(ref "C10")
-			(value "22uF")
+			(value "22 µF 10V")
 			(footprint "Capacitor_SMD:C_1206_3216Metric")
-			(datasheet "~")
-			(description "Ceramic capacitor, 22uF 10V")
+			(description "Output filter capacitor, 22uF 10V")
 			(fields
 				(field
 					(name "Footprint") "Capacitor_SMD:C_1206_3216Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Ceramic capacitor, 22uF 10V")
+					(name "Description") "Output filter capacitor, 22uF 10V")
 			)
 			(libsource
 				(lib "Device")
@@ -579,7 +579,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "86868706-227e-4302-beba-a9940dc9ea45")
+			(tstamps "8b58b0ee-96e2-466a-b8af-0b21ea7b1eae")
 			(units
 				(unit
 					(name "A")
@@ -596,17 +596,17 @@
 		)
 		(comp
 			(ref "C11")
-			(value "100nF")
+			(value "100 nF")
 			(footprint "Capacitor_SMD:C_0805_2012Metric")
-			(datasheet "~")
-			(description "Ceramic capacitor, 100nF 50V")
+			(description "Output decoupling capacitor, 100nF")
 			(fields
 				(field
 					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Ceramic capacitor, 100nF 50V")
+					(name "Description") "Output decoupling capacitor, 100nF")
 			)
 			(libsource
 				(lib "Device")
@@ -633,7 +633,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "965cec02-b6e7-406b-9881-90b0da24f284")
+			(tstamps "36774666-b2c9-4489-a1e3-34fae5fd9e0a")
 			(units
 				(unit
 					(name "A")
@@ -652,13 +652,13 @@
 			(ref "D1")
 			(value "SS14")
 			(footprint "Diode_SMD:D_SMA")
-			(datasheet "~")
 			(description "Schottky barrier diode, 40V 1A")
 			(fields
 				(field
 					(name "Footprint") "Diode_SMD:D_SMA")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
 					(name "Description") "Schottky barrier diode, 40V 1A")
 			)
@@ -687,7 +687,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b31dbc76-a412-4e2b-be2c-cea16479db9b")
+			(tstamps "7034c758-b0a6-43f3-aaef-7894395f27bb")
 			(units
 				(unit
 					(name "A")
@@ -706,20 +706,20 @@
 			(ref "D2")
 			(value "SMAJ6.0A")
 			(footprint "Diode_SMD:D_SMA")
-			(datasheet "~")
 			(description "Unidirectional TVS diode, 6.0V")
 			(fields
 				(field
 					(name "Footprint") "Diode_SMD:D_SMA")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
 					(name "Description") "Unidirectional TVS diode, 6.0V")
 			)
 			(libsource
 				(lib "Device")
-				(part "D_TVS")
-				(description "Bidirectional transient-voltage-suppression diode")
+				(part "D_Zener")
+				(description "Zener diode")
 			)
 			(property
 				(name "Sheetname")
@@ -731,7 +731,7 @@
 			)
 			(property
 				(name "ki_keywords")
-				(value "diode TVS thyrector")
+				(value "diode")
 			)
 			(property
 				(name "ki_fp_filters")
@@ -741,7 +741,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b9ed26b7-3e82-43e4-a8a3-2fa2824da31b")
+			(tstamps "b7e0d831-c08b-4c83-913c-ac998931fc2d")
 			(units
 				(unit
 					(name "A")
@@ -758,17 +758,17 @@
 		)
 		(comp
 			(ref "D3")
-			(value "PESD1CAN")
+			(value "PESD2CAN")
 			(footprint "Package_TO_SOT_SMD:SOT-23")
-			(datasheet "~")
-			(description "CAN bus ESD protection diode")
+			(description "Dual CAN bus ESD protection diode")
 			(fields
 				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "CAN bus ESD protection diode")
+					(name "Description") "Dual CAN bus ESD protection diode")
 			)
 			(libsource
 				(lib "Device")
@@ -791,7 +791,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "0b4c0bdc-6d97-4c9f-a3e1-ef0ccb33dd2e")
+			(tstamps "7dd3ae74-85c0-47d0-867e-9426004b4c96")
 			(units
 				(unit
 					(name "A")
@@ -811,17 +811,17 @@
 		)
 		(comp
 			(ref "D4")
-			(value "PESD1CAN")
+			(value "PESD2CAN")
 			(footprint "Package_TO_SOT_SMD:SOT-23")
-			(datasheet "~")
-			(description "CAN bus ESD protection diode")
+			(description "Dual CAN bus ESD protection diode")
 			(fields
 				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "CAN bus ESD protection diode")
+					(name "Description") "Dual CAN bus ESD protection diode")
 			)
 			(libsource
 				(lib "Device")
@@ -844,7 +844,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "7cfd447f-fa95-4220-8bc5-e04e8577de47")
+			(tstamps "c1d015ac-c330-45c3-9eb1-1ea9e7418cef")
 			(units
 				(unit
 					(name "A")
@@ -866,13 +866,13 @@
 			(ref "F1")
 			(value "PTC 1.0A")
 			(footprint "Fuse:Fuse_1812_4532Metric")
-			(datasheet "~")
 			(description "Resettable PTC fuse, hold 1.0A")
 			(fields
 				(field
 					(name "Footprint") "Fuse:Fuse_1812_4532Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
 					(name "Description") "Resettable PTC fuse, hold 1.0A")
 			)
@@ -901,7 +901,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "081c6d62-8169-4fa0-a769-c89666433ac5")
+			(tstamps "42c2c789-7d21-499d-a7b9-1468c3e2642c")
 			(units
 				(unit
 					(name "A")
@@ -920,15 +920,15 @@
 			(ref "J1")
 			(value "PACK LINK, NOT ETHERNET")
 			(footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
-			(datasheet "~")
-			(description "Cat5e: 1,2 +5V; 3,6 GND; 4 CAN_H; 5 CAN_L; 7,8 CAN ref")
+			(description "Cat5e: 1,2 +5V; 3,6 GND; 4 CAN_H; 5 CAN_L; 7,8 PACK_CAN_GND")
 			(fields
 				(field
 					(name "Footprint") "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Cat5e: 1,2 +5V; 3,6 GND; 4 CAN_H; 5 CAN_L; 7,8 CAN ref")
+					(name "Description") "Cat5e: 1,2 +5V; 3,6 GND; 4 CAN_H; 5 CAN_L; 7,8 PACK_CAN_GND")
 			)
 			(libsource
 				(lib "Connector")
@@ -955,7 +955,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "2aca9d06-9b43-4fec-a1d5-17334fd68dad")
+			(tstamps "9e2f1378-eaa8-4f18-8f66-fa75b9e363da")
 			(units
 				(unit
 					(name "A")
@@ -991,16 +991,16 @@
 		(comp
 			(ref "J3")
 			(value "Inverter CAN, Pylon 500 kbps")
-			(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal")
-			(datasheet "~")
-			(description "Screw Terminal, 1x03, P5.08mm")
+			(footprint "TerminalBlock:TerminalBlock_bornier-3_P5.08mm")
+			(description "Screw terminal, 1: INV_CAN_H, 2: INV_CAN_L, 3: INV_GND")
 			(fields
 				(field
-					(name "Footprint") "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal")
+					(name "Footprint") "TerminalBlock:TerminalBlock_bornier-3_P5.08mm")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Screw Terminal, 1x03, P5.08mm")
+					(name "Description") "Screw terminal, 1: INV_CAN_H, 2: INV_CAN_L, 3: INV_GND")
 			)
 			(libsource
 				(lib "Connector")
@@ -1027,7 +1027,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "985e8309-dee1-465b-8486-e65fe9bb210f")
+			(tstamps "6534bf8f-3c5c-498f-9f5a-4890192eacc3")
 			(units
 				(unit
 					(name "A")
@@ -1047,17 +1047,17 @@
 		)
 		(comp
 			(ref "J6")
-			(value "SPARE_IO")
+			(value "SPARE IO")
 			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
-			(datasheet "~")
-			(description "1x6 pin header: 1 SPARE_IO6, 2 SPARE_IO7, 3 SPARE_IO10, 4 SPARE_IO11, 5 +3V3, 6 GND")
+			(description "6-pin spare GPIO breakout header")
 			(fields
 				(field
 					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "1x6 pin header: 1 SPARE_IO6, 2 SPARE_IO7, 3 SPARE_IO10, 4 SPARE_IO11, 5 +3V3, 6 GND")
+					(name "Description") "6-pin spare GPIO breakout header")
 			)
 			(libsource
 				(lib "Connector_Generic")
@@ -1084,7 +1084,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "eb17f080-4f4a-44bc-af63-dac381a0997f")
+			(tstamps "d5dd4237-40a5-4da1-9af9-9f38d4cc3e19")
 			(units
 				(unit
 					(name "A")
@@ -1113,17 +1113,17 @@
 		)
 		(comp
 			(ref "JP2")
-			(value "close if this is the last node")
+			(value "PACK TERMINATION")
 			(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-			(datasheet "~")
-			(description "Solder jumper, open, termination")
+			(description "Solder jumper, closed by default")
 			(fields
 				(field
 					(name "Footprint") "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Solder jumper, open, termination")
+					(name "Description") "Solder jumper, closed by default")
 			)
 			(libsource
 				(lib "Jumper")
@@ -1150,7 +1150,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "6c12cdc5-be3d-4d77-83f5-d418ca30752f")
+			(tstamps "ce52a236-8949-4a88-ad93-0f8997906416")
 			(units
 				(unit
 					(name "A")
@@ -1167,22 +1167,22 @@
 		)
 		(comp
 			(ref "JP3")
-			(value "PACK_CAN_GND to GND")
-			(footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
-			(datasheet "~")
-			(description "Solder jumper, bridged, PACK_CAN_GND to GND")
+			(value "NetTie_2")
+			(footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
+			(description "Net tie, 2 pins, PACK_CAN_GND to GND")
 			(fields
 				(field
-					(name "Footprint") "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
+					(name "Footprint") "NetTie:NetTie-2_SMD_Pad0.5mm")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Solder jumper, bridged, PACK_CAN_GND to GND")
+					(name "Description") "Net tie, 2 pins, PACK_CAN_GND to GND")
 			)
 			(libsource
-				(lib "Jumper")
-				(part "SolderJumper_2_Bridged")
-				(description "Solder Jumper, 2-pole, closed/bridged")
+				(lib "Device")
+				(part "NetTie_2")
+				(description "Net tie, 2 pins")
 			)
 			(property
 				(name "Sheetname")
@@ -1194,17 +1194,17 @@
 			)
 			(property
 				(name "ki_keywords")
-				(value "solder jumper SPST")
+				(value "net tie short")
 			)
 			(property
 				(name "ki_fp_filters")
-				(value "SolderJumper*Bridged*")
+				(value "Net*Tie*")
 			)
 			(sheetpath
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "a396d831-95da-49e2-90b8-f633462f1178")
+			(tstamps "6d7b0d05-2422-42ee-94b0-8be276cd2ec1")
 			(units
 				(unit
 					(name "A")
@@ -1221,17 +1221,17 @@
 		)
 		(comp
 			(ref "JP4")
-			(value "Inverter CAN termination")
+			(value "INVERTER TERMINATION")
 			(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
-			(datasheet "~")
-			(description "Solder jumper, open, termination")
+			(description "Solder jumper, open by default")
 			(fields
 				(field
 					(name "Footprint") "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Solder jumper, open, termination")
+					(name "Description") "Solder jumper, open by default")
 			)
 			(libsource
 				(lib "Jumper")
@@ -1258,7 +1258,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e2f59e9c-048e-4e1f-aee1-562bfa9e1fdd")
+			(tstamps "bd605a1d-d903-42f4-b9c1-d160d2cb880c")
 			(units
 				(unit
 					(name "A")
@@ -1275,17 +1275,17 @@
 		)
 		(comp
 			(ref "R3")
-			(value "10k")
+			(value "4.7 k")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(datasheet "~")
-			(description "Resistor, 10k 5%")
+			(description "Resistor, 4.7k 0805")
 			(fields
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Resistor, 10k 5%")
+					(name "Description") "Resistor, 4.7k 0805")
 			)
 			(libsource
 				(lib "Device")
@@ -1312,7 +1312,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "95df8672-91a3-4d9f-b762-14a68e12fb78")
+			(tstamps "4968936e-885f-499c-8ff6-0d58ab4b5fe2")
 			(units
 				(unit
 					(name "A")
@@ -1329,17 +1329,17 @@
 		)
 		(comp
 			(ref "R4")
-			(value "10k")
+			(value "4.7 k")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(datasheet "~")
-			(description "Resistor, 10k 5%")
+			(description "Resistor, 4.7k 0805")
 			(fields
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Resistor, 10k 5%")
+					(name "Description") "Resistor, 4.7k 0805")
 			)
 			(libsource
 				(lib "Device")
@@ -1366,7 +1366,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "552a087b-e7f3-426f-a2c1-5fa2939d7320")
+			(tstamps "a39e021e-5e86-4164-9a9f-f1b31613fd66")
 			(units
 				(unit
 					(name "A")
@@ -1383,17 +1383,17 @@
 		)
 		(comp
 			(ref "R5")
-			(value "120")
+			(value "120 Ω")
 			(footprint "Resistor_SMD:R_1206_3216Metric")
-			(datasheet "~")
-			(description "Resistor, 120 ohm 1206 1%")
+			(description "Bus termination resistor, 120 ohm")
 			(fields
 				(field
 					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Resistor, 120 ohm 1206 1%")
+					(name "Description") "Bus termination resistor, 120 ohm")
 			)
 			(libsource
 				(lib "Device")
@@ -1420,7 +1420,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "28283787-1aa6-475e-a739-4855b50e13ca")
+			(tstamps "1fb913ab-a184-4849-ae44-f17f7c89f2d3")
 			(units
 				(unit
 					(name "A")
@@ -1437,17 +1437,17 @@
 		)
 		(comp
 			(ref "R6")
-			(value "2k")
+			(value "2 k")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
-			(datasheet "~")
-			(description "Resistor, 2k 0805 1% bleed")
+			(description "Preload bleed resistor, 2k 0805")
 			(fields
 				(field
 					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Resistor, 2k 0805 1% bleed")
+					(name "Description") "Preload bleed resistor, 2k 0805")
 			)
 			(libsource
 				(lib "Device")
@@ -1474,7 +1474,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "02d6f0a8-72bd-4a62-a865-58b1ac1004f1")
+			(tstamps "297890bc-2f05-4517-b00e-aa8a58ac6ff9")
 			(units
 				(unit
 					(name "A")
@@ -1491,17 +1491,17 @@
 		)
 		(comp
 			(ref "R7")
-			(value "120")
+			(value "120 Ω")
 			(footprint "Resistor_SMD:R_1206_3216Metric")
-			(datasheet "~")
-			(description "Resistor, 120 ohm 1206 1%")
+			(description "Bus termination resistor, 120 ohm")
 			(fields
 				(field
 					(name "Footprint") "Resistor_SMD:R_1206_3216Metric")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Resistor, 120 ohm 1206 1%")
+					(name "Description") "Bus termination resistor, 120 ohm")
 			)
 			(libsource
 				(lib "Device")
@@ -1528,7 +1528,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "3527f6c9-a94d-400d-ade7-7c268f80e351")
+			(tstamps "ab6d2307-120b-44ad-a59c-c2de3630305c")
 			(units
 				(unit
 					(name "A")
@@ -1547,20 +1547,20 @@
 			(ref "U1")
 			(value "ESP32-C6-DevKitC-1")
 			(footprint "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical")
-			(datasheet "~")
-			(description "Espressif ESP32-C6-DevKitC-1 Development Board, 32 pins, 2x16 0.1 inch headers")
+			(description "Header J1 socket (pins 1..16)")
 			(fields
 				(field
 					(name "Footprint") "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "Espressif ESP32-C6-DevKitC-1 Development Board, 32 pins, 2x16 0.1 inch headers")
+					(name "Description") "Header J1 socket (pins 1..16)")
 			)
 			(libsource
 				(lib "ESP32-C6-DevKitC-1")
 				(part "ESP32-C6-DevKitC-1")
-				(description "Espressif ESP32-C6-DevKitC-1 Development Board, 32 pins, 2x16 0.1 inch headers")
+				(description "Espressif ESP32-C6-DevKitC-1 Development Board, 32 pins, two 1x16 0.1 inch sockets")
 			)
 			(property
 				(name "Sheetname")
@@ -1574,7 +1574,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "4dfc0115-0033-4309-8159-786b89ed567c")
+			(tstamps "c55de326-82ec-44e8-81d2-8fc33cad7f33" "0b899bc8-79bd-4812-b454-f316cd4d35ce")
 			(units
 				(unit
 					(name "A")
@@ -1627,6 +1627,11 @@
 						(pin
 							(num "16")
 						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
 						(pin
 							(num "17")
 						)
@@ -1683,15 +1688,15 @@
 			(ref "U2")
 			(value "SN65HVD230DR")
 			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-			(datasheet "~")
-			(description "3.3V CAN transceiver")
+			(description "3.3V CAN Transceiver, 1Mbps")
 			(fields
 				(field
 					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "3.3V CAN transceiver")
+					(name "Description") "3.3V CAN Transceiver, 1Mbps")
 			)
 			(libsource
 				(lib "Interface_CAN_LIN")
@@ -1718,7 +1723,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "c53aeb73-594d-4725-84f3-7c571d697d7b")
+			(tstamps "aef331b3-404c-415d-9671-01267d3348d1")
 			(units
 				(unit
 					(name "A")
@@ -1754,14 +1759,14 @@
 		(comp
 			(ref "U3")
 			(value "ISO1050DUBR")
-			(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-			(datasheet "~")
+			(footprint "Package_SO:SOP-8_6.62x9.15mm_P2.54mm")
 			(description "Isolated CAN Transceiver, 5000Vrms isolation")
 			(fields
 				(field
-					(name "Footprint") "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+					(name "Footprint") "Package_SO:SOP-8_6.62x9.15mm_P2.54mm")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
 					(name "Description") "Isolated CAN Transceiver, 5000Vrms isolation")
 			)
@@ -1782,7 +1787,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "5c8ec9e9-9766-47d3-9c74-173b837a75de")
+			(tstamps "1d97b8dd-d00a-4817-8bce-c057a6ca4cc0")
 			(units
 				(unit
 					(name "A")
@@ -1818,16 +1823,16 @@
 		(comp
 			(ref "U4")
 			(value "B0509S-1WR3")
-			(footprint "Converter_DCDC:Converter_DCDC_Murata_MEE1SxxxxSC_THT")
-			(datasheet "~")
-			(description "PIN NUMBERS UNVERIFIED")
+			(footprint "Converter_DCDC:Converter_DCDC_Mornsun_BxxxtS-1WR_THT")
+			(description "Isolated 1W DC-DC, 5V in, 9V out, SIP-4 (PIN NUMBERS UNVERIFIED)")
 			(fields
 				(field
-					(name "Footprint") "Converter_DCDC:Converter_DCDC_Murata_MEE1SxxxxSC_THT")
+					(name "Footprint") "Converter_DCDC:Converter_DCDC_Mornsun_BxxxtS-1WR_THT")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "PIN NUMBERS UNVERIFIED")
+					(name "Description") "Isolated 1W DC-DC, 5V in, 9V out, SIP-4 (PIN NUMBERS UNVERIFIED)")
 			)
 			(libsource
 				(lib "Converter_DCDC_Isolated")
@@ -1846,7 +1851,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "7b59d55b-5748-4587-bd6d-d1e44975e12b")
+			(tstamps "3b575672-14c9-4a33-9727-0d5becc77128")
 			(units
 				(unit
 					(name "A")
@@ -1871,15 +1876,15 @@
 			(ref "U5")
 			(value "AMS1117-5.0")
 			(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
-			(datasheet "~")
-			(description "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223")
+			(description "1A Low Dropout Regulator, positive, 5.0V fixed output, SOT-223")
 			(fields
 				(field
 					(name "Footprint") "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
 				(field
-					(name "Datasheet") "~")
+					(name "Datasheet")
+				)
 				(field
-					(name "Description") "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223")
+					(name "Description") "1A Low Dropout Regulator, positive, 5.0V fixed output, SOT-223")
 			)
 			(libsource
 				(lib "Regulator_Linear")
@@ -1906,7 +1911,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "4004c7d6-876c-44b3-9032-0eaf843452bc")
+			(tstamps "2c7a5a2f-ca6c-4352-9d18-ac57c11d8662")
 			(units
 				(unit
 					(name "A")
@@ -2125,12 +2130,12 @@
 				(pin
 					(num "3")
 					(name "-Vout")
-					(type "power_out")
+					(type "passive")
 				)
 				(pin
 					(num "4")
 					(name "+Vout")
-					(type "power_out")
+					(type "passive")
 				)
 			)
 		)
@@ -2241,43 +2246,6 @@
 		)
 		(libpart
 			(lib "Device")
-			(part "D_TVS")
-			(description "Bidirectional transient-voltage-suppression diode")
-			(footprints
-				(fp "TO-???*")
-				(fp "*_Diode_*")
-				(fp "*SingleDiode*")
-				(fp "D_*")
-			)
-			(fields
-				(field
-					(name "Reference") "D")
-				(field
-					(name "Value") "D_TVS")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Bidirectional transient-voltage-suppression diode")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "A1")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "A2")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "Device")
 			(part "D_TVS_Dual_AAC")
 			(description "Bidirectional dual transient-voltage-suppression diode, center on pin 3")
 			(fields
@@ -2314,6 +2282,43 @@
 		)
 		(libpart
 			(lib "Device")
+			(part "D_Zener")
+			(description "Zener diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_Zener")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Zener diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
 			(part "Fuse")
 			(description "Fuse")
 			(footprints
@@ -2342,6 +2347,40 @@
 				(pin
 					(num "2")
 					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "NetTie_2")
+			(description "Net tie, 2 pins")
+			(footprints
+				(fp "Net*Tie*")
+			)
+			(fields
+				(field
+					(name "Reference") "NT")
+				(field
+					(name "Value") "NetTie_2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Net tie, 2 pins")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
 					(type "passive")
 				)
 			)
@@ -2383,7 +2422,7 @@
 		(libpart
 			(lib "ESP32-C6-DevKitC-1")
 			(part "ESP32-C6-DevKitC-1")
-			(description "Espressif ESP32-C6-DevKitC-1 Development Board, 32 pins, 2x16 0.1 inch headers")
+			(description "Espressif ESP32-C6-DevKitC-1 Development Board, 32 pins, two 1x16 0.1 inch sockets")
 			(docs "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html")
 			(fields
 				(field
@@ -2395,13 +2434,13 @@
 				(field
 					(name "Datasheet") "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html")
 				(field
-					(name "Description") "Espressif ESP32-C6-DevKitC-1 Development Board, 32 pins, 2x16 0.1 inch headers")
+					(name "Description") "Espressif ESP32-C6-DevKitC-1 Development Board, 32 pins, two 1x16 0.1 inch sockets")
 			)
 			(pins
 				(pin
 					(num "1")
 					(name "3V3")
-					(type "power_out")
+					(type "passive")
 				)
 				(pin
 					(num "2")
@@ -2685,40 +2724,6 @@
 		)
 		(libpart
 			(lib "Jumper")
-			(part "SolderJumper_2_Bridged")
-			(description "Solder Jumper, 2-pole, closed/bridged")
-			(footprints
-				(fp "SolderJumper*Bridged*")
-			)
-			(fields
-				(field
-					(name "Reference") "JP")
-				(field
-					(name "Value") "SolderJumper_2_Bridged")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Solder Jumper, 2-pole, closed/bridged")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "A")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "B")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "Jumper")
 			(part "SolderJumper_2_Open")
 			(description "Solder Jumper, 2-pole, open")
 			(footprints
@@ -2780,7 +2785,7 @@
 				(pin
 					(num "2")
 					(name "VO")
-					(type "power_out")
+					(type "passive")
 				)
 				(pin
 					(num "3")
@@ -2836,6 +2841,12 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "J6")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
 				(ref "R3")
 				(pin "2")
 				(pintype "passive")
@@ -2849,7 +2860,7 @@
 				(ref "U1")
 				(pin "1")
 				(pinfunction "3V3_1")
-				(pintype "power_out")
+				(pintype "passive")
 			)
 			(node
 				(ref "U2")
@@ -2897,7 +2908,7 @@
 			(node
 				(ref "D2")
 				(pin "1")
-				(pinfunction "A1_1")
+				(pinfunction "K_1")
 				(pintype "passive")
 			)
 			(node
@@ -2908,8 +2919,8 @@
 			)
 			(node
 				(ref "U4")
-				(pin "2")
-				(pinfunction "+Vin_2")
+				(pin "1")
+				(pinfunction "-Vin_1")
 				(pintype "power_in")
 			)
 		)
@@ -2940,12 +2951,12 @@
 			)
 			(node
 				(ref "J1")
-				(pin "6")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
 				(ref "J1")
-				(pin "7")
+				(pin "2")
 				(pintype "passive")
 			)
 		)
@@ -2983,7 +2994,7 @@
 				(ref "U5")
 				(pin "2")
 				(pinfunction "VO_2")
-				(pintype "power_out")
+				(pintype "passive")
 			)
 		)
 		(net
@@ -3002,9 +3013,9 @@
 			)
 			(node
 				(ref "U4")
-				(pin "4")
-				(pinfunction "+Vout_4")
-				(pintype "power_out")
+				(pin "3")
+				(pinfunction "-Vout_3")
+				(pintype "passive")
 			)
 			(node
 				(ref "U5")
@@ -3163,9 +3174,9 @@
 			)
 			(node
 				(ref "U4")
-				(pin "3")
-				(pinfunction "-Vout_3")
-				(pintype "power_out")
+				(pin "4")
+				(pinfunction "+Vout_4")
+				(pintype "passive")
 			)
 			(node
 				(ref "U5")
@@ -3186,13 +3197,18 @@
 			)
 			(node
 				(ref "J1")
-				(pin "1")
+				(pin "7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "8")
 				(pintype "passive")
 			)
 			(node
 				(ref "JP3")
 				(pin "1")
-				(pinfunction "A_1")
+				(pinfunction "1_1")
 				(pintype "passive")
 			)
 		)
@@ -3235,7 +3251,7 @@
 			)
 			(node
 				(ref "J1")
-				(pin "3")
+				(pin "5")
 				(pintype "passive")
 			)
 			(node
@@ -3295,6 +3311,12 @@
 			(name "/SPARE_IO6")
 			(class "Default")
 			(node
+				(ref "J6")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
 				(ref "U1")
 				(pin "5")
 				(pinfunction "GPIO6_5")
@@ -3305,6 +3327,12 @@
 			(code "18")
 			(name "/SPARE_IO7")
 			(class "Default")
+			(node
+				(ref "J6")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
 			(node
 				(ref "U1")
 				(pin "6")
@@ -3317,6 +3345,12 @@
 			(name "/SPARE_IO10")
 			(class "Default")
 			(node
+				(ref "J6")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
 				(ref "U1")
 				(pin "10")
 				(pinfunction "GPIO10_10")
@@ -3327,6 +3361,12 @@
 			(code "20")
 			(name "/SPARE_IO11")
 			(class "Default")
+			(node
+				(ref "J6")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
 			(node
 				(ref "U1")
 				(pin "11")
@@ -3371,23 +3411,29 @@
 			(node
 				(ref "D2")
 				(pin "2")
-				(pinfunction "A2_2")
+				(pinfunction "A_2")
 				(pintype "passive")
 			)
 			(node
 				(ref "J1")
-				(pin "2")
+				(pin "3")
 				(pintype "passive")
 			)
 			(node
 				(ref "J1")
-				(pin "5")
+				(pin "6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "6")
+				(pinfunction "Pin_6_6")
 				(pintype "passive")
 			)
 			(node
 				(ref "JP3")
 				(pin "2")
-				(pinfunction "B_2")
+				(pinfunction "2_2")
 				(pintype "passive")
 			)
 			(node
@@ -3434,8 +3480,8 @@
 			)
 			(node
 				(ref "U4")
-				(pin "1")
-				(pinfunction "-Vin_1")
+				(pin "2")
+				(pinfunction "+Vin_2")
 				(pintype "power_in")
 			)
 		)
@@ -3473,83 +3519,7 @@
 		)
 		(net
 			(code "24")
-			(name "unconnected-(J1-Pad8)")
-			(class "Default")
-			(node
-				(ref "J1")
-				(pin "8")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "25")
-			(name "unconnected-(J6-Pin_1-Pad1)")
-			(class "Default")
-			(node
-				(ref "J6")
-				(pin "1")
-				(pinfunction "Pin_1_1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "26")
-			(name "unconnected-(J6-Pin_2-Pad2)")
-			(class "Default")
-			(node
-				(ref "J6")
-				(pin "2")
-				(pinfunction "Pin_2_2")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "27")
-			(name "unconnected-(J6-Pin_3-Pad3)")
-			(class "Default")
-			(node
-				(ref "J6")
-				(pin "3")
-				(pinfunction "Pin_3_3")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "28")
-			(name "unconnected-(J6-Pin_4-Pad4)")
-			(class "Default")
-			(node
-				(ref "J6")
-				(pin "4")
-				(pinfunction "Pin_4_4")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "29")
-			(name "unconnected-(J6-Pin_5-Pad5)")
-			(class "Default")
-			(node
-				(ref "J6")
-				(pin "5")
-				(pinfunction "Pin_5_5")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "30")
-			(name "unconnected-(J6-Pin_6-Pad6)")
-			(class "Default")
-			(node
-				(ref "J6")
-				(pin "6")
-				(pinfunction "Pin_6_6")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "31")
-			(name "unconnected-(U1-GPIO4-Pad3)")
+			(name "unconnected-(U1A-GPIO4-Pad3)")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -3559,8 +3529,8 @@
 			)
 		)
 		(net
-			(code "32")
-			(name "unconnected-(U1-GPIO5-Pad4)")
+			(code "25")
+			(name "unconnected-(U1A-GPIO5-Pad4)")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -3570,8 +3540,8 @@
 			)
 		)
 		(net
-			(code "33")
-			(name "unconnected-(U1-GPIO8-Pad9)")
+			(code "26")
+			(name "unconnected-(U1A-GPIO8-Pad9)")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -3581,118 +3551,8 @@
 			)
 		)
 		(net
-			(code "34")
-			(name "unconnected-(U1-GPIO9-Pad27)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "27")
-				(pinfunction "GPIO9_27")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "35")
-			(name "unconnected-(U1-GPIO12-Pad30)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "30")
-				(pinfunction "GPIO12_30")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "36")
-			(name "unconnected-(U1-GPIO13-Pad29)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "29")
-				(pinfunction "GPIO13_29")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "37")
-			(name "unconnected-(U1-GPIO15-Pad20)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "20")
-				(pinfunction "GPIO15_20")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "38")
-			(name "unconnected-(U1-GPIO18-Pad26)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "26")
-				(pinfunction "GPIO18_26")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "39")
-			(name "unconnected-(U1-GPIO19-Pad25)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "25")
-				(pinfunction "GPIO19_25")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "40")
-			(name "unconnected-(U1-GPIO20-Pad24)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "24")
-				(pinfunction "GPIO20_24")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "41")
-			(name "unconnected-(U1-GPIO21-Pad23)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "23")
-				(pinfunction "GPIO21_23")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "42")
-			(name "unconnected-(U1-GPIO22-Pad22)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "22")
-				(pinfunction "GPIO22_22")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "43")
-			(name "unconnected-(U1-GPIO23-Pad21)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "21")
-				(pinfunction "GPIO23_21")
-				(pintype "bidirectional+no_connect")
-			)
-		)
-		(net
-			(code "44")
-			(name "unconnected-(U1-NC-Pad16)")
+			(code "27")
+			(name "unconnected-(U1A-NC-Pad16)")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -3702,19 +3562,8 @@
 			)
 		)
 		(net
-			(code "45")
-			(name "unconnected-(U1-NC-Pad32)")
-			(class "Default")
-			(node
-				(ref "U1")
-				(pin "32")
-				(pinfunction "NC_32")
-				(pintype "free+no_connect")
-			)
-		)
-		(net
-			(code "46")
-			(name "unconnected-(U1-RST-Pad2)")
+			(code "28")
+			(name "unconnected-(U1A-RST-Pad2)")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -3724,8 +3573,129 @@
 			)
 		)
 		(net
-			(code "47")
-			(name "unconnected-(U1-RX-Pad19)")
+			(code "29")
+			(name "unconnected-(U1B-GPIO9-Pad27)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "27")
+				(pinfunction "GPIO9_27")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(U1B-GPIO12-Pad30)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "30")
+				(pinfunction "GPIO12_30")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(U1B-GPIO13-Pad29)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "29")
+				(pinfunction "GPIO13_29")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(U1B-GPIO15-Pad20)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "GPIO15_20")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(U1B-GPIO18-Pad26)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "GPIO18_26")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(U1B-GPIO19-Pad25)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "GPIO19_25")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(U1B-GPIO20-Pad24)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "GPIO20_24")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(U1B-GPIO21-Pad23)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "GPIO21_23")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(U1B-GPIO22-Pad22)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "GPIO22_22")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "38")
+			(name "unconnected-(U1B-GPIO23-Pad21)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "GPIO23_21")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "39")
+			(name "unconnected-(U1B-NC-Pad32)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "32")
+				(pinfunction "NC_32")
+				(pintype "free+no_connect")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(U1B-RX-Pad19)")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -3735,8 +3705,8 @@
 			)
 		)
 		(net
-			(code "48")
-			(name "unconnected-(U1-TX-Pad18)")
+			(code "41")
+			(name "unconnected-(U1B-TX-Pad18)")
 			(class "Default")
 			(node
 				(ref "U1")
@@ -3746,7 +3716,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "42")
 			(name "unconnected-(U2-Vref-Pad5)")
 			(class "Default")
 			(node
