@@ -5362,7 +5362,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 222.25 109.22 270)
+		(at 222.25 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
