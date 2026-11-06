@@ -4431,16 +4431,7 @@
 		)
 		(uuid "2e324445-b7fb-4d5d-99d8-c96450960302")
 	)
-	(wire
-		(pts
-			(xy 269.24 129.54) (xy 269.24 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e73e6d4-d69e-4e33-a675-210aafa8ad5f")
-	)
+	
 	(wire
 		(pts
 			(xy 17.78 175.26) (xy 27.94 175.26)
@@ -9826,163 +9817,8 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 264.16 127.00 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92d33619-e27d-4e24-9420-be4654816f4d")
-		(property "Reference" "J3"
-			(at 271.78 120.65 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESP32_5V"
-			(at 271.78 133.35 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 264.16 127.00 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 127.00 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "ESP32 5V Power Output Header"
-			(at 264.16 127.00 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8d3a366-e438-4abc-8c39-97594e639e0a")
-		)
-		(pin "2"
-			(uuid "550fe8be-09c6-42c8-acdd-045c628b85e6")
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/9e7a10c9-bb08-4d3b-a835-f1b81a48f951"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 269.24 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77b8039a-7317-455f-9d83-588fb7f7041a")
-		(property "Reference" "#PWR38"
-			(at 271.78 133.35 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 135.89 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 134.62 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 134.62 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GND"
-			(at 269.24 134.62 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "178f012b-9ffd-4bcc-8e4b-c424871e294d")
-		)
-		(instances
-			(project "16s_BMS"
-				(path "/9e7a10c9-bb08-4d3b-a835-f1b81a48f951"
-					(reference "#PWR38")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
+	
 	(symbol
 		(lib_id "power:+12V")
 		(at 17.78 175.26 0)
@@ -11161,5 +10997,16 @@
 				)
 			)
 		)
+	)
+	(hierarchical_label "ESP32_5V"
+		(shape output)
+		(at 269.24 127.00 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70714c5d-cefb-45f2-8340-b711e1eb0b86")
 	)
 )
