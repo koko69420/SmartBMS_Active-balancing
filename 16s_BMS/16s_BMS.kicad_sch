@@ -2675,7 +2675,27 @@
 				(justify left)
 			)
 		)
-		(instances
+				(pin "PRECHG_SENSE" input
+			(at 320.04 83.82 180)
+			(uuid "6d1e4836-cd22-4dce-a93e-503ff62d3248")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PRECHG_EN" output
+			(at 368.30 83.82 0)
+			(uuid "0e2c62d9-e9e0-4ba8-9635-b7aa492589f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f"
 					(page "5")
@@ -3341,6 +3361,83 @@
 			)
 		)
 	)
+	(sheet
+		(at 320.04 139.70)
+		(size 48.26 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke (width 0.1524) (type solid))
+		(fill (color 0 0 0 0))
+		(uuid "dc54d3a0-62ba-44f2-ab6a-fcecc71ed238")
+		(property "Sheetname" "08_Precharge"
+			(at 320.04 138.20 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Sheetfile" "08_Precharge.kicad_sch"
+			(at 320.04 181.86 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "GATE_DRV_VDD" input
+			(at 320.04 147.32 180)
+			(uuid "21a7c068-9a9c-426a-8df3-ec0cef803bff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FET_SOURCE_COMMON" bidirectional
+			(at 320.04 154.94 180)
+			(uuid "e0c6c86e-15a8-4fd9-958f-ded09a1045d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PACK_MINUS" bidirectional
+			(at 320.04 162.56 180)
+			(uuid "32908241-1db5-42e5-8c7e-e27efce39055")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PRECHG_EN" input
+			(at 368.30 147.32 0)
+			(uuid "19b57877-b679-4852-aefe-dc73e47ec6de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PRECHG_SENSE" output
+			(at 368.30 154.94 0)
+			(uuid "12a05e20-d892-4d7f-992a-d3a848b61001")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "16s_BMS"
+				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f"
+					(page "8")
+				)
+			)
+		)
+	)
+
 
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x25_Odd_Even")
@@ -7290,7 +7387,119 @@
 		(uuid "f3eed7e7-062a-496b-91e8-ba9d14c6816c")
 	)
 
-	(sheet_instances
+	
+	(wire
+		(pts
+			(xy 320.04 83.82) (xy 314.96 83.82)
+		)
+		(stroke (width 0) (type default))
+		(uuid "1fc4afa6-432f-48bf-9c15-6c9140d63770")
+	)
+	(label "PRECHG_SENSE"
+		(at 314.96 83.82 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right bottom)
+		)
+		(uuid "06c7346b-b221-4507-8c5e-1370092c6c9a")
+	)
+
+	(wire
+		(pts
+			(xy 368.30 83.82) (xy 373.38 83.82)
+		)
+		(stroke (width 0) (type default))
+		(uuid "5cc7a790-cc27-41d4-984c-15b6b7a9b100")
+	)
+	(label "PRECHG_EN"
+		(at 373.38 83.82 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left bottom)
+		)
+		(uuid "43b45dae-1ab4-496b-88fa-d996bc183ff6")
+	)
+
+	(wire
+		(pts
+			(xy 320.04 147.32) (xy 314.96 147.32)
+		)
+		(stroke (width 0) (type default))
+		(uuid "c8e181c4-fb0b-43bb-9e28-5c916afe0dc2")
+	)
+	(label "GATE_DRV_VDD"
+		(at 314.96 147.32 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right bottom)
+		)
+		(uuid "657b2d22-25f7-46b9-b2fa-1b1242579b3d")
+	)
+
+	(wire
+		(pts
+			(xy 320.04 154.94) (xy 314.96 154.94)
+		)
+		(stroke (width 0) (type default))
+		(uuid "46bc0c4b-44a6-4912-8534-e3ef8a043d2d")
+	)
+	(label "FET_SOURCE_COMMON"
+		(at 314.96 154.94 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right bottom)
+		)
+		(uuid "a54e892e-8b3e-4372-97a2-282d161acdc9")
+	)
+
+	(wire
+		(pts
+			(xy 320.04 162.56) (xy 314.96 162.56)
+		)
+		(stroke (width 0) (type default))
+		(uuid "3f3ad6f4-01ed-472d-b301-7d229341fd73")
+	)
+	(label "PACK_MINUS"
+		(at 314.96 162.56 180)
+		(effects
+			(font (size 1.27 1.27))
+			(justify right bottom)
+		)
+		(uuid "2e99b2b3-9a8e-4923-a4dc-995d9f99725b")
+	)
+
+	(wire
+		(pts
+			(xy 368.30 147.32) (xy 373.38 147.32)
+		)
+		(stroke (width 0) (type default))
+		(uuid "0b3bbd4d-5981-4f39-a54b-00a6f61c3372")
+	)
+	(label "PRECHG_EN"
+		(at 373.38 147.32 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left bottom)
+		)
+		(uuid "f0d304f9-6550-4c13-b47c-35cd22365bd6")
+	)
+
+	(wire
+		(pts
+			(xy 368.30 154.94) (xy 373.38 154.94)
+		)
+		(stroke (width 0) (type default))
+		(uuid "c6a502d2-1777-4581-bc06-0d9e05060058")
+	)
+	(label "PRECHG_SENSE"
+		(at 373.38 154.94 0)
+		(effects
+			(font (size 1.27 1.27))
+			(justify left bottom)
+		)
+		(uuid "276aa786-9a52-40d6-9750-4ee13472497a")
+	)
+(sheet_instances
 		(path "/"
 			(page "1")
 		)
