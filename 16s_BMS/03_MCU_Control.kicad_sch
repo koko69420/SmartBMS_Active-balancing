@@ -10694,10 +10694,7 @@
 		(at 124.46 157.48)
 		(uuid "763596dc-8c30-48d6-9ce6-3db3a0b747df")
 	)
-	(no_connect
-		(at 124.46 165.10)
-		(uuid "7a2cd6b6-6591-4fe2-9342-5cf1c1c39af3")
-	)
+
 	(no_connect
 		(at 124.46 167.64)
 		(uuid "72c1efef-2942-4fa9-8fff-3acf83dababa")
@@ -10710,10 +10707,7 @@
 		(at 124.46 172.72)
 		(uuid "6bcb0256-1af3-4128-b150-ecd973146f74")
 	)
-	(no_connect
-		(at 165.10 162.56)
-		(uuid "cfd42cb6-ba12-4a88-a7f7-57783b0520be")
-	)
+
 	(no_connect
 		(at 165.10 165.10)
 		(uuid "65f79b9d-3d1d-4fee-8bbb-5a3699db8d6a")
@@ -10725,5 +10719,48 @@
 	(no_connect
 		(at 165.10 170.18)
 		(uuid "da20cf32-204c-4706-9893-8cd7fb83bc2e")
+	)
+
+	(wire
+		(pts
+			(xy 114.30 165.10) (xy 124.46 165.10)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8250d7-9c94-4d74-83c9-e25c5fef1c83")
+	)
+	(wire
+		(pts
+			(xy 165.10 162.56) (xy 175.26 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f5874c-4da7-458a-85f8-8b0cda93b03a")
+	)
+	(hierarchical_label "PRECHG_SENSE"
+		(shape input)
+		(at 114.30 165.10 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2c04987-8f86-471e-97be-e3224f5d2e57")
+	)
+	(hierarchical_label "PRECHG_EN"
+		(shape output)
+		(at 175.26 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7da78e76-f927-49d2-932a-629726ffb187")
 	)
 )
