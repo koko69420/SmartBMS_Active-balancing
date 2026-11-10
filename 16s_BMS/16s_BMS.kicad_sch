@@ -6580,4 +6580,499 @@
 		(uuid "ec4e1e19-a6f7-4e9b-94e3-238940982faa")
 	)
 
+	(label "CELL_TEMP_07"
+		(at 114.30 148.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8541501-679c-4f1f-880e-878030f98db1")
+	)
+
+	(label "CELL_TEMP_08"
+		(at 114.30 151.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "997cbcc7-9905-43a9-99d9-d4eaaf8f1cb3")
+	)
+
+	(label "CELL_TEMP_09"
+		(at 114.30 154.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d0c57077-ef54-4518-b02b-7cecf3a0ecf3")
+	)
+
+	(label "CELL_TEMP_10"
+		(at 114.30 157.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "728d049b-e446-4540-97bb-71d018c603d4")
+	)
+
+	(label "CELL_TEMP_11"
+		(at 114.30 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61c5f1f7-30c3-4793-8ddd-7afd8d04a6e7")
+	)
+
+	(label "CELL_TEMP_12"
+		(at 114.30 162.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de2e9005-ef27-4af7-b3d7-fd6b97e5d644")
+	)
+
+	(label "CELL_TEMP_13"
+		(at 114.30 165.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de0f6c24-4172-4f92-81ae-6b67711d52e6")
+	)
+
+	(label "CELL_TEMP_14"
+		(at 114.30 168.40 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "388a990f-4878-4a8c-855f-afc5c20b9175")
+	)
+
+	(label "CELL_TEMP_15"
+		(at 114.30 171.20 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0a5cf15-0a28-4657-b44d-fac22de6992c")
+	)
+
+	(label "CELL_TEMP_16"
+		(at 114.30 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74b72d99-2abb-4365-9e53-d385988d9b93")
+	)
+
+	(label "BALANCER_INDUCTOR_TEMP"
+		(at 114.30 176.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a79d83d-a025-4efa-89d3-b2985a3d8ab3")
+	)
+
+	(label "BALANCER_SWITCH_TEMP"
+		(at 114.30 179.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "789a0276-13ae-4d0b-b2f7-8ff38682cffb")
+	)
+
+	(label "ENCLOSURE_TEMP"
+		(at 114.30 182.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e40225ef-9eb2-48b5-959b-7b6f2c8f896c")
+	)
+
+	(label "INTAKE_TEMP"
+		(at 114.30 185.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a80ce7f6-0d57-4bfe-acf2-4d9cc6acb415")
+	)
+
+	(label "SHUNT_TEMP"
+		(at 114.30 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21f23728-5a6e-4f1a-9abd-b398ca7f21a8")
+	)
+
+	(label "TERMINAL_1_TEMP"
+		(at 114.30 190.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5cbd9aa6-ef47-4d80-ade3-454522709146")
+	)
+
+	(label "TERMINAL_2_TEMP"
+		(at 114.30 193.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6c79e87-35e2-416e-af3e-cadba5fbc5a9")
+	)
+
+	(label "CHG_FET_TEMP"
+		(at 177.80 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d036324a-f257-4371-b371-933d7f0d88e3")
+	)
+
+	(label "DSG_FET_TEMP"
+		(at 177.80 139.70 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c286443f-897b-4366-b07e-3646d8269702")
+	)
+
+	(label "COMMON_SOURCE_BUS_TEMP"
+		(at 177.80 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "227218e6-f958-4994-b3f0-37cf4cced967")
+	)
+
+	(label "PCB_TEMP_01"
+		(at 177.80 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e9d4775-1944-442b-8871-82382b852933")
+	)
+
+	(label "PCB_TEMP_02"
+		(at 177.80 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "534403f3-068b-448a-86ea-acab03a6ba0c")
+	)
+
+	(label "PCB_TEMP_03"
+		(at 177.80 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b0b5e22-cfe7-48d3-afe8-e54f23279a3f")
+	)
+
+	(label "TEMP_MUX1_COM"
+		(at 177.80 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb988d03-02a6-4758-bf45-ace69e74b9a7")
+	)
+
+	(label "TEMP_MUX2_COM"
+		(at 177.80 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ed58128-d3dd-43b3-b05c-71da0c388368")
+	)
+
+	(label "TEMP_MUX_S0"
+		(at 177.80 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63dc57ba-04a0-4576-9cd6-d51b65fc5488")
+	)
+
+	(label "TEMP_MUX_S1"
+		(at 177.80 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cc2f1ea-9250-499f-96c2-877209758e80")
+	)
+
+	(label "TEMP_MUX_S2"
+		(at 177.80 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13c2b182-7959-4755-8e45-e3ea582a280a")
+	)
+
+	(label "TEMP_MUX_S3"
+		(at 177.80 177.80 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d4e8df9-7cf1-4f99-9584-ef76c33ccec3")
+	)
+
+	(label "RESERVED_TEMP_14"
+		(at 177.80 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48d9defd-07c6-412f-9d9d-6b84ed854b9a")
+	)
+
+	(label "RESERVED_TEMP_15"
+		(at 177.80 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6ca4aa1-6126-4c19-a5f9-f486310683e1")
+	)
+
+	(label "RESERVED_TEMP_16"
+		(at 177.80 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bdee3d8-e2b0-4d05-b494-5fd587958d4c")
+	)
+
+	(label "PACK_PLUS"
+		(at 218.44 38.10 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd513810-e461-4742-9f1a-48e748006962")
+	)
+
+	(label "SHUNT_FET_SIDE"
+		(at 218.44 50.80 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bfcb81c-363b-4abc-b5f8-898834ffc5e0")
+	)
+
+	(label "GATE_DRV_VDD"
+		(at 274.32 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e795706-bde9-4f17-bec7-efbf50e3b054")
+	)
+
+	(label "FET_SOURCE_COMMON"
+		(at 274.32 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c776b2d8-a63a-4b49-bfbf-6615c27f7fa4")
+	)
+
+	(label "ESP32_5V"
+		(at 274.32 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ec313ec-168b-4205-8b20-27d16c262547")
+	)
+
+	(label "GATE_DRV_VDD"
+		(at 218.44 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "592ada22-903c-452e-92db-de6669e3abaa")
+	)
+
+	(label "FET_SOURCE_COMMON"
+		(at 218.44 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0bacaec-8478-4f21-9af1-c8baeb84e23d")
+	)
+
+	(label "PACK_MINUS"
+		(at 218.44 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b3b1099-995d-468d-be9e-a3bb8b925525")
+	)
+
+	(label "SHUNT_FET_SIDE"
+		(at 218.44 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79a127a4-e2e5-4f90-a288-b52b76c5e36b")
+	)
+
+	(label "AFE_REG1"
+		(at 218.44 127.00 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c8feff1-5cfc-4a58-bbf1-45bc5103aa11")
+	)
+
+	(label "AFE_DCHG"
+		(at 274.32 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66d3613e-22b5-43e7-b668-f1b21e6d27e4")
+	)
+
+	(label "AFE_DDSG"
+		(at 274.32 101.60 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "727ffe39-189c-41df-aaae-cf563b7202ec")
+	)
+
+	(label "CHG_ENABLE_MCU"
+		(at 274.32 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78c6f203-4d0c-4184-b061-2707a2403578")
+	)
+
 )
