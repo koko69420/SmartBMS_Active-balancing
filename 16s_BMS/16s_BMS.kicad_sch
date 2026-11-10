@@ -7312,4 +7312,67 @@
 		)
 		(uuid "705cf7f7-b75d-4e99-83b4-eb9f79e08925")
 	)
+	(text "BQ76952 AFE, Active Balancer Monitor & 32-Ch NTC Matrix"
+		(at 114.30 19.81 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "af3526d6-1445-404e-aa14-cfb7f5045bd7")
+	)
+
+	(text "3. POWER CONVERSION & SWITCHING"
+		(at 215.90 16.00 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd65cca7-35d2-4377-9bd8-d17c1e6345f7")
+	)
+	(text "Buck Regulators, Isolated Gate Drivers & 200A Cutoff Switches"
+		(at 215.90 19.81 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c72d366-bf2c-482f-8c5d-4e26a22007e7")
+	)
+
+	(text "BMS ARCHITECTURE & GROUND RULES:
+1. Low-Side Shunt Sensing: The external 100A/75mV current shunt sits between battery negative
+   and solid-state switches. Kelvin sense wires feed Sheet 01 (AFE) via J31.
+2. Net Ties: NetTie NT1 (Sheet 02) ties logic GND to SHUNT_FET_SIDE so BMS quiescent draw is
+   measured by the shunt. NT2 and NT3 tie CELL_TAP_0 and CELL_TAP_16 at single copper points.
+3. Galvanic Segregation: Logic GND, AFE VSS, and CAN ISO_GND remain strictly isolated.
+   Never bridge GND, VSS, or CELL_TAP_0 at root level."
+		(at 215.90 145.00 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c7eb1660-4ae3-4df2-979b-a46f5ec4f23f")
+	)
+
+	(text "4. DIGITAL PROCESSING & ISOLATED TELEMETRY"
+		(at 314.96 16.00 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "01e272a0-a049-4cf0-a267-ecda4076aaf4")
+	)
 )
