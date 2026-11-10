@@ -2154,7 +2154,11 @@
 	)
 	(text "BMS ARCHITECTURE & GROUND RULES:
 1. Low-Side Shunt Sensing: The external 100A/75mV current shunt sits between battery negative
-   and solid-state switches. Kelvin sense wires feed Sheet 01 (AFE) via J31."
+   and solid-state switches. Kelvin sense wires feed Sheet 01 (AFE) via J31.
+2. Net Ties: NetTie NT1 (Sheet 02) ties logic GND to SHUNT_FET_SIDE so BMS quiescent draw is
+   measured by the shunt. NT2 and NT3 tie CELL_TAP_0 and CELL_TAP_16 at single copper points.
+3. Galvanic Segregation: Logic GND, AFE VSS, and CAN ISO_GND remain strictly isolated.
+   Never bridge GND, VSS, or CELL_TAP_0 at root level."
 		(at 215.90 145.00 0)
 		(effects
 			(font
