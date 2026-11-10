@@ -3305,7 +3305,7 @@
 				)
 			)
 		)
-		(symbol "Q_NMOS_GSD_0_1"
+		(symbol "2N7002_0_1"
 			(polyline
 				(pts
 					(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -3472,7 +3472,7 @@
 				)
 			)
 		)
-		(symbol "Q_NMOS_GSD_1_1"
+		(symbol "2N7002_1_1"
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -12475,7 +12475,7 @@
 				)
 			)
 		)
-		(symbol "Q_NMOS_GSD_0_1"
+		(symbol "2N7002_0_1"
 			(polyline
 				(pts
 					(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -12642,7 +12642,7 @@
 				)
 			)
 		)
-		(symbol "Q_NMOS_GSD_1_1"
+		(symbol "2N7002_1_1"
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
