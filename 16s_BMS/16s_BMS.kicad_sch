@@ -2152,7 +2152,9 @@
 		(embedded_fonts no)
 	)
 	)
-	(text "BMS ARCHITECTURE & GROUND RULES"
+	(text "BMS ARCHITECTURE & GROUND RULES:
+1. Low-Side Shunt Sensing: The external 100A/75mV current shunt sits between battery negative
+   and solid-state switches. Kelvin sense wires feed Sheet 01 (AFE) via J31."
 		(at 215.90 145.00 0)
 		(effects
 			(font
