@@ -2508,7 +2508,17 @@
 				(justify left)
 			)
 		)
-		(instances
+				(pin "FAN_EN" input
+			(at 269.24 66.04 0)
+			(uuid "5a9c7491-cffa-422e-b3de-ebcca01f2e6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+(instances
 			(project "16s_BMS"
 				(path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f"
 					(page "3")
@@ -2688,6 +2698,16 @@
 		(pin "PRECHG_EN" output
 			(at 368.30 83.82 0)
 			(uuid "0e2c62d9-e9e0-4ba8-9635-b7aa492589f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAN_EN" output
+			(at 368.30 55.88 0)
+			(uuid "f16be1ba-0ec6-4f7a-9b01-a052f98b04e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71484,6 +71504,41 @@
 			)
 			(checksum "05424818D03A9B9C82E67FA9C5CA67F2")
 		)
+	)
+
+	(wire
+		(pts
+			(xy 269.24 66.04) (xy 274.32 66.04)
+		)
+		(stroke (width 0) (type default))
+		(uuid "a1b4cb62-1ddf-453b-a78c-a23973dace35")
+	)
+	(label "FAN_EN"
+		(at 274.32 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e8d924b-7fd1-4232-afd6-61797f59b101")
+	)
+	(wire
+		(pts
+			(xy 368.30 55.88) (xy 373.38 55.88)
+		)
+		(stroke (width 0) (type default))
+		(uuid "939cf497-7770-4bb7-9aad-bc98d2abc0c4")
+	)
+	(label "FAN_EN"
+		(at 373.38 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5f4ca4f-97dd-415a-b909-ec343dc4644e")
 	)
 
 )
