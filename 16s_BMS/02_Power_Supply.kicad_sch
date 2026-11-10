@@ -12094,6 +12094,22 @@
 		(instances (project "16s_BMS" (path "/86c32d3e-ea0e-4bf7-9e6a-677f2bfaa68f/1f11bbda-f38a-4a7b-8389-fa01aed0828b" (reference "#PWR42") (unit 1))))
 	)
 
+	(label "FAN_PG"
+		(at 215.90 182.88 0)
+		(effects (font (size 1.27 1.27)) (justify left bottom))
+		(uuid "d5f20800-2419-457d-9711-3e773baee00a")
+	)
+	(label "FAN_PD"
+		(at 215.90 190.50 0)
+		(effects (font (size 1.27 1.27)) (justify left bottom))
+		(uuid "0ad1eabd-38a8-44bd-984d-e2d1ee0d5086")
+	)
+	(label "FAN_G2"
+		(at 203.20 198.12 0)
+		(effects (font (size 1.27 1.27)) (justify left bottom))
+		(uuid "54355258-5594-4bec-bc6a-f231e5b287fd")
+	)
+
 )
 	
 	

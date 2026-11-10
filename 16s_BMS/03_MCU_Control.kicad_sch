@@ -11696,4 +11696,15 @@
 		(uuid "514abf45-046b-4331-9b28-de68c44d7962")
 	)
 
+	(label "CHG_SW_RAW"
+		(at 114.30 195.58 0)
+		(effects (font (size 1.27 1.27)) (justify left bottom))
+		(uuid "526e1f14-c6e2-4db8-931a-1f71e49054f8")
+	)
+	(label "DSG_SW_RAW"
+		(at 114.30 220.98 0)
+		(effects (font (size 1.27 1.27)) (justify left bottom))
+		(uuid "ac31b8b3-ce0a-4556-9485-b7e50b3e13b0")
+	)
+
 )
