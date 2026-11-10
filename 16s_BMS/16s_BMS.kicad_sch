@@ -2152,17 +2152,14 @@
 		(embedded_fonts no)
 	)
 	)
-
-	(text "Buck Regulators, Isolated Gate Drivers & 200A Cutoff Switches"
-		(at 215.90 19.81 0)
+	(text "BMS ARCHITECTURE & GROUND RULES"
+		(at 215.90 145.00 0)
 		(effects
 			(font
-				(size 1.2 1.2)
-				(italic yes)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
-		(uuid "8c72d366-bf2c-482f-8c5d-4e26a22007e7")
+		(uuid "c7eb1660-4ae3-4df2-979b-a46f5ec4f23f")
 	)
-
 )
