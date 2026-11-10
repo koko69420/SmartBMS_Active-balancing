@@ -7075,4 +7075,241 @@
 		(uuid "78c6f203-4d0c-4184-b061-2707a2403578")
 	)
 
+	(label "DSG_ENABLE_MCU"
+		(at 274.32 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2ab7901-34d3-4b65-934e-f01c3c61f7f1")
+	)
+
+	(label "AFE_ALERT"
+		(at 314.96 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89e0e2dd-3a58-4d6a-a1e9-72d5bffa42ea")
+	)
+
+	(label "BAL_SENSE"
+		(at 314.96 39.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61a8c682-e991-4384-a411-fce0934b4f7e")
+	)
+
+	(label "TEMP_MUX1_COM"
+		(at 314.96 47.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39ac2bf1-cb16-46ea-878c-1cb859e9fd5e")
+	)
+
+	(label "TEMP_MUX2_COM"
+		(at 314.96 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d79574e-2397-43b1-9145-4c515e8b3bd6")
+	)
+
+	(label "AFE_SCL"
+		(at 314.96 61.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1ba06d8-34ee-4b43-94e1-65bc6315e42a")
+	)
+
+	(label "AFE_SDA"
+		(at 314.96 68.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33fab6a3-8a09-4ee6-bba3-f269b22bbebc")
+	)
+
+	(label "CAN_RX"
+		(at 314.96 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8616953-1e20-43e1-95ae-eb7196ac8a99")
+	)
+
+	(label "CHG_ENABLE_MCU"
+		(at 373.38 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcef9ed4-6818-43f2-bd25-86d00dee4bd6")
+	)
+
+	(label "DSG_ENABLE_MCU"
+		(at 373.38 39.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10726422-1474-4357-ad13-de1f14c893e9")
+	)
+
+	(label "CAN_TX"
+		(at 373.38 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ee925fa-8a3e-42f1-9881-d514c96454e8")
+	)
+
+	(label "TEMP_MUX_S0"
+		(at 373.38 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d6e1e97-62ad-4b4b-85be-614f310f35d4")
+	)
+
+	(label "TEMP_MUX_S1"
+		(at 373.38 67.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbcd9522-85a5-476f-89ea-a32b0ceb0794")
+	)
+
+	(label "TEMP_MUX_S2"
+		(at 373.38 73.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd9683f4-7210-4615-8ab7-d7765ae53297")
+	)
+
+	(label "TEMP_MUX_S3"
+		(at 373.38 79.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d36c2e69-f2c2-4d79-aef2-4177dc6db1b5")
+	)
+
+	(label "CAN_TX"
+		(at 314.96 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f87a7074-5c24-4209-8bc2-70f5edb0528e")
+	)
+
+	(label "ESP32_5V"
+		(at 314.96 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4ea5a42-ab91-4086-b431-4e1ea7ed1213")
+	)
+
+	(label "CAN_RX"
+		(at 373.38 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d89c548-7964-4132-b61a-738c5c79eb96")
+	)
+
+	(no_connect
+		(at 274.32 53.34)
+		(uuid "223e8f4e-51bc-407f-a83d-97611743c677")
+	)
+
+	(text "1. EXTERNAL SENSE & POWER INTERFACE"
+		(at 25.40 16.00 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "33ac07e2-611b-4159-919e-23dcf3e51395")
+	)
+	(text "DD-50 Sense Harness, M8 Power Lugs & Kelvin Shunt Sense"
+		(at 25.40 19.81 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9c66a29-dba2-4c9f-9a0e-f268feb519e2")
+	)
+
+	(text "2. CELL MANAGEMENT & SENSING"
+		(at 114.30 16.00 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "705cf7f7-b75d-4e99-83b4-eb9f79e08925")
+	)
 )
