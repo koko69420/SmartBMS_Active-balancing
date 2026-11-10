@@ -5590,4 +5590,994 @@
 		(uuid "d84abcf8-10fd-4507-8496-dff79e286982")
 	)
 
+	(label "CELL_TAP_4"
+		(at 45.72 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d709fbb-8b07-4e5e-907c-0024f1fdd227")
+	)
+
+	(label "CELL_TAP_5"
+		(at 68.58 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d156938-2ed0-462a-a461-8850a6e05ac1")
+	)
+
+	(label "CELL_TAP_6"
+		(at 45.72 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12edc1ec-2da5-45fa-9fcf-be77110c6de7")
+	)
+
+	(label "CELL_TAP_7"
+		(at 68.58 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f873f9e-1411-4171-aba4-b77b3904fb0c")
+	)
+
+	(label "CELL_TAP_8"
+		(at 45.72 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09d69153-e0bc-4df2-a3b4-6d2486c50062")
+	)
+
+	(label "CELL_TAP_9"
+		(at 68.58 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "703775ac-d61b-4670-b3b6-746f275beaf4")
+	)
+
+	(label "CELL_TAP_10"
+		(at 45.72 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d382aea-356e-4d9b-8d41-8227ff67678c")
+	)
+
+	(label "CELL_TAP_11"
+		(at 68.58 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8d95895-a4db-4491-bc97-1659dc0db73d")
+	)
+
+	(label "CELL_TAP_12"
+		(at 45.72 50.80 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d92f9bd0-92d3-4b05-a791-832a8e1e121e")
+	)
+
+	(label "CELL_TAP_13"
+		(at 68.58 50.80 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19590550-25f5-4940-b671-14581880c4d4")
+	)
+
+	(label "CELL_TAP_14"
+		(at 45.72 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3176bdcc-c6a4-4015-abc7-d0363e3cbd97")
+	)
+
+	(label "CELL_TAP_15"
+		(at 68.58 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98571390-5d21-4834-b0d1-4c0ade82948b")
+	)
+
+	(label "CELL_TAP_16"
+		(at 45.72 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01929b4b-d56a-4ee1-b51f-0f00363db264")
+	)
+
+	(label "CELL_TEMP_01"
+		(at 45.72 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91dc2e32-297f-4a5d-b06b-be1c24221a63")
+	)
+
+	(label "CELL_TEMP_02"
+		(at 68.58 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d931c81-678a-4173-8dde-1843f8a6fae9")
+	)
+
+	(label "CELL_TEMP_03"
+		(at 45.72 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d22d3bda-8e33-4e11-bd4b-a318b537ea9f")
+	)
+
+	(label "CELL_TEMP_04"
+		(at 68.58 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec380ae1-7d34-427d-b1ab-0fe10a3d07a1")
+	)
+
+	(label "CELL_TEMP_05"
+		(at 45.72 63.50 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2206a2c5-906c-4368-88e9-17c7d596cd4d")
+	)
+
+	(label "CELL_TEMP_06"
+		(at 68.58 63.50 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9aa7691a-dc59-46af-90fd-aab5b2e2b7fa")
+	)
+
+	(label "CELL_TEMP_07"
+		(at 45.72 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2df6b217-618e-42ae-9d43-98d5fc0a09c5")
+	)
+
+	(label "CELL_TEMP_08"
+		(at 68.58 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7bf188e-cecb-4ac8-bf6b-736aa04c5393")
+	)
+
+	(label "CELL_TEMP_09"
+		(at 45.72 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f80c14e-cc37-48bb-98f0-64b8e6494ed8")
+	)
+
+	(label "CELL_TEMP_10"
+		(at 68.58 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a81d0348-79c9-4351-b228-143cacc8a2c5")
+	)
+
+	(label "CELL_TEMP_11"
+		(at 45.72 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ccddbc6-b11d-465f-be5a-15abe3809a54")
+	)
+
+	(label "CELL_TEMP_12"
+		(at 68.58 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78c41af7-9637-45d1-974d-41f340142ba5")
+	)
+
+	(label "CELL_TEMP_13"
+		(at 45.72 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c6b469ba-4b10-4c57-9f47-8cc8e53e05f6")
+	)
+
+	(label "CELL_TEMP_14"
+		(at 68.58 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac6141fb-c5c1-4515-9af8-c02f81b75453")
+	)
+
+	(label "CELL_TEMP_15"
+		(at 45.72 76.20 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0ae1800-c371-4bcf-845b-2c8f120fdcd8")
+	)
+
+	(label "CELL_TEMP_16"
+		(at 68.58 76.20 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf42b65c-eca2-4633-9a49-532a6e623b64")
+	)
+
+	(label "BALANCER_INDUCTOR_TEMP"
+		(at 45.72 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "368687ae-b403-4077-8e19-c6f8bbee5023")
+	)
+
+	(label "BALANCER_SWITCH_TEMP"
+		(at 68.58 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "517ce9ad-8845-45c8-a1ea-8ab672e2b993")
+	)
+
+	(label "CHG_FET_TEMP"
+		(at 45.72 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cea94451-c16b-4b34-b4b0-dbd020a6668a")
+	)
+
+	(label "COMMON_SOURCE_BUS_TEMP"
+		(at 68.58 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "914b604a-a1f2-47c9-b639-bf293896a3f6")
+	)
+
+	(label "DSG_FET_TEMP"
+		(at 45.72 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "40e4bf40-33d6-400c-9c49-9b6e1a488f79")
+	)
+
+	(label "ENCLOSURE_TEMP"
+		(at 68.58 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad92eef0-ebd5-493e-981e-7f96e73fb6b3")
+	)
+
+	(label "INTAKE_TEMP"
+		(at 45.72 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82edd5f9-671b-48f8-a920-6acba443d8b8")
+	)
+
+	(label "PCB_TEMP_01"
+		(at 68.58 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52ae370e-f540-4f5c-b911-a40c0851cfbf")
+	)
+
+	(label "PCB_TEMP_02"
+		(at 45.72 88.90 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5587e00a-e1aa-4f4a-a0b3-6f407164315e")
+	)
+
+	(label "PCB_TEMP_03"
+		(at 68.58 88.90 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3d490b1-303a-4c33-9d44-cbadcaca672e")
+	)
+
+	(label "RESERVED_TEMP_14"
+		(at 45.72 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7a73366-2ee9-43b3-bec3-0c5ee45aaf83")
+	)
+
+	(label "RESERVED_TEMP_15"
+		(at 68.58 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e73059e1-9a88-4a63-9326-e930e58ea3de")
+	)
+
+	(label "RESERVED_TEMP_16"
+		(at 45.72 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8273561-de31-4962-9995-087d8622551f")
+	)
+
+	(label "SHUNT_TEMP"
+		(at 68.58 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4a20f55-427d-4b76-89f4-41cc2ef712f2")
+	)
+
+	(label "TERMINAL_1_TEMP"
+		(at 45.72 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7236d32-74a8-4e19-8f5d-9db514b8b193")
+	)
+
+	(label "TERMINAL_2_TEMP"
+		(at 68.58 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16cdbd0a-1b67-492f-a322-13ce75c96a4a")
+	)
+
+	(label "SHUNT_FET_SIDE"
+		(at 38.10 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ba6b83d-5a02-4396-9b73-f7866a85a2b1")
+	)
+
+	(label "PACK_MINUS"
+		(at 38.10 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3a12f49-e47f-4f0d-96cc-fa39835697b1")
+	)
+
+	(label "PACK_PLUS"
+		(at 38.10 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b6660cd-b133-4cfc-8918-3b843382307c")
+	)
+
+	(label "SHUNT_BAT_SIDE"
+		(at 81.28 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08d3f587-6c70-4a0e-948e-c8273f690659")
+	)
+
+	(label "SHUNT_FET_SIDE"
+		(at 81.28 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42a06620-9ca9-4048-ba81-5d128a71d5c0")
+	)
+
+	(label "CELL_TAP_0"
+		(at 63.50 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b91071d4-4928-424d-a11a-04ecb0029ead")
+	)
+
+	(label "SHUNT_BAT_SIDE"
+		(at 78.74 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5825a57c-c8dd-4549-8574-7a73b8511317")
+	)
+
+	(label "CELL_TAP_16"
+		(at 63.50 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48356a31-ad1b-43ac-b071-105292a99b7c")
+	)
+
+	(label "PACK_PLUS"
+		(at 78.74 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37d3fb73-fdeb-479f-b3aa-0bb7107ab73e")
+	)
+
+	(label "CELL_TAP_0"
+		(at 116.84 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "830e513a-58a0-4897-8b78-7ebae9705a31")
+	)
+
+	(label "CELL_TAP_1"
+		(at 116.84 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df42c88c-39ca-4169-836d-38ae662357e7")
+	)
+
+	(label "CELL_TAP_2"
+		(at 116.84 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "daa2af90-b160-4e87-b946-1ef6d530e728")
+	)
+
+	(label "CELL_TAP_3"
+		(at 116.84 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f747932-407d-4cd1-a3e5-450f977c3390")
+	)
+
+	(label "CELL_TAP_4"
+		(at 116.84 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d60bf00-26c0-49be-95f8-bb00ede4fd9f")
+	)
+
+	(label "CELL_TAP_5"
+		(at 116.84 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b8461c7-d92f-4bcf-8e0c-d72f96c6c75d")
+	)
+
+	(label "CELL_TAP_6"
+		(at 116.84 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9de62aa-4c94-480a-adc0-919fc65a7202")
+	)
+
+	(label "CELL_TAP_7"
+		(at 116.84 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef95e00c-ce75-4aa4-94a2-49c94cf109bc")
+	)
+
+	(label "CELL_TAP_8"
+		(at 116.84 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea2ebf94-5269-412a-9f44-9647a07c0b2a")
+	)
+
+	(label "CELL_TAP_9"
+		(at 116.84 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f07a5ed2-e04e-4714-a585-8e9fada2208b")
+	)
+
+	(label "CELL_TAP_10"
+		(at 116.84 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61c56117-d4f0-43b7-b98f-863e7cbe2b70")
+	)
+
+	(label "CELL_TAP_11"
+		(at 116.84 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6158dd01-a990-464c-a2b5-e8cf7302ee14")
+	)
+
+	(label "CELL_TAP_12"
+		(at 116.84 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "993bf789-91c9-4752-8e4a-1a9587b727d1")
+	)
+
+	(label "CELL_TAP_13"
+		(at 116.84 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3255e77e-3e40-45c2-9431-2e007f3e9f0f")
+	)
+
+	(label "CELL_TAP_14"
+		(at 116.84 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09ded5b5-e509-47ca-8f45-09a8547c384e")
+	)
+
+	(label "CELL_TAP_15"
+		(at 116.84 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7576ada-9eb9-4f7f-88ee-5dc43711e208")
+	)
+
+	(label "CELL_TAP_16"
+		(at 116.84 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f1a0d08-2425-4ee4-819e-dcad254a6222")
+	)
+
+	(label "AFE_ALERT"
+		(at 172.72 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7681166-f6b2-4f6d-87ca-423c6dbb7de8")
+	)
+
+	(label "AFE_DCHG"
+		(at 172.72 38.10 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f4f79c6-7067-41d1-a759-b23a27cad27c")
+	)
+
+	(label "AFE_DDSG"
+		(at 172.72 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95eac068-d098-41b4-9918-fcc66d26892d")
+	)
+
+	(label "AFE_REG1"
+		(at 172.72 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de57b161-7ec6-42af-ac01-7b02a42b32e7")
+	)
+
+	(label "AFE_SCL"
+		(at 172.72 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63eec22f-845e-48c6-b409-217566ded161")
+	)
+
+	(label "AFE_SDA"
+		(at 172.72 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89381685-b615-462c-bc06-4f504d3849b2")
+	)
+
+	(label "SHUNT_BAT_SIDE"
+		(at 137.16 83.82 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b973f1c-8fcf-41c8-9d47-98658115dc09")
+	)
+
+	(label "SHUNT_FET_SIDE"
+		(at 152.40 83.82 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91138f59-fe64-4e74-b27a-978272791c44")
+	)
+
+	(label "TEMP_MUX_S0"
+		(at 116.84 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "636f2a40-0945-4fcd-b9b6-397fd66e9c1c")
+	)
+
+	(label "TEMP_MUX_S1"
+		(at 116.84 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a201181-4b33-4d2f-b6c0-92eed855bd8d")
+	)
+
+	(label "TEMP_MUX_S2"
+		(at 116.84 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30ee3974-d0ef-4090-bfc0-4bf77bad8a24")
+	)
+
+	(label "TEMP_MUX_S3"
+		(at 116.84 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e73d73af-3cd8-4b60-8b83-33c638d7e2e4")
+	)
+
+	(label "BAL_SENSE"
+		(at 172.72 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b612b57-bc4b-48d3-9420-9c73ffa38b12")
+	)
+
+	(label "CELL_TEMP_01"
+		(at 114.30 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a4318f6-7532-46df-9d51-d5ec0cf0bfb6")
+	)
+
+	(label "CELL_TEMP_02"
+		(at 114.30 134.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08f61142-089c-4fc9-a8e1-03c4d6a669d2")
+	)
+
+	(label "CELL_TEMP_03"
+		(at 114.30 137.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5344a66b-d7a6-412a-acc3-bab64484c577")
+	)
+
+	(label "CELL_TEMP_04"
+		(at 114.30 140.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "025afa65-d1a8-4182-988f-41fdd6fde447")
+	)
+
+	(label "CELL_TEMP_05"
+		(at 114.30 143.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "199a40de-c045-43a2-b377-ef0249f4484d")
+	)
+
+	(label "CELL_TEMP_06"
+		(at 114.30 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec4e1e19-a6f7-4e9b-94e3-238940982faa")
+	)
+
 )
