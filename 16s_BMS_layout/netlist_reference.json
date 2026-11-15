@@ -1,8 +1,3365 @@
 {
   "16s_BMS": {
-    "component_count": 0,
+    "component_count": 299,
     "net_count": 246,
-    "components": {},
+    "components": {
+      "J30": {
+        "ref": "J30",
+        "value": "DD50_Female",
+        "footprint": "custom_footprints:DD50_Placeholder",
+        "sheet": "/",
+        "pins": {
+          "18": "+3V3",
+          "35": "/BALANCER_INDUCTOR_TEMP",
+          "36": "/BALANCER_SWITCH_TEMP",
+          "2": "/CELL_TAP_1",
+          "3": "/CELL_TAP_2",
+          "4": "/CELL_TAP_3",
+          "5": "/CELL_TAP_4",
+          "6": "/CELL_TAP_5",
+          "7": "/CELL_TAP_6",
+          "8": "/CELL_TAP_7",
+          "9": "/CELL_TAP_8",
+          "10": "/CELL_TAP_9",
+          "11": "/CELL_TAP_10",
+          "12": "/CELL_TAP_11",
+          "13": "/CELL_TAP_12",
+          "14": "/CELL_TAP_13",
+          "15": "/CELL_TAP_14",
+          "16": "/CELL_TAP_15",
+          "17": "/CELL_TAP_16",
+          "19": "/CELL_TEMP_01",
+          "20": "/CELL_TEMP_02",
+          "21": "/CELL_TEMP_03",
+          "22": "/CELL_TEMP_04",
+          "23": "/CELL_TEMP_05",
+          "24": "/CELL_TEMP_06",
+          "25": "/CELL_TEMP_07",
+          "26": "/CELL_TEMP_08",
+          "27": "/CELL_TEMP_09",
+          "28": "/CELL_TEMP_10",
+          "29": "/CELL_TEMP_11",
+          "30": "/CELL_TEMP_12",
+          "31": "/CELL_TEMP_13",
+          "32": "/CELL_TEMP_14",
+          "33": "/CELL_TEMP_15",
+          "34": "/CELL_TEMP_16",
+          "37": "/CHG_FET_TEMP",
+          "38": "/COMMON_SOURCE_BUS_TEMP",
+          "39": "/DSG_FET_TEMP",
+          "40": "/ENCLOSURE_TEMP",
+          "41": "/INTAKE_TEMP",
+          "42": "/PCB_TEMP_01",
+          "43": "/PCB_TEMP_02",
+          "44": "/PCB_TEMP_03",
+          "45": "/RESERVED_TEMP_14",
+          "46": "/RESERVED_TEMP_15",
+          "47": "/RESERVED_TEMP_16",
+          "48": "/SHUNT_TEMP",
+          "49": "/TERMINAL_1_TEMP",
+          "50": "/TERMINAL_2_TEMP",
+          "1": "VSS"
+        }
+      },
+      "J31": {
+        "ref": "J31",
+        "value": "SHUNT KELVIN",
+        "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+        "sheet": "/",
+        "pins": {
+          "1": "/SHUNT_BAT_SIDE",
+          "2": "/SHUNT_FET_SIDE"
+        }
+      },
+      "J32": {
+        "ref": "J32",
+        "value": "FROM SHUNT",
+        "footprint": "MountingHole:MountingHole_8.4mm_M8_Pad",
+        "sheet": "/",
+        "pins": {
+          "1": "/SHUNT_FET_SIDE"
+        }
+      },
+      "J33": {
+        "ref": "J33",
+        "value": "PACK MINUS",
+        "footprint": "MountingHole:MountingHole_8.4mm_M8_Pad",
+        "sheet": "/",
+        "pins": {
+          "1": "/PACK_MINUS"
+        }
+      },
+      "J34": {
+        "ref": "J34",
+        "value": "PACK PLUS TAP",
+        "footprint": "MountingHole:MountingHole_8.4mm_M8_Pad",
+        "sheet": "/",
+        "pins": {
+          "1": "/PACK_PLUS"
+        }
+      },
+      "NT2": {
+        "ref": "NT2",
+        "value": "NetTie_2",
+        "footprint": "NetTie:NetTie-2_SMD_Pad0.5mm",
+        "sheet": "/",
+        "pins": {
+          "2": "/SHUNT_BAT_SIDE",
+          "1": "VSS"
+        }
+      },
+      "NT3": {
+        "ref": "NT3",
+        "value": "NetTie_2",
+        "footprint": "NetTie:NetTie-2_SMD_Pad0.5mm",
+        "sheet": "/",
+        "pins": {
+          "1": "/CELL_TAP_16",
+          "2": "/PACK_PLUS"
+        }
+      },
+      "C1": {
+        "ref": "C1",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC0",
+          "1": "VSS"
+        }
+      },
+      "C2": {
+        "ref": "C2",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC1",
+          "1": "VSS"
+        }
+      },
+      "C3": {
+        "ref": "C3",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC2",
+          "1": "VSS"
+        }
+      },
+      "C4": {
+        "ref": "C4",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC3",
+          "1": "VSS"
+        }
+      },
+      "C5": {
+        "ref": "C5",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC4",
+          "1": "VSS"
+        }
+      },
+      "C6": {
+        "ref": "C6",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC5",
+          "1": "VSS"
+        }
+      },
+      "C7": {
+        "ref": "C7",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC6",
+          "1": "VSS"
+        }
+      },
+      "C8": {
+        "ref": "C8",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC7",
+          "1": "VSS"
+        }
+      },
+      "C9": {
+        "ref": "C9",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC8",
+          "1": "VSS"
+        }
+      },
+      "C10": {
+        "ref": "C10",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC9",
+          "1": "VSS"
+        }
+      },
+      "C11": {
+        "ref": "C11",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC10",
+          "1": "VSS"
+        }
+      },
+      "C12": {
+        "ref": "C12",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC11",
+          "1": "VSS"
+        }
+      },
+      "C13": {
+        "ref": "C13",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC12",
+          "1": "VSS"
+        }
+      },
+      "C14": {
+        "ref": "C14",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC13",
+          "1": "VSS"
+        }
+      },
+      "C15": {
+        "ref": "C15",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC14",
+          "1": "VSS"
+        }
+      },
+      "C16": {
+        "ref": "C16",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC15",
+          "1": "VSS"
+        }
+      },
+      "C17": {
+        "ref": "C17",
+        "value": "220 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC16",
+          "1": "VSS"
+        }
+      },
+      "C18": {
+        "ref": "C18",
+        "value": "1 \u00b5F",
+        "footprint": "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "1": "Net-(U1-BAT)",
+          "2": "VSS"
+        }
+      },
+      "C19": {
+        "ref": "C19",
+        "value": "100 pF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "1": "Net-(U1-BAT)",
+          "2": "VSS"
+        }
+      },
+      "C20": {
+        "ref": "C20",
+        "value": "1 \u00b5F",
+        "footprint": "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "Net-(Q21-C)",
+          "1": "VSS"
+        }
+      },
+      "C21": {
+        "ref": "C21",
+        "value": "2.2 \u00b5F",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "1": "Net-(U1-REG18)",
+          "2": "VSS"
+        }
+      },
+      "C22": {
+        "ref": "C22",
+        "value": "100 nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "1": "Net-(U1-SRN)",
+          "2": "Net-(U1-SRP)"
+        }
+      },
+      "C23": {
+        "ref": "C23",
+        "value": "22 nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "Net-(Q21-E)",
+          "1": "VSS"
+        }
+      },
+      "C24": {
+        "ref": "C24",
+        "value": "1 \u00b5F",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/AFE_REG1",
+          "1": "VSS"
+        }
+      },
+      "D1": {
+        "ref": "D1",
+        "value": "BAV21WS",
+        "footprint": "Diode_SMD:D_SOD-323_HandSoldering",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/CELL_TAP_16",
+          "1": "Net-(D1-K)"
+        }
+      },
+      "D2": {
+        "ref": "D2",
+        "value": "BAV21WS",
+        "footprint": "Diode_SMD:D_SOD-323_HandSoldering",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/CELL_TAP_16",
+          "1": "Net-(D2-K)"
+        }
+      },
+      "Q21": {
+        "ref": "Q21",
+        "value": "BCX56-135",
+        "footprint": "Package_TO_SOT_SMD:SOT-89-3_Handsoldering",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "3": "Net-(Q21-B)",
+          "2": "Net-(Q21-C)",
+          "1": "Net-(Q21-E)"
+        }
+      },
+      "R1": {
+        "ref": "R1",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC0",
+          "1": "VSS"
+        }
+      },
+      "R2": {
+        "ref": "R2",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC1",
+          "1": "/CELL_TAP_1"
+        }
+      },
+      "R3": {
+        "ref": "R3",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC2",
+          "1": "/CELL_TAP_2"
+        }
+      },
+      "R4": {
+        "ref": "R4",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC3",
+          "1": "/CELL_TAP_3"
+        }
+      },
+      "R5": {
+        "ref": "R5",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC4",
+          "1": "/CELL_TAP_4"
+        }
+      },
+      "R6": {
+        "ref": "R6",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC5",
+          "1": "/CELL_TAP_5"
+        }
+      },
+      "R7": {
+        "ref": "R7",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC6",
+          "1": "/CELL_TAP_6"
+        }
+      },
+      "R8": {
+        "ref": "R8",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC7",
+          "1": "/CELL_TAP_7"
+        }
+      },
+      "R9": {
+        "ref": "R9",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC8",
+          "1": "/CELL_TAP_8"
+        }
+      },
+      "R10": {
+        "ref": "R10",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC9",
+          "1": "/CELL_TAP_9"
+        }
+      },
+      "R11": {
+        "ref": "R11",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC10",
+          "1": "/CELL_TAP_10"
+        }
+      },
+      "R12": {
+        "ref": "R12",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC11",
+          "1": "/CELL_TAP_11"
+        }
+      },
+      "R13": {
+        "ref": "R13",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC12",
+          "1": "/CELL_TAP_12"
+        }
+      },
+      "R14": {
+        "ref": "R14",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC13",
+          "1": "/CELL_TAP_13"
+        }
+      },
+      "R15": {
+        "ref": "R15",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC14",
+          "1": "/CELL_TAP_14"
+        }
+      },
+      "R16": {
+        "ref": "R16",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC15",
+          "1": "/CELL_TAP_15"
+        }
+      },
+      "R17": {
+        "ref": "R17",
+        "value": "20 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "/01_Cell_AFE/VC16",
+          "1": "/CELL_TAP_16"
+        }
+      },
+      "R18": {
+        "ref": "R18",
+        "value": "100 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "1": "Net-(D1-K)",
+          "2": "Net-(U1-BAT)"
+        }
+      },
+      "R19": {
+        "ref": "R19",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "+3V3",
+          "1": "/AFE_SCL"
+        }
+      },
+      "R20": {
+        "ref": "R20",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "+3V3",
+          "1": "/AFE_SDA"
+        }
+      },
+      "R21": {
+        "ref": "R21",
+        "value": "100 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "1": "/SHUNT_BAT_SIDE",
+          "2": "Net-(U1-SRP)"
+        }
+      },
+      "R22": {
+        "ref": "R22",
+        "value": "100 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "1": "/SHUNT_FET_SIDE",
+          "2": "Net-(U1-SRN)"
+        }
+      },
+      "R23": {
+        "ref": "R23",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "1": "/CELL_TAP_16",
+          "2": "Net-(U1-PACK)"
+        }
+      },
+      "R24": {
+        "ref": "R24",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "2": "+3V3",
+          "1": "/AFE_ALERT"
+        }
+      },
+      "R69": {
+        "ref": "R69",
+        "value": "300 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "1": "Net-(D2-K)",
+          "2": "Net-(Q21-C)"
+        }
+      },
+      "R70": {
+        "ref": "R70",
+        "value": "10 M\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "1": "Net-(Q21-B)",
+          "2": "VSS"
+        }
+      },
+      "U1": {
+        "ref": "U1",
+        "value": "BQ76952PFBR",
+        "footprint": "BQ76952PFBR:QFP50P900X900X120-48N",
+        "sheet": "/01_Cell_AFE/",
+        "pins": {
+          "16": "/01_Cell_AFE/VC0",
+          "15": "/01_Cell_AFE/VC1",
+          "14": "/01_Cell_AFE/VC2",
+          "13": "/01_Cell_AFE/VC3",
+          "12": "/01_Cell_AFE/VC4",
+          "11": "/01_Cell_AFE/VC5",
+          "10": "/01_Cell_AFE/VC6",
+          "9": "/01_Cell_AFE/VC7",
+          "8": "/01_Cell_AFE/VC8",
+          "7": "/01_Cell_AFE/VC9",
+          "6": "/01_Cell_AFE/VC10",
+          "5": "/01_Cell_AFE/VC11",
+          "4": "/01_Cell_AFE/VC12",
+          "3": "/01_Cell_AFE/VC13",
+          "2": "/01_Cell_AFE/VC14",
+          "1": "/01_Cell_AFE/VC15",
+          "48": "/01_Cell_AFE/VC16",
+          "25": "/AFE_ALERT",
+          "31": "/AFE_DCHG",
+          "32": "/AFE_DDSG",
+          "35": "/AFE_REG1",
+          "26": "/AFE_SCL",
+          "27": "/AFE_SDA",
+          "37": "Net-(Q21-B)",
+          "36": "Net-(Q21-E)",
+          "46": "Net-(U1-BAT)",
+          "47": "Net-(U1-BAT)",
+          "42": "Net-(U1-PACK)",
+          "24": "Net-(U1-REG18)",
+          "20": "Net-(U1-SRN)",
+          "18": "Net-(U1-SRP)",
+          "17": "VSS",
+          "33": "VSS",
+          "38": "VSS",
+          "41": "VSS",
+          "29": "unconnected-(U1-CFETOFF-Pad29)",
+          "45": "unconnected-(U1-CHG-Pad45)",
+          "30": "unconnected-(U1-DFETOFF-Pad30)",
+          "43": "unconnected-(U1-DSG-Pad43)",
+          "28": "unconnected-(U1-HDQ-Pad28)",
+          "19": "unconnected-(U1-NC-Pad19)",
+          "44": "unconnected-(U1-NC-Pad19)",
+          "40": "unconnected-(U1-PCHG-Pad40)",
+          "39": "unconnected-(U1-PDSG-Pad39)",
+          "34": "unconnected-(U1-REG2-Pad34)",
+          "21": "unconnected-(U1-TS1-Pad21)",
+          "22": "unconnected-(U1-TS2-Pad22)",
+          "23": "unconnected-(U1-TS3-Pad23)"
+        }
+      },
+      "C27": {
+        "ref": "C27",
+        "value": "4.7uF 100V",
+        "footprint": "Capacitor_SMD:C_1210_3225Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "/02_Power_Supply/VPACK_F",
+          "2": "GND"
+        }
+      },
+      "C28": {
+        "ref": "C28",
+        "value": "100nF 100V",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "/02_Power_Supply/VPACK_F",
+          "2": "GND"
+        }
+      },
+      "C29": {
+        "ref": "C29",
+        "value": "2.2nF 50V",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "/02_Power_Supply/SW12",
+          "1": "Net-(U10-BST)"
+        }
+      },
+      "C30": {
+        "ref": "C30",
+        "value": "3.3nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "+12V",
+          "1": "Net-(C30-Pad1)"
+        }
+      },
+      "C31": {
+        "ref": "C31",
+        "value": "56pF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "/02_Power_Supply/FB12",
+          "2": "Net-(C30-Pad1)"
+        }
+      },
+      "C32": {
+        "ref": "C32",
+        "value": "22uF 25V",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "+12V",
+          "2": "GND"
+        }
+      },
+      "C33": {
+        "ref": "C33",
+        "value": "100nF 25V",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "+12V",
+          "2": "GND"
+        }
+      },
+      "C34": {
+        "ref": "C34",
+        "value": "470uF 25V",
+        "footprint": "Capacitor_SMD:CP_Elec_8x10",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "+12V",
+          "2": "GND"
+        }
+      },
+      "C35": {
+        "ref": "C35",
+        "value": "100nF 25V",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "+12V",
+          "2": "GND"
+        }
+      },
+      "C36": {
+        "ref": "C36",
+        "value": "220uF 10V",
+        "footprint": "Capacitor_SMD:CP_Elec_8x10",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "C37": {
+        "ref": "C37",
+        "value": "100nF 10V",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "C38": {
+        "ref": "C38",
+        "value": "4.7uF 25V",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "+12V",
+          "2": "GND"
+        }
+      },
+      "C39": {
+        "ref": "C39",
+        "value": "4.7uF 25V",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "/GATE_DRV_VDD"
+        }
+      },
+      "C40": {
+        "ref": "C40",
+        "value": "22uF 25V",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "+12V",
+          "2": "GND"
+        }
+      },
+      "C41": {
+        "ref": "C41",
+        "value": "220uF 10V",
+        "footprint": "Capacitor_SMD:CP_Elec_8x10",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "+5V",
+          "2": "GND"
+        }
+      },
+      "C42": {
+        "ref": "C42",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "+5V",
+          "2": "GND"
+        }
+      },
+      "D3": {
+        "ref": "D3",
+        "value": "SMBJ60CA",
+        "footprint": "Diode_SMD:D_SMB",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "/02_Power_Supply/VPACK_F",
+          "1": "GND"
+        }
+      },
+      "D4": {
+        "ref": "D4",
+        "value": "B340",
+        "footprint": "Diode_SMD:D_SMC",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "GND",
+          "1": "Net-(D4-K)"
+        }
+      },
+      "D5": {
+        "ref": "D5",
+        "value": "B340",
+        "footprint": "Diode_SMD:D_SMC",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "GND",
+          "1": "Net-(D5-K)"
+        }
+      },
+      "D6": {
+        "ref": "D6",
+        "value": "B5819W",
+        "footprint": "Diode_SMD:D_SMA",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "+5V",
+          "1": "Net-(D6-K)"
+        }
+      },
+      "D60": {
+        "ref": "D60",
+        "value": "SS34",
+        "footprint": "Diode_SMD:D_SMA",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "/02_Power_Supply/FAN_12V_SW",
+          "2": "GND"
+        }
+      },
+      "F1": {
+        "ref": "F1",
+        "value": "2A 80V",
+        "footprint": "Fuse:Fuse_1812_4532Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "/02_Power_Supply/VPACK_F",
+          "1": "/PACK_PLUS"
+        }
+      },
+      "F2": {
+        "ref": "F2",
+        "value": "3.15A",
+        "footprint": "Fuse:Fuse_1812_4532Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "/02_Power_Supply/+12V_EXT",
+          "2": "/02_Power_Supply/FAN_12V"
+        }
+      },
+      "J1": {
+        "ref": "J1",
+        "value": "FAN1",
+        "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "/02_Power_Supply/FAN_12V_SW",
+          "2": "GND"
+        }
+      },
+      "J2": {
+        "ref": "J2",
+        "value": "FAN2",
+        "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "/02_Power_Supply/FAN_12V_SW",
+          "2": "GND"
+        }
+      },
+      "J4": {
+        "ref": "J4",
+        "value": "12V_EXT",
+        "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "/02_Power_Supply/+12V_EXT",
+          "2": "GND"
+        }
+      },
+      "JP1": {
+        "ref": "JP1",
+        "value": "JP_OPEN",
+        "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "/ESP32_5V",
+          "1": "Net-(D6-K)"
+        }
+      },
+      "L1": {
+        "ref": "L1",
+        "value": "68 uH",
+        "footprint": "Inductor_SMD:L_Bourns_SRR1260",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "+12V",
+          "1": "/02_Power_Supply/SW12"
+        }
+      },
+      "L2": {
+        "ref": "L2",
+        "value": "33 uH",
+        "footprint": "Inductor_SMD:L_Bourns_SRR1260",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "+3V3",
+          "1": "Net-(D4-K)"
+        }
+      },
+      "L3": {
+        "ref": "L3",
+        "value": "33 uH",
+        "footprint": "Inductor_SMD:L_Bourns_SRR1260",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "+5V",
+          "1": "Net-(D5-K)"
+        }
+      },
+      "NT1": {
+        "ref": "NT1",
+        "value": "NetTie_2",
+        "footprint": "NetTie:NetTie-2_SMD_Pad0.5mm",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "/SHUNT_FET_SIDE",
+          "1": "GND"
+        }
+      },
+      "Q22": {
+        "ref": "Q22",
+        "value": "AO3407A",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "/02_Power_Supply/FAN_12V",
+          "3": "/02_Power_Supply/FAN_12V_SW",
+          "1": "/02_Power_Supply/FAN_PG"
+        }
+      },
+      "Q23": {
+        "ref": "Q23",
+        "value": "2N7002",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "/02_Power_Supply/FAN_G2",
+          "3": "/02_Power_Supply/FAN_PD",
+          "2": "GND"
+        }
+      },
+      "R101": {
+        "ref": "R101",
+        "value": "1M",
+        "footprint": "Resistor_SMD:R_1206_3216Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "/02_Power_Supply/VPACK_F",
+          "2": "Net-(U10-EN{slash}UVLO)"
+        }
+      },
+      "R102": {
+        "ref": "R102",
+        "value": "51k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "GND",
+          "1": "Net-(U10-EN{slash}UVLO)"
+        }
+      },
+      "R103": {
+        "ref": "R103",
+        "value": "100k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "GND",
+          "1": "Net-(U10-RON)"
+        }
+      },
+      "R104": {
+        "ref": "R104",
+        "value": "270k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "+12V",
+          "2": "/02_Power_Supply/FB12"
+        }
+      },
+      "R105": {
+        "ref": "R105",
+        "value": "30k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "/02_Power_Supply/FB12",
+          "2": "GND"
+        }
+      },
+      "R106": {
+        "ref": "R106",
+        "value": "470k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "/02_Power_Supply/SW12",
+          "2": "Net-(C30-Pad1)"
+        }
+      },
+      "R160": {
+        "ref": "R160",
+        "value": "100",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "/02_Power_Supply/FAN_G2",
+          "1": "/FAN_EN"
+        }
+      },
+      "R161": {
+        "ref": "R161",
+        "value": "100k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "1": "/02_Power_Supply/FAN_G2",
+          "2": "GND"
+        }
+      },
+      "R162": {
+        "ref": "R162",
+        "value": "10k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "/02_Power_Supply/FAN_12V",
+          "1": "/02_Power_Supply/FAN_PG"
+        }
+      },
+      "R163": {
+        "ref": "R163",
+        "value": "4.7k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "/02_Power_Supply/FAN_PD",
+          "1": "/02_Power_Supply/FAN_PG"
+        }
+      },
+      "U10": {
+        "ref": "U10",
+        "value": "LM5164DDA",
+        "footprint": "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "5": "/02_Power_Supply/FB12",
+          "8": "/02_Power_Supply/SW12",
+          "2": "/02_Power_Supply/VPACK_F",
+          "1": "GND",
+          "9": "GND",
+          "7": "Net-(U10-BST)",
+          "3": "Net-(U10-EN{slash}UVLO)",
+          "4": "Net-(U10-RON)",
+          "6": "unconnected-(U10-PGOOD-Pad6)"
+        }
+      },
+      "U11": {
+        "ref": "U11",
+        "value": "LM2596S-3.3",
+        "footprint": "Package_TO_SOT_SMD:TO-263-5_TabPin3",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "4": "+3V3",
+          "1": "+12V",
+          "3": "GND",
+          "5": "GND",
+          "2": "Net-(D4-K)"
+        }
+      },
+      "U12": {
+        "ref": "U12",
+        "value": "B1212S-1WR3",
+        "footprint": "Converter_DCDC:Converter_DCDC_Murata_MEE1SxxxxSC_THT",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "2": "+12V",
+          "3": "/FET_SOURCE_COMMON",
+          "4": "/GATE_DRV_VDD",
+          "1": "GND"
+        }
+      },
+      "U13": {
+        "ref": "U13",
+        "value": "LM2596S-5.0",
+        "footprint": "Package_TO_SOT_SMD:TO-263-5_TabPin3",
+        "sheet": "/02_Power_Supply/",
+        "pins": {
+          "4": "+5V",
+          "1": "+12V",
+          "3": "GND",
+          "5": "GND",
+          "2": "Net-(D5-K)"
+        }
+      },
+      "C_DRV1": {
+        "ref": "C_DRV1",
+        "value": "100 nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "/GATE_DRV_VDD"
+        }
+      },
+      "C_DRV2": {
+        "ref": "C_DRV2",
+        "value": "4.7 \u00b5F",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "/GATE_DRV_VDD"
+        }
+      },
+      "C_DRV3": {
+        "ref": "C_DRV3",
+        "value": "4.7 \u00b5F",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "/GATE_DRV_VDD"
+        }
+      },
+      "C_DRV4": {
+        "ref": "C_DRV4",
+        "value": "100 nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "/GATE_DRV_VDD"
+        }
+      },
+      "Q1": {
+        "ref": "Q1",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/SHUNT_FET_SIDE",
+          "1": "Net-(Q1-G)"
+        }
+      },
+      "Q2": {
+        "ref": "Q2",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/SHUNT_FET_SIDE",
+          "1": "Net-(Q2-G)"
+        }
+      },
+      "Q3": {
+        "ref": "Q3",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/SHUNT_FET_SIDE",
+          "1": "Net-(Q3-G)"
+        }
+      },
+      "Q4": {
+        "ref": "Q4",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/SHUNT_FET_SIDE",
+          "1": "Net-(Q4-G)"
+        }
+      },
+      "Q5": {
+        "ref": "Q5",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/SHUNT_FET_SIDE",
+          "1": "Net-(Q5-G)"
+        }
+      },
+      "Q6": {
+        "ref": "Q6",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/SHUNT_FET_SIDE",
+          "1": "Net-(Q6-G)"
+        }
+      },
+      "Q7": {
+        "ref": "Q7",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/SHUNT_FET_SIDE",
+          "1": "Net-(Q7-G)"
+        }
+      },
+      "Q8": {
+        "ref": "Q8",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/SHUNT_FET_SIDE",
+          "1": "Net-(Q8-G)"
+        }
+      },
+      "Q9": {
+        "ref": "Q9",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/PACK_MINUS",
+          "1": "Net-(Q9-G)"
+        }
+      },
+      "Q10": {
+        "ref": "Q10",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/PACK_MINUS",
+          "1": "Net-(Q10-G)"
+        }
+      },
+      "Q11": {
+        "ref": "Q11",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/PACK_MINUS",
+          "1": "Net-(Q11-G)"
+        }
+      },
+      "Q12": {
+        "ref": "Q12",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/PACK_MINUS",
+          "1": "Net-(Q12-G)"
+        }
+      },
+      "Q13": {
+        "ref": "Q13",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/PACK_MINUS",
+          "1": "Net-(Q13-G)"
+        }
+      },
+      "Q14": {
+        "ref": "Q14",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/PACK_MINUS",
+          "1": "Net-(Q14-G)"
+        }
+      },
+      "Q15": {
+        "ref": "Q15",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/PACK_MINUS",
+          "1": "Net-(Q15-G)"
+        }
+      },
+      "Q16": {
+        "ref": "Q16",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "/PACK_MINUS",
+          "1": "Net-(Q16-G)"
+        }
+      },
+      "Q17": {
+        "ref": "Q17",
+        "value": "BC817-40,215",
+        "footprint": "Package_TO_SOT_SMD:SOT-23_Handsoldering",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "Net-(Q17-B)",
+          "3": "Net-(Q17-C)",
+          "2": "VSS"
+        }
+      },
+      "Q18": {
+        "ref": "Q18",
+        "value": "BC817-40,215",
+        "footprint": "Package_TO_SOT_SMD:SOT-23_Handsoldering",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "Net-(Q18-B)",
+          "3": "Net-(Q18-C)",
+          "2": "VSS"
+        }
+      },
+      "R25": {
+        "ref": "R25",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_CHG",
+          "2": "Net-(Q1-G)"
+        }
+      },
+      "R26": {
+        "ref": "R26",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_DSG",
+          "2": "Net-(Q9-G)"
+        }
+      },
+      "R27": {
+        "ref": "R27",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_DSG",
+          "2": "Net-(Q10-G)"
+        }
+      },
+      "R28": {
+        "ref": "R28",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_CHG",
+          "2": "Net-(Q2-G)"
+        }
+      },
+      "R29": {
+        "ref": "R29",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_DSG",
+          "2": "Net-(Q11-G)"
+        }
+      },
+      "R30": {
+        "ref": "R30",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_CHG",
+          "2": "Net-(Q3-G)"
+        }
+      },
+      "R31": {
+        "ref": "R31",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_DSG",
+          "2": "Net-(Q12-G)"
+        }
+      },
+      "R32": {
+        "ref": "R32",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_CHG",
+          "2": "Net-(Q4-G)"
+        }
+      },
+      "R33": {
+        "ref": "R33",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_DSG",
+          "2": "Net-(Q13-G)"
+        }
+      },
+      "R34": {
+        "ref": "R34",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_CHG",
+          "2": "Net-(Q5-G)"
+        }
+      },
+      "R35": {
+        "ref": "R35",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_DSG",
+          "2": "Net-(Q14-G)"
+        }
+      },
+      "R36": {
+        "ref": "R36",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_CHG",
+          "2": "Net-(Q6-G)"
+        }
+      },
+      "R37": {
+        "ref": "R37",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_DSG",
+          "2": "Net-(Q15-G)"
+        }
+      },
+      "R38": {
+        "ref": "R38",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_CHG",
+          "2": "Net-(Q7-G)"
+        }
+      },
+      "R39": {
+        "ref": "R39",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_DSG",
+          "2": "Net-(Q16-G)"
+        }
+      },
+      "R40": {
+        "ref": "R40",
+        "value": "27 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/04_Current_Switching/U_DRV_CHG",
+          "2": "Net-(Q8-G)"
+        }
+      },
+      "R41": {
+        "ref": "R41",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "Net-(Q1-G)"
+        }
+      },
+      "R42": {
+        "ref": "R42",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/FET_SOURCE_COMMON",
+          "2": "Net-(Q9-G)"
+        }
+      },
+      "R43": {
+        "ref": "R43",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "Net-(Q2-G)"
+        }
+      },
+      "R44": {
+        "ref": "R44",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/FET_SOURCE_COMMON",
+          "2": "Net-(Q10-G)"
+        }
+      },
+      "R45": {
+        "ref": "R45",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "Net-(Q3-G)"
+        }
+      },
+      "R46": {
+        "ref": "R46",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/FET_SOURCE_COMMON",
+          "2": "Net-(Q11-G)"
+        }
+      },
+      "R47": {
+        "ref": "R47",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "Net-(Q4-G)"
+        }
+      },
+      "R48": {
+        "ref": "R48",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/FET_SOURCE_COMMON",
+          "2": "Net-(Q12-G)"
+        }
+      },
+      "R49": {
+        "ref": "R49",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "Net-(Q5-G)"
+        }
+      },
+      "R50": {
+        "ref": "R50",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/FET_SOURCE_COMMON",
+          "2": "Net-(Q13-G)"
+        }
+      },
+      "R51": {
+        "ref": "R51",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "Net-(Q6-G)"
+        }
+      },
+      "R52": {
+        "ref": "R52",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/FET_SOURCE_COMMON",
+          "2": "Net-(Q14-G)"
+        }
+      },
+      "R53": {
+        "ref": "R53",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "Net-(Q7-G)"
+        }
+      },
+      "R54": {
+        "ref": "R54",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/FET_SOURCE_COMMON",
+          "2": "Net-(Q15-G)"
+        }
+      },
+      "R55": {
+        "ref": "R55",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "Net-(Q8-G)"
+        }
+      },
+      "R56": {
+        "ref": "R56",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/FET_SOURCE_COMMON",
+          "2": "Net-(Q16-G)"
+        }
+      },
+      "R57": {
+        "ref": "R57",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/04_Current_Switching/CHG_OPTO_OUT",
+          "1": "/GATE_DRV_VDD"
+        }
+      },
+      "R58": {
+        "ref": "R58",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "/04_Current_Switching/DSG_OPTO_OUT",
+          "1": "/GATE_DRV_VDD"
+        }
+      },
+      "R59": {
+        "ref": "R59",
+        "value": "2.2 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/AFE_DCHG",
+          "2": "Net-(Q17-B)"
+        }
+      },
+      "R61": {
+        "ref": "R61",
+        "value": "2.2 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/AFE_DDSG",
+          "2": "Net-(Q18-B)"
+        }
+      },
+      "R63": {
+        "ref": "R63",
+        "value": "100 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "Net-(Q17-B)",
+          "1": "VSS"
+        }
+      },
+      "R65": {
+        "ref": "R65",
+        "value": "100 k\u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "Net-(Q18-B)",
+          "1": "VSS"
+        }
+      },
+      "R67": {
+        "ref": "R67",
+        "value": "330 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/AFE_REG1",
+          "2": "Net-(R67-Pad2)"
+        }
+      },
+      "R68": {
+        "ref": "R68",
+        "value": "330 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/AFE_REG1",
+          "2": "Net-(R68-Pad2)"
+        }
+      },
+      "R71": {
+        "ref": "R71",
+        "value": "330 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/CHG_ENABLE_MCU",
+          "2": "Net-(R71-Pad2)"
+        }
+      },
+      "R72": {
+        "ref": "R72",
+        "value": "330 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "1": "/DSG_ENABLE_MCU",
+          "2": "Net-(R72-Pad2)"
+        }
+      },
+      "U2": {
+        "ref": "U2",
+        "value": "UCC27517DBVR",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "4": "/04_Current_Switching/CHG_OPTO_OUT",
+          "5": "/04_Current_Switching/U_DRV_CHG",
+          "2": "/FET_SOURCE_COMMON",
+          "1": "/GATE_DRV_VDD",
+          "3": "/GATE_DRV_VDD"
+        }
+      },
+      "U3": {
+        "ref": "U3",
+        "value": "UCC27517DBVR",
+        "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "4": "/04_Current_Switching/DSG_OPTO_OUT",
+          "5": "/04_Current_Switching/U_DRV_DSG",
+          "2": "/FET_SOURCE_COMMON",
+          "1": "/GATE_DRV_VDD",
+          "3": "/GATE_DRV_VDD"
+        }
+      },
+      "U4": {
+        "ref": "U4",
+        "value": "EL817",
+        "footprint": "Package_SO:SOP-4_3.8x4.1mm_P2.54mm",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "4": "/04_Current_Switching/CHG_OPTO_OUT",
+          "3": "/FET_SOURCE_COMMON",
+          "1": "Net-(R67-Pad2)",
+          "2": "Net-(U4-Pad2)"
+        }
+      },
+      "U5": {
+        "ref": "U5",
+        "value": "EL817",
+        "footprint": "Package_SO:SOP-4_3.8x4.1mm_P2.54mm",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "4": "/04_Current_Switching/DSG_OPTO_OUT",
+          "3": "/FET_SOURCE_COMMON",
+          "1": "Net-(R68-Pad2)",
+          "2": "Net-(U5-Pad2)"
+        }
+      },
+      "U6": {
+        "ref": "U6",
+        "value": "EL817",
+        "footprint": "Package_SO:SOP-4_3.8x4.1mm_P2.54mm",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "GND",
+          "3": "Net-(Q17-C)",
+          "1": "Net-(R71-Pad2)",
+          "4": "Net-(U4-Pad2)"
+        }
+      },
+      "U7": {
+        "ref": "U7",
+        "value": "EL817",
+        "footprint": "Package_SO:SOP-4_3.8x4.1mm_P2.54mm",
+        "sheet": "/04_Current_Switching/",
+        "pins": {
+          "2": "GND",
+          "3": "Net-(Q18-C)",
+          "1": "Net-(R72-Pad2)",
+          "4": "Net-(U5-Pad2)"
+        }
+      },
+      "C50": {
+        "ref": "C50",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "C51": {
+        "ref": "C51",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "C52": {
+        "ref": "C52",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "C53": {
+        "ref": "C53",
+        "value": "4.7uF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "C54": {
+        "ref": "C54",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "C55": {
+        "ref": "C55",
+        "value": "1uF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/VDDA",
+          "2": "GND"
+        }
+      },
+      "C56": {
+        "ref": "C56",
+        "value": "10nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/VDDA",
+          "2": "GND"
+        }
+      },
+      "C57": {
+        "ref": "C57",
+        "value": "18pF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/OSC_IN",
+          "2": "GND"
+        }
+      },
+      "C58": {
+        "ref": "C58",
+        "value": "18pF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/OSC_OUT",
+          "2": "GND"
+        }
+      },
+      "C59": {
+        "ref": "C59",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/MCU_NRST",
+          "2": "GND"
+        }
+      },
+      "C61": {
+        "ref": "C61",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "C90": {
+        "ref": "C90",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/CHG_SW_IN",
+          "2": "GND"
+        }
+      },
+      "C91": {
+        "ref": "C91",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/DSG_SW_IN",
+          "2": "GND"
+        }
+      },
+      "D10": {
+        "ref": "D10",
+        "value": "GREEN",
+        "footprint": "LED_SMD:LED_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "GND",
+          "2": "Net-(D10-A)"
+        }
+      },
+      "D70": {
+        "ref": "D70",
+        "value": "PESD5V0S1BA",
+        "footprint": "Diode_SMD:D_SOD-323",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/CHG_SW_RAW",
+          "2": "GND"
+        }
+      },
+      "D71": {
+        "ref": "D71",
+        "value": "PESD5V0S1BA",
+        "footprint": "Diode_SMD:D_SOD-323",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/DSG_SW_RAW",
+          "2": "GND"
+        }
+      },
+      "FB10": {
+        "ref": "FB10",
+        "value": "120R/1.5A",
+        "footprint": "Inductor_SMD:L_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "+3V3",
+          "2": "/03_MCU_Control/VDDA"
+        }
+      },
+      "J10": {
+        "ref": "J10",
+        "value": "WCH-LinkE",
+        "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "+3V3",
+          "4": "/03_MCU_Control/MCU_NRST",
+          "3": "/03_MCU_Control/SWCLK",
+          "2": "/03_MCU_Control/SWDIO",
+          "5": "GND"
+        }
+      },
+      "J11": {
+        "ref": "J11",
+        "value": "Debug UART",
+        "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "2": "/03_MCU_Control/UART_RX",
+          "1": "/03_MCU_Control/UART_TX",
+          "3": "GND"
+        }
+      },
+      "J12": {
+        "ref": "J12",
+        "value": "OLED Display (I2C)",
+        "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "2": "+3V3",
+          "3": "/03_MCU_Control/EE_SCL",
+          "4": "/03_MCU_Control/EE_SDA",
+          "1": "GND"
+        }
+      },
+      "J36": {
+        "ref": "J36",
+        "value": "CHG SWITCH",
+        "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/CHG_SW_RAW",
+          "2": "GND"
+        }
+      },
+      "J37": {
+        "ref": "J37",
+        "value": "DSG SWITCH",
+        "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/DSG_SW_RAW",
+          "2": "GND"
+        }
+      },
+      "JP10": {
+        "ref": "JP10",
+        "value": "BOOT0",
+        "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "+3V3",
+          "2": "/03_MCU_Control/BOOT0"
+        }
+      },
+      "JP11": {
+        "ref": "JP11",
+        "value": "ADDR0",
+        "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/ADDR0",
+          "2": "GND"
+        }
+      },
+      "JP12": {
+        "ref": "JP12",
+        "value": "ADDR1",
+        "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/ADDR1",
+          "2": "GND"
+        }
+      },
+      "JP13": {
+        "ref": "JP13",
+        "value": "ADDR2",
+        "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/ADDR2",
+          "2": "GND"
+        }
+      },
+      "JP14": {
+        "ref": "JP14",
+        "value": "EE_WP",
+        "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "2": "+3V3",
+          "1": "/03_MCU_Control/EE_WP"
+        }
+      },
+      "R120": {
+        "ref": "R120",
+        "value": "10k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "2": "+3V3",
+          "1": "/03_MCU_Control/MCU_NRST"
+        }
+      },
+      "R121": {
+        "ref": "R121",
+        "value": "100k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "2": "/03_MCU_Control/BOOT0",
+          "1": "GND"
+        }
+      },
+      "R125": {
+        "ref": "R125",
+        "value": "1k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/LED_STATUS",
+          "2": "Net-(D10-A)"
+        }
+      },
+      "R126": {
+        "ref": "R126",
+        "value": "100k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/CHG_ENABLE_MCU",
+          "2": "GND"
+        }
+      },
+      "R127": {
+        "ref": "R127",
+        "value": "100k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/DSG_ENABLE_MCU",
+          "2": "GND"
+        }
+      },
+      "R128": {
+        "ref": "R128",
+        "value": "4.7k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "2": "+3V3",
+          "1": "/03_MCU_Control/EE_SCL"
+        }
+      },
+      "R129": {
+        "ref": "R129",
+        "value": "4.7k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "2": "+3V3",
+          "1": "/03_MCU_Control/EE_SDA"
+        }
+      },
+      "R131": {
+        "ref": "R131",
+        "value": "10k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/EE_WP",
+          "2": "GND"
+        }
+      },
+      "R170": {
+        "ref": "R170",
+        "value": "10k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "+3V3",
+          "2": "/03_MCU_Control/CHG_SW_IN"
+        }
+      },
+      "R171": {
+        "ref": "R171",
+        "value": "10k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "2": "/03_MCU_Control/CHG_SW_IN",
+          "1": "/03_MCU_Control/CHG_SW_RAW"
+        }
+      },
+      "R172": {
+        "ref": "R172",
+        "value": "10k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "+3V3",
+          "2": "/03_MCU_Control/DSG_SW_IN"
+        }
+      },
+      "R173": {
+        "ref": "R173",
+        "value": "10k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "2": "/03_MCU_Control/DSG_SW_IN",
+          "1": "/03_MCU_Control/DSG_SW_RAW"
+        }
+      },
+      "U20": {
+        "ref": "U20",
+        "value": "CH32V203C8T6",
+        "footprint": "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "+3V3",
+          "24": "+3V3",
+          "36": "+3V3",
+          "48": "+3V3",
+          "16": "/03_MCU_Control/ADDR0",
+          "17": "/03_MCU_Control/ADDR1",
+          "41": "/03_MCU_Control/ADDR2",
+          "44": "/03_MCU_Control/BOOT0",
+          "33": "/03_MCU_Control/CHG_SW_IN",
+          "2": "/03_MCU_Control/DSG_SW_IN",
+          "21": "/03_MCU_Control/EE_SCL",
+          "22": "/03_MCU_Control/EE_SDA",
+          "18": "/03_MCU_Control/LED_STATUS",
+          "7": "/03_MCU_Control/MCU_NRST",
+          "5": "/03_MCU_Control/OSC_IN",
+          "6": "/03_MCU_Control/OSC_OUT",
+          "37": "/03_MCU_Control/SWCLK",
+          "34": "/03_MCU_Control/SWDIO",
+          "13": "/03_MCU_Control/UART_RX",
+          "12": "/03_MCU_Control/UART_TX",
+          "9": "/03_MCU_Control/VDDA",
+          "10": "/AFE_ALERT",
+          "42": "/AFE_SCL",
+          "43": "/AFE_SDA",
+          "11": "/BAL_SENSE",
+          "45": "/CAN_RX",
+          "46": "/CAN_TX",
+          "29": "/CHG_ENABLE_MCU",
+          "30": "/DSG_ENABLE_MCU",
+          "32": "/FAN_EN",
+          "31": "/PRECHG_EN",
+          "19": "/PRECHG_SENSE",
+          "14": "/TEMP_MUX1_COM",
+          "15": "/TEMP_MUX2_COM",
+          "25": "/TEMP_MUX_S0",
+          "26": "/TEMP_MUX_S1",
+          "27": "/TEMP_MUX_S2",
+          "28": "/TEMP_MUX_S3",
+          "23": "GND",
+          "35": "GND",
+          "47": "GND",
+          "8": "GND",
+          "38": "unconnected-(U20-PA15-Pad38)",
+          "20": "unconnected-(U20-PB2-Pad20)",
+          "39": "unconnected-(U20-PB3-Pad39)",
+          "40": "unconnected-(U20-PB4-Pad40)",
+          "3": "unconnected-(U20-PC14-Pad3)",
+          "4": "unconnected-(U20-PC15-Pad4)"
+        }
+      },
+      "U21": {
+        "ref": "U21",
+        "value": "FM24CL64B-G",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "8": "+3V3",
+          "6": "/03_MCU_Control/EE_SCL",
+          "5": "/03_MCU_Control/EE_SDA",
+          "7": "/03_MCU_Control/EE_WP",
+          "1": "GND",
+          "2": "GND",
+          "3": "GND",
+          "4": "GND"
+        }
+      },
+      "Y1": {
+        "ref": "Y1",
+        "value": "8MHz",
+        "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+        "sheet": "/03_MCU_Control/",
+        "pins": {
+          "1": "/03_MCU_Control/OSC_IN",
+          "3": "/03_MCU_Control/OSC_OUT",
+          "2": "GND",
+          "4": "GND"
+        }
+      },
+      "C25": {
+        "ref": "C25",
+        "value": "100 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/05_Temperature_Sensing/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "C26": {
+        "ref": "C26",
+        "value": "100 nF",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+        "sheet": "/05_Temperature_Sensing/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "U8": {
+        "ref": "U8",
+        "value": "CD74HC4067SM",
+        "footprint": "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm",
+        "sheet": "/05_Temperature_Sensing/",
+        "pins": {
+          "24": "+3V3",
+          "9": "/CELL_TEMP_01",
+          "8": "/CELL_TEMP_02",
+          "7": "/CELL_TEMP_03",
+          "6": "/CELL_TEMP_04",
+          "5": "/CELL_TEMP_05",
+          "4": "/CELL_TEMP_06",
+          "3": "/CELL_TEMP_07",
+          "2": "/CELL_TEMP_08",
+          "23": "/CELL_TEMP_09",
+          "22": "/CELL_TEMP_10",
+          "21": "/CELL_TEMP_11",
+          "20": "/CELL_TEMP_12",
+          "19": "/CELL_TEMP_13",
+          "18": "/CELL_TEMP_14",
+          "17": "/CELL_TEMP_15",
+          "16": "/CELL_TEMP_16",
+          "1": "/TEMP_MUX1_COM",
+          "10": "/TEMP_MUX_S0",
+          "11": "/TEMP_MUX_S1",
+          "14": "/TEMP_MUX_S2",
+          "13": "/TEMP_MUX_S3",
+          "12": "GND",
+          "15": "GND"
+        }
+      },
+      "U9": {
+        "ref": "U9",
+        "value": "CD74HC4067SM",
+        "footprint": "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm",
+        "sheet": "/05_Temperature_Sensing/",
+        "pins": {
+          "24": "+3V3",
+          "20": "/BALANCER_INDUCTOR_TEMP",
+          "19": "/BALANCER_SWITCH_TEMP",
+          "6": "/CHG_FET_TEMP",
+          "21": "/COMMON_SOURCE_BUS_TEMP",
+          "5": "/DSG_FET_TEMP",
+          "7": "/ENCLOSURE_TEMP",
+          "8": "/INTAKE_TEMP",
+          "2": "/PCB_TEMP_01",
+          "23": "/PCB_TEMP_02",
+          "22": "/PCB_TEMP_03",
+          "18": "/RESERVED_TEMP_14",
+          "17": "/RESERVED_TEMP_15",
+          "16": "/RESERVED_TEMP_16",
+          "9": "/SHUNT_TEMP",
+          "1": "/TEMP_MUX2_COM",
+          "10": "/TEMP_MUX_S0",
+          "11": "/TEMP_MUX_S1",
+          "14": "/TEMP_MUX_S2",
+          "13": "/TEMP_MUX_S3",
+          "4": "/TERMINAL_1_TEMP",
+          "3": "/TERMINAL_2_TEMP",
+          "12": "GND",
+          "15": "GND"
+        }
+      },
+      "R110": {
+        "ref": "R110",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER/",
+        "pins": {
+          "1": "/CELL_TEMP_01",
+          "2": "GND"
+        }
+      },
+      "R62": {
+        "ref": "R62",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER1/",
+        "pins": {
+          "1": "/CELL_TEMP_02",
+          "2": "GND"
+        }
+      },
+      "R64": {
+        "ref": "R64",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER2/",
+        "pins": {
+          "1": "/CELL_TEMP_03",
+          "2": "GND"
+        }
+      },
+      "R66": {
+        "ref": "R66",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER3/",
+        "pins": {
+          "1": "/CELL_TEMP_04",
+          "2": "GND"
+        }
+      },
+      "R73": {
+        "ref": "R73",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER4/",
+        "pins": {
+          "1": "/CELL_TEMP_05",
+          "2": "GND"
+        }
+      },
+      "R74": {
+        "ref": "R74",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER5/",
+        "pins": {
+          "1": "/CELL_TEMP_06",
+          "2": "GND"
+        }
+      },
+      "R75": {
+        "ref": "R75",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER6/",
+        "pins": {
+          "1": "/CELL_TEMP_07",
+          "2": "GND"
+        }
+      },
+      "R76": {
+        "ref": "R76",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER7/",
+        "pins": {
+          "1": "/CELL_TEMP_08",
+          "2": "GND"
+        }
+      },
+      "R77": {
+        "ref": "R77",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER8/",
+        "pins": {
+          "1": "/CELL_TEMP_09",
+          "2": "GND"
+        }
+      },
+      "R78": {
+        "ref": "R78",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER9/",
+        "pins": {
+          "1": "/CELL_TEMP_10",
+          "2": "GND"
+        }
+      },
+      "R79": {
+        "ref": "R79",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER10/",
+        "pins": {
+          "1": "/CELL_TEMP_11",
+          "2": "GND"
+        }
+      },
+      "R80": {
+        "ref": "R80",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER11/",
+        "pins": {
+          "1": "/CELL_TEMP_12",
+          "2": "GND"
+        }
+      },
+      "R81": {
+        "ref": "R81",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER12/",
+        "pins": {
+          "1": "/CELL_TEMP_13",
+          "2": "GND"
+        }
+      },
+      "R82": {
+        "ref": "R82",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER13/",
+        "pins": {
+          "1": "/CELL_TEMP_14",
+          "2": "GND"
+        }
+      },
+      "R83": {
+        "ref": "R83",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER14/",
+        "pins": {
+          "1": "/CELL_TEMP_15",
+          "2": "GND"
+        }
+      },
+      "R84": {
+        "ref": "R84",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER15/",
+        "pins": {
+          "1": "/CELL_TEMP_16",
+          "2": "GND"
+        }
+      },
+      "R85": {
+        "ref": "R85",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER16/",
+        "pins": {
+          "1": "/SHUNT_TEMP",
+          "2": "GND"
+        }
+      },
+      "R86": {
+        "ref": "R86",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER17/",
+        "pins": {
+          "1": "/INTAKE_TEMP",
+          "2": "GND"
+        }
+      },
+      "R87": {
+        "ref": "R87",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER18/",
+        "pins": {
+          "1": "/ENCLOSURE_TEMP",
+          "2": "GND"
+        }
+      },
+      "R88": {
+        "ref": "R88",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER19/",
+        "pins": {
+          "1": "/CHG_FET_TEMP",
+          "2": "GND"
+        }
+      },
+      "R89": {
+        "ref": "R89",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER20/",
+        "pins": {
+          "1": "/DSG_FET_TEMP",
+          "2": "GND"
+        }
+      },
+      "R90": {
+        "ref": "R90",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER21/",
+        "pins": {
+          "1": "/TERMINAL_1_TEMP",
+          "2": "GND"
+        }
+      },
+      "R91": {
+        "ref": "R91",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER22/",
+        "pins": {
+          "1": "/TERMINAL_2_TEMP",
+          "2": "GND"
+        }
+      },
+      "R92": {
+        "ref": "R92",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER23/",
+        "pins": {
+          "1": "/PCB_TEMP_01",
+          "2": "GND"
+        }
+      },
+      "R93": {
+        "ref": "R93",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER24/",
+        "pins": {
+          "1": "/PCB_TEMP_02",
+          "2": "GND"
+        }
+      },
+      "R94": {
+        "ref": "R94",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER25/",
+        "pins": {
+          "1": "/PCB_TEMP_03",
+          "2": "GND"
+        }
+      },
+      "R95": {
+        "ref": "R95",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER26/",
+        "pins": {
+          "1": "/COMMON_SOURCE_BUS_TEMP",
+          "2": "GND"
+        }
+      },
+      "R96": {
+        "ref": "R96",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER27/",
+        "pins": {
+          "1": "/BALANCER_INDUCTOR_TEMP",
+          "2": "GND"
+        }
+      },
+      "R97": {
+        "ref": "R97",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER28/",
+        "pins": {
+          "1": "/BALANCER_SWITCH_TEMP",
+          "2": "GND"
+        }
+      },
+      "R98": {
+        "ref": "R98",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER29/",
+        "pins": {
+          "1": "/RESERVED_TEMP_14",
+          "2": "GND"
+        }
+      },
+      "R99": {
+        "ref": "R99",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER30/",
+        "pins": {
+          "1": "/RESERVED_TEMP_15",
+          "2": "GND"
+        }
+      },
+      "R100": {
+        "ref": "R100",
+        "value": "10 k\u03a9",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/05_Temperature_Sensing/NTC_DIVIDER31/",
+        "pins": {
+          "1": "/RESERVED_TEMP_16",
+          "2": "GND"
+        }
+      },
+      "C62": {
+        "ref": "C62",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/06_Balance_Status/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "J20": {
+        "ref": "J20",
+        "value": "DB25_Female",
+        "footprint": "Connector_Dsub:DSUB-25_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm",
+        "sheet": "/06_Balance_Status/",
+        "pins": {
+          "1": "/06_Balance_Status/BAL_C1_A",
+          "2": "/06_Balance_Status/BAL_C2_A",
+          "3": "/06_Balance_Status/BAL_C3_A",
+          "4": "/06_Balance_Status/BAL_C4_A",
+          "5": "/06_Balance_Status/BAL_C5_A",
+          "6": "/06_Balance_Status/BAL_C6_A",
+          "7": "/06_Balance_Status/BAL_C7_A",
+          "8": "/06_Balance_Status/BAL_C8_A",
+          "9": "/06_Balance_Status/BAL_C9_A",
+          "10": "/06_Balance_Status/BAL_C10_A",
+          "11": "/06_Balance_Status/BAL_C11_A",
+          "12": "/06_Balance_Status/BAL_C12_A",
+          "13": "/06_Balance_Status/BAL_C13_A",
+          "14": "/06_Balance_Status/BAL_C14_A",
+          "15": "/06_Balance_Status/BAL_C15_A",
+          "16": "/06_Balance_Status/BAL_C16_A",
+          "17": "/06_Balance_Status/BAL_COM",
+          "18": "/06_Balance_Status/BAL_COM",
+          "19": "unconnected-(J20-P19-Pad19)",
+          "20": "unconnected-(J20-P20-Pad20)",
+          "21": "unconnected-(J20-P21-Pad21)",
+          "22": "unconnected-(J20-P22-Pad22)",
+          "23": "unconnected-(J20-P23-Pad23)",
+          "24": "unconnected-(J20-P24-Pad24)",
+          "25": "unconnected-(J20-P25-Pad25)"
+        }
+      },
+      "R130": {
+        "ref": "R130",
+        "value": "47k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/06_Balance_Status/",
+        "pins": {
+          "1": "+3V3",
+          "2": "/BAL_SENSE"
+        }
+      },
+      "U30": {
+        "ref": "U30",
+        "value": "CD74HC4067SM",
+        "footprint": "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm",
+        "sheet": "/06_Balance_Status/",
+        "pins": {
+          "24": "+3V3",
+          "9": "/06_Balance_Status/BAL_COL1",
+          "8": "/06_Balance_Status/BAL_COL2",
+          "7": "/06_Balance_Status/BAL_COL3",
+          "6": "/06_Balance_Status/BAL_COL4",
+          "5": "/06_Balance_Status/BAL_COL5",
+          "4": "/06_Balance_Status/BAL_COL6",
+          "3": "/06_Balance_Status/BAL_COL7",
+          "2": "/06_Balance_Status/BAL_COL8",
+          "23": "/06_Balance_Status/BAL_COL9",
+          "22": "/06_Balance_Status/BAL_COL10",
+          "21": "/06_Balance_Status/BAL_COL11",
+          "20": "/06_Balance_Status/BAL_COL12",
+          "19": "/06_Balance_Status/BAL_COL13",
+          "18": "/06_Balance_Status/BAL_COL14",
+          "17": "/06_Balance_Status/BAL_COL15",
+          "16": "/06_Balance_Status/BAL_COL16",
+          "1": "/BAL_SENSE",
+          "10": "/TEMP_MUX_S0",
+          "11": "/TEMP_MUX_S1",
+          "14": "/TEMP_MUX_S2",
+          "13": "/TEMP_MUX_S3",
+          "12": "GND",
+          "15": "GND"
+        }
+      },
+      "U31": {
+        "ref": "U31",
+        "value": "LTV-847S",
+        "footprint": "Package_DIP:SMDIP-16_W9.53mm",
+        "sheet": "/06_Balance_Status/",
+        "pins": {
+          "1": "/06_Balance_Status/BAL_C1_A",
+          "3": "/06_Balance_Status/BAL_C2_A",
+          "5": "/06_Balance_Status/BAL_C3_A",
+          "7": "/06_Balance_Status/BAL_C4_A",
+          "16": "/06_Balance_Status/BAL_COL1",
+          "14": "/06_Balance_Status/BAL_COL2",
+          "12": "/06_Balance_Status/BAL_COL3",
+          "10": "/06_Balance_Status/BAL_COL4",
+          "2": "/06_Balance_Status/BAL_COM",
+          "4": "/06_Balance_Status/BAL_COM",
+          "6": "/06_Balance_Status/BAL_COM",
+          "8": "/06_Balance_Status/BAL_COM",
+          "11": "GND",
+          "13": "GND",
+          "15": "GND",
+          "9": "GND"
+        }
+      },
+      "U32": {
+        "ref": "U32",
+        "value": "LTV-847S",
+        "footprint": "Package_DIP:SMDIP-16_W9.53mm",
+        "sheet": "/06_Balance_Status/",
+        "pins": {
+          "1": "/06_Balance_Status/BAL_C5_A",
+          "3": "/06_Balance_Status/BAL_C6_A",
+          "5": "/06_Balance_Status/BAL_C7_A",
+          "7": "/06_Balance_Status/BAL_C8_A",
+          "16": "/06_Balance_Status/BAL_COL5",
+          "14": "/06_Balance_Status/BAL_COL6",
+          "12": "/06_Balance_Status/BAL_COL7",
+          "10": "/06_Balance_Status/BAL_COL8",
+          "2": "/06_Balance_Status/BAL_COM",
+          "4": "/06_Balance_Status/BAL_COM",
+          "6": "/06_Balance_Status/BAL_COM",
+          "8": "/06_Balance_Status/BAL_COM",
+          "11": "GND",
+          "13": "GND",
+          "15": "GND",
+          "9": "GND"
+        }
+      },
+      "U33": {
+        "ref": "U33",
+        "value": "LTV-847S",
+        "footprint": "Package_DIP:SMDIP-16_W9.53mm",
+        "sheet": "/06_Balance_Status/",
+        "pins": {
+          "1": "/06_Balance_Status/BAL_C9_A",
+          "3": "/06_Balance_Status/BAL_C10_A",
+          "5": "/06_Balance_Status/BAL_C11_A",
+          "7": "/06_Balance_Status/BAL_C12_A",
+          "16": "/06_Balance_Status/BAL_COL9",
+          "14": "/06_Balance_Status/BAL_COL10",
+          "12": "/06_Balance_Status/BAL_COL11",
+          "10": "/06_Balance_Status/BAL_COL12",
+          "2": "/06_Balance_Status/BAL_COM",
+          "4": "/06_Balance_Status/BAL_COM",
+          "6": "/06_Balance_Status/BAL_COM",
+          "8": "/06_Balance_Status/BAL_COM",
+          "11": "GND",
+          "13": "GND",
+          "15": "GND",
+          "9": "GND"
+        }
+      },
+      "U34": {
+        "ref": "U34",
+        "value": "LTV-847S",
+        "footprint": "Package_DIP:SMDIP-16_W9.53mm",
+        "sheet": "/06_Balance_Status/",
+        "pins": {
+          "1": "/06_Balance_Status/BAL_C13_A",
+          "3": "/06_Balance_Status/BAL_C14_A",
+          "5": "/06_Balance_Status/BAL_C15_A",
+          "7": "/06_Balance_Status/BAL_C16_A",
+          "16": "/06_Balance_Status/BAL_COL13",
+          "14": "/06_Balance_Status/BAL_COL14",
+          "12": "/06_Balance_Status/BAL_COL15",
+          "10": "/06_Balance_Status/BAL_COL16",
+          "2": "/06_Balance_Status/BAL_COM",
+          "4": "/06_Balance_Status/BAL_COM",
+          "6": "/06_Balance_Status/BAL_COM",
+          "8": "/06_Balance_Status/BAL_COM",
+          "11": "GND",
+          "13": "GND",
+          "15": "GND",
+          "9": "GND"
+        }
+      },
+      "C43": {
+        "ref": "C43",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "1": "+12V",
+          "2": "GND"
+        }
+      },
+      "C44": {
+        "ref": "C44",
+        "value": "10uF 25V",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "1": "/07_Comms/ISO_9V",
+          "2": "/07_Comms/ISO_GND"
+        }
+      },
+      "C45": {
+        "ref": "C45",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "1": "/07_Comms/ISO_9V",
+          "2": "/07_Comms/ISO_GND"
+        }
+      },
+      "C46": {
+        "ref": "C46",
+        "value": "22uF 10V",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "1": "/07_Comms/ISO_5V",
+          "2": "/07_Comms/ISO_GND"
+        }
+      },
+      "C47": {
+        "ref": "C47",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "1": "/07_Comms/ISO_5V",
+          "2": "/07_Comms/ISO_GND"
+        }
+      },
+      "C80": {
+        "ref": "C80",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "C81": {
+        "ref": "C81",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "1": "/07_Comms/ISO_5V",
+          "2": "/07_Comms/ISO_GND"
+        }
+      },
+      "C82": {
+        "ref": "C82",
+        "value": "4.7uF 25V",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "1": "+12V",
+          "2": "GND"
+        }
+      },
+      "D20": {
+        "ref": "D20",
+        "value": "SMAJ6.0A",
+        "footprint": "Diode_SMD:D_SMA",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "2": "GND",
+          "1": "Net-(D20-K)"
+        }
+      },
+      "D50": {
+        "ref": "D50",
+        "value": "PESD2CAN",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "1": "/07_Comms/CAN_H",
+          "2": "/07_Comms/CAN_L",
+          "3": "/07_Comms/ISO_GND"
+        }
+      },
+      "F10": {
+        "ref": "F10",
+        "value": "1.0A 1812 PTC",
+        "footprint": "Fuse:Fuse_1812_4532Metric",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "1": "/ESP32_5V",
+          "2": "Net-(D20-K)"
+        }
+      },
+      "J40": {
+        "ref": "J40",
+        "value": "PACK LINK, NOT ETHERNET",
+        "footprint": "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "4": "/07_Comms/CAN_H",
+          "5": "/07_Comms/CAN_L",
+          "7": "/07_Comms/ISO_GND",
+          "8": "/07_Comms/ISO_GND",
+          "3": "GND",
+          "6": "GND",
+          "1": "Net-(D20-K)",
+          "2": "Net-(D20-K)"
+        }
+      },
+      "JP20": {
+        "ref": "JP20",
+        "value": "TERMINATION",
+        "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "2": "/07_Comms/CAN_L",
+          "1": "Net-(JP20-A)"
+        }
+      },
+      "R107": {
+        "ref": "R107",
+        "value": "10k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "2": "+3V3",
+          "1": "/CAN_TX"
+        }
+      },
+      "R108": {
+        "ref": "R108",
+        "value": "2k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "1": "/07_Comms/ISO_5V",
+          "2": "/07_Comms/ISO_GND"
+        }
+      },
+      "R109": {
+        "ref": "R109",
+        "value": "120",
+        "footprint": "Resistor_SMD:R_1206_3216Metric",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "1": "/07_Comms/CAN_H",
+          "2": "Net-(JP20-A)"
+        }
+      },
+      "U14": {
+        "ref": "U14",
+        "value": "B1209S-1WR3",
+        "footprint": "Converter_DCDC:Converter_DCDC_Murata_MEE1SxxxxSC_THT",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "2": "+12V",
+          "4": "/07_Comms/ISO_9V",
+          "3": "/07_Comms/ISO_GND",
+          "1": "GND"
+        }
+      },
+      "U15": {
+        "ref": "U15",
+        "value": "AMS1117-5.0",
+        "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "2": "/07_Comms/ISO_5V",
+          "3": "/07_Comms/ISO_9V",
+          "1": "/07_Comms/ISO_GND"
+        }
+      },
+      "U16": {
+        "ref": "U16",
+        "value": "ISO1050DUBR",
+        "footprint": "Package_SO:SOP-8_6.62x9.15mm_P2.54mm",
+        "sheet": "/07_Comms/",
+        "pins": {
+          "1": "+3V3",
+          "7": "/07_Comms/CAN_H",
+          "6": "/07_Comms/CAN_L",
+          "8": "/07_Comms/ISO_5V",
+          "5": "/07_Comms/ISO_GND",
+          "2": "/CAN_RX",
+          "3": "/CAN_TX",
+          "4": "GND"
+        }
+      },
+      "C70": {
+        "ref": "C70",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "/GATE_DRV_VDD"
+        }
+      },
+      "C71": {
+        "ref": "C71",
+        "value": "100nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "1": "/PRECHG_SENSE",
+          "2": "GND"
+        }
+      },
+      "D40": {
+        "ref": "D40",
+        "value": "SMAJ75A",
+        "footprint": "Diode_SMD:D_SMA",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "Net-(D40-K)"
+        }
+      },
+      "D41": {
+        "ref": "D41",
+        "value": "BZT52C15",
+        "footprint": "Diode_SMD:D_SOD-123",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "Net-(D41-K)"
+        }
+      },
+      "D42": {
+        "ref": "D42",
+        "value": "BAT54S",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "2": "+3V3",
+          "3": "/PRECHG_SENSE",
+          "1": "GND"
+        }
+      },
+      "J35": {
+        "ref": "J35",
+        "value": "AK300-2",
+        "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "1": "/PACK_MINUS",
+          "2": "Net-(D40-K)"
+        }
+      },
+      "Q19": {
+        "ref": "Q19",
+        "value": "IRFB4110",
+        "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "3": "/FET_SOURCE_COMMON",
+          "2": "Net-(D40-K)",
+          "1": "Net-(D41-K)"
+        }
+      },
+      "R150": {
+        "ref": "R150",
+        "value": "220",
+        "footprint": "Resistor_SMD:R_1206_3216Metric",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "1": "/PRECHG_EN",
+          "2": "Net-(R150-Pad2)"
+        }
+      },
+      "R151": {
+        "ref": "R151",
+        "value": "100k",
+        "footprint": "Resistor_SMD:R_1206_3216Metric",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "1": "/PRECHG_EN",
+          "2": "GND"
+        }
+      },
+      "R152": {
+        "ref": "R152",
+        "value": "100",
+        "footprint": "Resistor_SMD:R_1206_3216Metric",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "2": "Net-(D41-K)",
+          "1": "Net-(R152-Pad1)"
+        }
+      },
+      "R153": {
+        "ref": "R153",
+        "value": "10k",
+        "footprint": "Resistor_SMD:R_1206_3216Metric",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "2": "/FET_SOURCE_COMMON",
+          "1": "Net-(D41-K)"
+        }
+      },
+      "R154": {
+        "ref": "R154",
+        "value": "84.5k 1%",
+        "footprint": "Resistor_SMD:R_1206_3216Metric",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "1": "/PACK_MINUS",
+          "2": "Net-(R154-Pad2)"
+        }
+      },
+      "R155": {
+        "ref": "R155",
+        "value": "10k 1%",
+        "footprint": "Resistor_SMD:R_1206_3216Metric",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "2": "GND",
+          "1": "Net-(R155-Pad1)"
+        }
+      },
+      "R156": {
+        "ref": "R156",
+        "value": "84.5k 1%",
+        "footprint": "Resistor_SMD:R_1206_3216Metric",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "1": "Net-(R154-Pad2)",
+          "2": "Net-(R155-Pad1)"
+        }
+      },
+      "R157": {
+        "ref": "R157",
+        "value": "1k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "2": "/PRECHG_SENSE",
+          "1": "Net-(R155-Pad1)"
+        }
+      },
+      "U40": {
+        "ref": "U40",
+        "value": "EL817",
+        "footprint": "Package_SO:SOP-4_3.8x4.1mm_P2.54mm",
+        "sheet": "/08_Precharge/",
+        "pins": {
+          "4": "/GATE_DRV_VDD",
+          "2": "GND",
+          "1": "Net-(R150-Pad2)",
+          "3": "Net-(R152-Pad1)"
+        }
+      }
+    },
     "nets": {
       "+3V3": [
         {
@@ -5319,9 +8676,388 @@
     }
   },
   "esp32_gateway": {
-    "component_count": 0,
+    "component_count": 32,
     "net_count": 42,
-    "components": {},
+    "components": {
+      "C1": {
+        "ref": "C1",
+        "value": "100 \u00b5F 10V",
+        "footprint": "Capacitor_SMD:CP_Elec_6.3x5.4",
+        "sheet": "/",
+        "pins": {
+          "1": "+5V",
+          "2": "GND"
+        }
+      },
+      "C2": {
+        "ref": "C2",
+        "value": "100 nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/",
+        "pins": {
+          "1": "+5V",
+          "2": "GND"
+        }
+      },
+      "C3": {
+        "ref": "C3",
+        "value": "100 nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "C4": {
+        "ref": "C4",
+        "value": "100 nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        }
+      },
+      "C5": {
+        "ref": "C5",
+        "value": "100 nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/",
+        "pins": {
+          "1": "/INV_5V",
+          "2": "/INV_GND"
+        }
+      },
+      "C6": {
+        "ref": "C6",
+        "value": "4.7 \u00b5F 25V",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/",
+        "pins": {
+          "1": "+5V",
+          "2": "GND"
+        }
+      },
+      "C7": {
+        "ref": "C7",
+        "value": "100 nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/",
+        "pins": {
+          "1": "+5V",
+          "2": "GND"
+        }
+      },
+      "C8": {
+        "ref": "C8",
+        "value": "10 \u00b5F 25V",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric",
+        "sheet": "/",
+        "pins": {
+          "1": "/INV_9V",
+          "2": "/INV_GND"
+        }
+      },
+      "C9": {
+        "ref": "C9",
+        "value": "100 nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/",
+        "pins": {
+          "1": "/INV_9V",
+          "2": "/INV_GND"
+        }
+      },
+      "C10": {
+        "ref": "C10",
+        "value": "22 \u00b5F 10V",
+        "footprint": "Capacitor_SMD:C_1206_3216Metric",
+        "sheet": "/",
+        "pins": {
+          "1": "/INV_5V",
+          "2": "/INV_GND"
+        }
+      },
+      "C11": {
+        "ref": "C11",
+        "value": "100 nF",
+        "footprint": "Capacitor_SMD:C_0805_2012Metric",
+        "sheet": "/",
+        "pins": {
+          "1": "/INV_5V",
+          "2": "/INV_GND"
+        }
+      },
+      "D1": {
+        "ref": "D1",
+        "value": "SS14",
+        "footprint": "Diode_SMD:D_SMA",
+        "sheet": "/",
+        "pins": {
+          "1": "+5V",
+          "2": "/5V_F"
+        }
+      },
+      "D2": {
+        "ref": "D2",
+        "value": "SMAJ6.0A",
+        "footprint": "Diode_SMD:D_SMA",
+        "sheet": "/",
+        "pins": {
+          "1": "+5V",
+          "2": "GND"
+        }
+      },
+      "D3": {
+        "ref": "D3",
+        "value": "PESD2CAN",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "sheet": "/",
+        "pins": {
+          "3": "/PACK_CAN_GND",
+          "1": "/PACK_CAN_H",
+          "2": "/PACK_CAN_L"
+        }
+      },
+      "D4": {
+        "ref": "D4",
+        "value": "PESD2CAN",
+        "footprint": "Package_TO_SOT_SMD:SOT-23",
+        "sheet": "/",
+        "pins": {
+          "1": "/INV_CAN_H",
+          "2": "/INV_CAN_L",
+          "3": "/INV_GND"
+        }
+      },
+      "F1": {
+        "ref": "F1",
+        "value": "PTC 1.0A",
+        "footprint": "Fuse:Fuse_1812_4532Metric",
+        "sheet": "/",
+        "pins": {
+          "2": "/5V_F",
+          "1": "/5V_IN"
+        }
+      },
+      "J1": {
+        "ref": "J1",
+        "value": "PACK LINK, NOT ETHERNET",
+        "footprint": "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal",
+        "sheet": "/",
+        "pins": {
+          "1": "/5V_IN",
+          "2": "/5V_IN",
+          "7": "/PACK_CAN_GND",
+          "8": "/PACK_CAN_GND",
+          "4": "/PACK_CAN_H",
+          "5": "/PACK_CAN_L",
+          "3": "GND",
+          "6": "GND"
+        }
+      },
+      "J3": {
+        "ref": "J3",
+        "value": "Inverter CAN, Pylon 500 kbps",
+        "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",
+        "sheet": "/",
+        "pins": {
+          "1": "/INV_CAN_H",
+          "2": "/INV_CAN_L",
+          "3": "/INV_GND"
+        }
+      },
+      "J6": {
+        "ref": "J6",
+        "value": "SPARE IO",
+        "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+        "sheet": "/",
+        "pins": {
+          "5": "+3V3",
+          "1": "/SPARE_IO6",
+          "2": "/SPARE_IO7",
+          "3": "/SPARE_IO10",
+          "4": "/SPARE_IO11",
+          "6": "GND"
+        }
+      },
+      "JP2": {
+        "ref": "JP2",
+        "value": "PACK TERMINATION",
+        "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+        "sheet": "/",
+        "pins": {
+          "2": "/PACK_CAN_L",
+          "1": "Net-(JP2-A)"
+        }
+      },
+      "JP3": {
+        "ref": "JP3",
+        "value": "NetTie_2",
+        "footprint": "NetTie:NetTie-2_SMD_Pad0.5mm",
+        "sheet": "/",
+        "pins": {
+          "1": "/PACK_CAN_GND",
+          "2": "GND"
+        }
+      },
+      "JP4": {
+        "ref": "JP4",
+        "value": "INVERTER TERMINATION",
+        "footprint": "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",
+        "sheet": "/",
+        "pins": {
+          "2": "/INV_CAN_L",
+          "1": "Net-(JP4-A)"
+        }
+      },
+      "R3": {
+        "ref": "R3",
+        "value": "4.7 k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/",
+        "pins": {
+          "2": "+3V3",
+          "1": "/PACK_CAN_TX"
+        }
+      },
+      "R4": {
+        "ref": "R4",
+        "value": "4.7 k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/",
+        "pins": {
+          "2": "+3V3",
+          "1": "/INV_CAN_TX"
+        }
+      },
+      "R5": {
+        "ref": "R5",
+        "value": "120 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric",
+        "sheet": "/",
+        "pins": {
+          "1": "/PACK_CAN_H",
+          "2": "Net-(JP2-A)"
+        }
+      },
+      "R6": {
+        "ref": "R6",
+        "value": "2 k",
+        "footprint": "Resistor_SMD:R_0805_2012Metric",
+        "sheet": "/",
+        "pins": {
+          "1": "/INV_5V",
+          "2": "/INV_GND"
+        }
+      },
+      "R7": {
+        "ref": "R7",
+        "value": "120 \u03a9",
+        "footprint": "Resistor_SMD:R_1206_3216Metric",
+        "sheet": "/",
+        "pins": {
+          "1": "/INV_CAN_H",
+          "2": "Net-(JP4-A)"
+        }
+      },
+      "U1": {
+        "ref": "U1",
+        "value": "ESP32-C6-DevKitC-1",
+        "footprint": "custom_footprints:ESP32-C6-DevKitC-1",
+        "sheet": "/",
+        "pins": {
+          "1": "+3V3",
+          "14": "+5V",
+          "13": "/INV_CAN_RX",
+          "12": "/INV_CAN_TX",
+          "8": "/PACK_CAN_RX",
+          "7": "/PACK_CAN_TX",
+          "5": "/SPARE_IO6",
+          "6": "/SPARE_IO7",
+          "10": "/SPARE_IO10",
+          "11": "/SPARE_IO11",
+          "15": "GND",
+          "17": "GND",
+          "28": "GND",
+          "31": "GND",
+          "3": "unconnected-(U1A-GPIO4-Pad3)",
+          "4": "unconnected-(U1A-GPIO5-Pad4)",
+          "9": "unconnected-(U1A-GPIO8-Pad9)",
+          "16": "unconnected-(U1A-NC-Pad16)",
+          "2": "unconnected-(U1A-RST-Pad2)",
+          "27": "unconnected-(U1B-GPIO9-Pad27)",
+          "30": "unconnected-(U1B-GPIO12-Pad30)",
+          "29": "unconnected-(U1B-GPIO13-Pad29)",
+          "20": "unconnected-(U1B-GPIO15-Pad20)",
+          "26": "unconnected-(U1B-GPIO18-Pad26)",
+          "25": "unconnected-(U1B-GPIO19-Pad25)",
+          "24": "unconnected-(U1B-GPIO20-Pad24)",
+          "23": "unconnected-(U1B-GPIO21-Pad23)",
+          "22": "unconnected-(U1B-GPIO22-Pad22)",
+          "21": "unconnected-(U1B-GPIO23-Pad21)",
+          "32": "unconnected-(U1B-NC-Pad32)",
+          "19": "unconnected-(U1B-RX-Pad19)",
+          "18": "unconnected-(U1B-TX-Pad18)"
+        }
+      },
+      "U2": {
+        "ref": "U2",
+        "value": "SN65HVD230DR",
+        "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+        "sheet": "/",
+        "pins": {
+          "3": "+3V3",
+          "7": "/PACK_CAN_H",
+          "6": "/PACK_CAN_L",
+          "4": "/PACK_CAN_RX",
+          "1": "/PACK_CAN_TX",
+          "2": "GND",
+          "8": "GND",
+          "5": "unconnected-(U2-Vref-Pad5)"
+        }
+      },
+      "U3": {
+        "ref": "U3",
+        "value": "ISO1050DUBR",
+        "footprint": "Package_SO:SOP-8_6.62x9.15mm_P2.54mm",
+        "sheet": "/",
+        "pins": {
+          "1": "+3V3",
+          "8": "/INV_5V",
+          "7": "/INV_CAN_H",
+          "6": "/INV_CAN_L",
+          "2": "/INV_CAN_RX",
+          "3": "/INV_CAN_TX",
+          "5": "/INV_GND",
+          "4": "GND"
+        }
+      },
+      "U4": {
+        "ref": "U4",
+        "value": "B0509S-1WR3",
+        "footprint": "custom_footprints:Converter_DCDC_Mornsun_BxxxtS-1WR_THT",
+        "sheet": "/",
+        "pins": {
+          "1": "+5V",
+          "3": "/INV_9V",
+          "4": "/INV_GND",
+          "2": "GND"
+        }
+      },
+      "U5": {
+        "ref": "U5",
+        "value": "AMS1117-5.0",
+        "footprint": "Package_TO_SOT_SMD:SOT-223-3_TabPin2",
+        "sheet": "/",
+        "pins": {
+          "2": "/INV_5V",
+          "3": "/INV_9V",
+          "1": "/INV_GND"
+        }
+      }
+    },
     "nets": {
       "+3V3": [
         {
