@@ -22,7 +22,7 @@
 	(fp_line (start 12.950 43.550) (end -12.950 43.550) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "115cf0a7-ce52-4763-ae00-db4ef886b68b"))
 	(fp_line (start -12.950 43.550) (end -12.950 -8.750) (stroke (width 0.12) (type solid)) (layer "F.SilkS") (uuid "1987c90f-f4fa-40a1-afcd-bd4a2eba73aa"))
 	(fp_line (start -13.6 -0.8) (end -13.6 0.8) (stroke (width 0.25) (type solid)) (layer "F.SilkS") (uuid "2da584f6-d703-4dde-9613-fb74df79f623"))
-	(fp_line (start -12.7 -1.5) (end 12.7 -1.5) (stroke (width 0.12) (type dashed)) (layer "F.SilkS") (uuid "4f2d0c0a-dc74-40e3-8158-d9a989b28bff"))
+	(fp_line (start -12.7 -1.5) (end 12.7 -1.5) (stroke (width 0.12) (type dash)) (layer "F.SilkS") (uuid "4f2d0c0a-dc74-40e3-8158-d9a989b28bff"))
 	(fp_text user "ANTENNA KEEPOUT" (at 0 -5.0 0) (layer "F.SilkS") (uuid "85b9f38f-6b2e-426f-94ed-c5e1c0a54687") (effects (font (size 1.0 1.0) (thickness 0.15))))
 	(fp_text user "USB END" (at 0 41.2 0) (layer "F.SilkS") (uuid "29451dbb-5ab6-4417-925b-58561abacb3f") (effects (font (size 1.0 1.0) (thickness 0.15))))
 	(fp_text user "1" (at -9.6 0 0) (layer "F.SilkS") (uuid "eccf7c6a-c31f-4c8c-99a9-0753694d77ca") (effects (font (size 0.8 0.8) (thickness 0.15))))

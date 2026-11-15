@@ -3484,7 +3484,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom_footprints:DD50_Placeholder"
 			(at 55.88 66.04 0)
 			(hide yes)
 			(effects
