@@ -3681,7 +3681,7 @@
 		(on_board yes)
 		(property "Reference" "U" (at 0 24.13 0) (effects (font (size 1.27 1.27))))
 		(property "Value" "ESP32-C6-DevKitC-1" (at 0 -24.13 0) (effects (font (size 1.27 1.27))))
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "custom_footprints:ESP32-C6-DevKitC-1" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "Datasheet" "https://docs.espressif.com/projects/espressif-esp-dev-kits/en/latest/esp32c6/esp32-c6-devkitc-1/user_guide.html" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "Description" "Espressif ESP32-C6-DevKitC-1 Development Board, 32 pins, two 1x16 0.1 inch sockets" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(symbol "ESP32-C6-DevKitC-1_1_1"
@@ -5501,7 +5501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical"
+		(property "Footprint" "custom_footprints:ESP32-C6-DevKitC-1"
 			(at 145 75 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5580,7 +5580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical"
+		(property "Footprint" "custom_footprints:ESP32-C6-DevKitC-1"
 			(at 145 75 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -8376,7 +8376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_Mornsun_BxxxtS-1WR_THT"
+		(property "Footprint" "custom_footprints:Converter_DCDC_Mornsun_BxxxtS-1WR_THT"
 			(at 220 45 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -11073,7 +11073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
 			(at 280 130 0)
 			(show_name no)
 			(do_not_autoplace yes)
